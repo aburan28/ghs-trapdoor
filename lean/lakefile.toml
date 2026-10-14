@@ -1,0 +1,6 @@
+name = "GhsTrapdoor"
+version = "0.1.0"
+defaultTargets = ["GhsTrapdoor"]
+
+[[lean_lib]]
+name = "GhsTrapdoor"
