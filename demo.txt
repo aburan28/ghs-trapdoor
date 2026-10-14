@@ -1,0 +1,28 @@
+==============================================================
+GHS TRAP-DOOR SYSTEM DEMO
+K = GF(2^20) (n=4 over k=GF(2^5));  weak Es: Y^2+XY = X^3+beta
+#Es = 2^3 * 17 * 7717   large prime p = 7717
+==============================================================
+
+[1] keygen: 8 isogenies of degree 17 (Es -> Ep), 0.4s
+    j-invariants all distinct (non-backtracking chain): True
+    Ep: (1, 0, 0, a^18 + a^16 + a^9 + a^5 + a^4 + a^2 + a + 1, a^18 + a^13 + a^12 + a^11 + a^10 + a^9 + a^7 + a^6 + a^4 + a)
+    user public key: Q = d*P with d secret; ord(P) = 7717
+
+[2] ElGamal on Ep: ciphertext (C1, C2) for message m = 12345
+    user decrypts: recovered m = a^19 + a^17 + a^16 + a^15 + a^12 + a^10 + a^9 + a^8 + a^4 + a^3 + a | check: True
+
+[3] escrow: pulled (P, Q) back through the secret chain (3.2s)
+    order of dual-chain image of P on Es: 7717
+    GHS point-transfer psi applied (1.7s); ord(psi(P0)) == 7717
+    Jacobian DLP solved by BSGS (9.7s)
+    recovered d = 2819 | correct: True
+    authority decrypts: check: True
+
+[4] GHS weakness check:
+    m(Es)  = 3  -> genus 2^(m-1)-1 = 3 (weak: GHS applies)
+    m(Ep)  = 4  -> genus 2^(m-1)-1 = 7 (strong: GHS useless on Ep)
+    an outsider must use Pollard rho on Ep: ~sqrt(p) = 2^6 group ops
+    direct GHS on Ep needs a genus-7 Jacobian over GF(2^5): rho ~2^18 ops
+
+DONE.
