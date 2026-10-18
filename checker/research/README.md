@@ -88,7 +88,7 @@ python -m research.genus2_cover_example --output research/results/toy-cover.json
 python -m unittest discover -v
 ```
 
-The 25 tests include the original 16 binary-checker tests and nine experimental genus-2 checks. Independent validation includes an exhaustive PGL₂(F9) oracle on every set of six rational branches, an oracle with nonsplit branches, coordinate changes on a known positive example, and full Frobenius-polynomial comparisons for all 15 Richelot quotients of a separate toy curve. The source tree includes this research directory; installing the binary-checker wheel does not install it.
+The genus-2 audit adds nine experimental checks to the original 16 binary-checker tests. The [alternative-target extension](ALTERNATIVE_TARGETS.md) adds nine more checks, bringing the full source-tree suite to 34 tests. Independent validation includes an exhaustive PGL₂(F9) oracle on every set of six rational branches, an oracle with nonsplit branches, coordinate changes on a known positive example, and full Frobenius-polynomial comparisons for all 15 Richelot quotients of a separate toy curve. The source tree includes this research directory; installing the binary-checker wheel does not install it.
 
 The remaining research leads are hypotheses, with concrete conditions that the present audit does not establish:
 
