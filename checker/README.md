@@ -118,3 +118,5 @@ python -m unittest discover -v
 The sixteen tests check the published Teske pair and NIST field bounds, all ten NIST generator orders, both genus branches, the even-degree regularity guard, invariance under Frobenius and an explicit field-basis change, polynomial factorization against exhaustive root enumeration, and explicit isogeny maps against point enumeration, curve orders, and addition. The toy search additionally verifies scalar transport along its reconstructed paths.
 
 Saved JSON examples are in [examples/results](examples/results/). Mathematical definitions and references are in [MATHEMATICS.md](MATHEMATICS.md).
+
+An experimental [genus-2 research extension](research/README.md) audits the exact 2013 GLV/GLS and generic/Kummer parameters and all 45 immediate generic/Kummer Richelot quotient constructions. It also supplies a toy Richelot pair and an explicit genus-4 cover. Its nine additional tests bring the source-tree suite to 25. This extension tests one specified weak-cover class; no new cryptographic vulnerability has been established.
