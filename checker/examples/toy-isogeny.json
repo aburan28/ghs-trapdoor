@@ -1,0 +1,11 @@
+{
+  "name": "toy-isogeny",
+  "degree": 7,
+  "modulus": "x^7+x+1",
+  "a": "0x1",
+  "b": "0x18",
+  "curve_order": "114",
+  "subgroup_order": "19",
+  "base_point": {"x": "0x77", "y": "0x11"},
+  "source": "Exhaustively checked small-field example. A degree-3 isogeny with kernel x=0x2 reaches b=0x1e, m=4, genus=7. This is not a cryptographic-size attack."
+}

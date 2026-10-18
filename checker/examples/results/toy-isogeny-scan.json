@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "construction": "classical characteristic-two GHS",
+    "supported_curves": "ordinary binary y^2+x*y=x^3+a*x^2+b, b != 0",
+    "descent_map_constructed": false,
+    "target_subgroup_image_verified": false,
+    "dlp_solved": false,
+    "security_certification": false,
+    "limitations": [
+      "Does not classify arbitrary covers, generalized GHS, or all Weil-descent reductions.",
+      "A favorable genus is a screening result, not evidence of a practical attack.",
+      "No full Jacobian DLP time/memory estimate or subgroup-preserving descent map is computed."
+    ]
+  },
+  "field": {
+    "characteristic": 2,
+    "degree": 7,
+    "modulus": "x^7+x+1",
+    "modulus_hex": "0x83",
+    "basis": "polynomial",
+    "irreducibility_verified": true
+  },
+  "curve": {
+    "model": "y^2+x*y=x^3+a*x^2+b",
+    "a": "0x1",
+    "b": "0x18",
+    "j": "0x2f",
+    "nonsingular": true
+  },
+  "metadata": {
+    "name": "toy-isogeny",
+    "source": "Exhaustively checked small-field example. A degree-3 isogeny with kernel x=0x2 reaches b=0x1e, m=4, genus=7. This is not a cryptographic-size attack.",
+    "curve_order": "114",
+    "base_point_on_curve_verified": true,
+    "base_point_order_verified": false
+  },
+  "claimed_subgroup_order": "19",
+  "subgroup_order_verified": false,
+  "subgroup_order_bits": 5,
+  "all_proper_subfields_checked": true,
+  "descents": [
+    {
+      "subfield_degree": 1,
+      "base_field": "GF(2^1)",
+      "extension_degree": 7,
+      "m": 7,
+      "rank_field": "GF(2)",
+      "one_zero_in_augmented_span": true,
+      "relative_trace_b": "0x0",
+      "regularity_condition_holds": true,
+      "genus": 63,
+      "genus_formula": "2^(7-1)-1",
+      "jacobian_log2_size_leading_term": 63,
+      "genus_threshold": 32,
+      "subgroup_capacity": {
+        "status": "not_excluded_by_size",
+        "claimed_subgroup_order": "19",
+        "reason": "A necessary size condition only; the descent map and its kernel remain unchecked",
+        "upper_bound_expression": "6^63"
+      },
+      "screening": "above_genus_threshold",
+      "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+    }
+  ],
+  "interpretation": "Candidates require an actual descent map and cost analysis; absence of candidates is not a security certificate",
+  "search": {
+    "degrees": [
+      3
+    ],
+    "max_curves": 8,
+    "max_depth": 2,
+    "bounded_search_only": true,
+    "other_isogeny_degrees_searched": false,
+    "subgroup_injectivity_of_isogeny_paths": "conditional_on_claimed_order_coprime_to_3",
+    "curves_checked": 5,
+    "edges_recorded": 6,
+    "curve_budget_reached": false,
+    "depth_limit_reached": true,
+    "scope": "Only the explored K-rational cyclic 3-isogeny component within the stated bounds"
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "depth": 0,
+      "curve": {
+        "model": "y^2+x*y=x^3+a*x^2+b",
+        "a": "0x1",
+        "b": "0x18",
+        "j": "0x2f",
+        "nonsingular": true
+      },
+      "path_kernel_x": [],
+      "descents": [
+        {
+          "subfield_degree": 1,
+          "base_field": "GF(2^1)",
+          "extension_degree": 7,
+          "m": 7,
+          "rank_field": "GF(2)",
+          "one_zero_in_augmented_span": true,
+          "relative_trace_b": "0x0",
+          "regularity_condition_holds": true,
+          "genus": 63,
+          "genus_formula": "2^(7-1)-1",
+          "jacobian_log2_size_leading_term": 63,
+          "genus_threshold": 32,
+          "subgroup_capacity": {
+            "status": "not_excluded_by_size",
+            "claimed_subgroup_order": "19",
+            "reason": "A necessary size condition only; the descent map and its kernel remain unchecked",
+            "upper_bound_expression": "6^63"
+          },
+          "screening": "above_genus_threshold",
+          "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "depth": 1,
+      "curve": {
+        "model": "y^2+x*y=x^3+a*x^2+b",
+        "a": "0x1",
+        "b": "0x1e",
+        "j": "0x72",
+        "nonsingular": true
+      },
+      "path_kernel_x": [
+        "0x2"
+      ],
+      "descents": [
+        {
+          "subfield_degree": 1,
+          "base_field": "GF(2^1)",
+          "extension_degree": 7,
+          "m": 4,
+          "rank_field": "GF(2)",
+          "one_zero_in_augmented_span": true,
+          "relative_trace_b": "0x0",
+          "regularity_condition_holds": true,
+          "genus": 7,
+          "genus_formula": "2^(4-1)-1",
+          "jacobian_log2_size_leading_term": 7,
+          "genus_threshold": 32,
+          "subgroup_capacity": {
+            "status": "not_excluded_by_size",
+            "claimed_subgroup_order": "19",
+            "reason": "A necessary size condition only; the descent map and its kernel remain unchecked",
+            "upper_bound_expression": "6^7"
+          },
+          "screening": "small_genus_candidate",
+          "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "depth": 1,
+      "curve": {
+        "model": "y^2+x*y=x^3+a*x^2+b",
+        "a": "0x1",
+        "b": "0x7c",
+        "j": "0x5a",
+        "nonsingular": true
+      },
+      "path_kernel_x": [
+        "0x2d"
+      ],
+      "descents": [
+        {
+          "subfield_degree": 1,
+          "base_field": "GF(2^1)",
+          "extension_degree": 7,
+          "m": 4,
+          "rank_field": "GF(2)",
+          "one_zero_in_augmented_span": true,
+          "relative_trace_b": "0x0",
+          "regularity_condition_holds": true,
+          "genus": 7,
+          "genus_formula": "2^(4-1)-1",
+          "jacobian_log2_size_leading_term": 7,
+          "genus_threshold": 32,
+          "subgroup_capacity": {
+            "status": "not_excluded_by_size",
+            "claimed_subgroup_order": "19",
+            "reason": "A necessary size condition only; the descent map and its kernel remain unchecked",
+            "upper_bound_expression": "6^7"
+          },
+          "screening": "small_genus_candidate",
+          "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "depth": 2,
+      "curve": {
+        "model": "y^2+x*y=x^3+a*x^2+b",
+        "a": "0x1",
+        "b": "0x2c",
+        "j": "0x53",
+        "nonsingular": true
+      },
+      "path_kernel_x": [
+        "0x2",
+        "0x46"
+      ],
+      "descents": [
+        {
+          "subfield_degree": 1,
+          "base_field": "GF(2^1)",
+          "extension_degree": 7,
+          "m": 7,
+          "rank_field": "GF(2)",
+          "one_zero_in_augmented_span": true,
+          "relative_trace_b": "0x0",
+          "regularity_condition_holds": true,
+          "genus": 63,
+          "genus_formula": "2^(7-1)-1",
+          "jacobian_log2_size_leading_term": 63,
+          "genus_threshold": 32,
+          "subgroup_capacity": {
+            "status": "not_excluded_by_size",
+            "claimed_subgroup_order": "19",
+            "reason": "A necessary size condition only; the descent map and its kernel remain unchecked",
+            "upper_bound_expression": "6^63"
+          },
+          "screening": "above_genus_threshold",
+          "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "depth": 2,
+      "curve": {
+        "model": "y^2+x*y=x^3+a*x^2+b",
+        "a": "0x1",
+        "b": "0x6e",
+        "j": "0x1f",
+        "nonsingular": true
+      },
+      "path_kernel_x": [
+        "0x2d",
+        "0x7"
+      ],
+      "descents": [
+        {
+          "subfield_degree": 1,
+          "base_field": "GF(2^1)",
+          "extension_degree": 7,
+          "m": 7,
+          "rank_field": "GF(2)",
+          "one_zero_in_augmented_span": true,
+          "relative_trace_b": "0x0",
+          "regularity_condition_holds": true,
+          "genus": 63,
+          "genus_formula": "2^(7-1)-1",
+          "jacobian_log2_size_leading_term": 63,
+          "genus_threshold": 32,
+          "subgroup_capacity": {
+            "status": "not_excluded_by_size",
+            "claimed_subgroup_order": "19",
+            "reason": "A necessary size condition only; the descent map and its kernel remain unchecked",
+            "upper_bound_expression": "6^63"
+          },
+          "screening": "above_genus_threshold",
+          "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 1,
+      "degree": 3,
+      "kernel_x": "0x2",
+      "target_b": "0x1e",
+      "kernel_polynomial": "X+kernel_x",
+      "rational_over_input_field": true,
+      "individual_kernel_points_need_not_be_rational": true,
+      "map": "ghs_checker.isogeny.ThreeIsogeny.apply"
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "degree": 3,
+      "kernel_x": "0x2d",
+      "target_b": "0x7c",
+      "kernel_polynomial": "X+kernel_x",
+      "rational_over_input_field": true,
+      "individual_kernel_points_need_not_be_rational": true,
+      "map": "ghs_checker.isogeny.ThreeIsogeny.apply"
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "degree": 3,
+      "kernel_x": "0x3",
+      "target_b": "0x18",
+      "kernel_polynomial": "X+kernel_x",
+      "rational_over_input_field": true,
+      "individual_kernel_points_need_not_be_rational": true,
+      "map": "ghs_checker.isogeny.ThreeIsogeny.apply"
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "degree": 3,
+      "kernel_x": "0x46",
+      "target_b": "0x2c",
+      "kernel_polynomial": "X+kernel_x",
+      "rational_over_input_field": true,
+      "individual_kernel_points_need_not_be_rational": true,
+      "map": "ghs_checker.isogeny.ThreeIsogeny.apply"
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "degree": 3,
+      "kernel_x": "0x7",
+      "target_b": "0x6e",
+      "kernel_polynomial": "X+kernel_x",
+      "rational_over_input_field": true,
+      "individual_kernel_points_need_not_be_rational": true,
+      "map": "ghs_checker.isogeny.ThreeIsogeny.apply"
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "degree": 3,
+      "kernel_x": "0x2c",
+      "target_b": "0x18",
+      "kernel_polynomial": "X+kernel_x",
+      "rational_over_input_field": true,
+      "individual_kernel_points_need_not_be_rational": true,
+      "map": "ghs_checker.isogeny.ThreeIsogeny.apply"
+    }
+  ],
+  "candidate_nodes": [
+    1,
+    2
+  ]
+}

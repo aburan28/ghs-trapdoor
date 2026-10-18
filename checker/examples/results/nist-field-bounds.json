@@ -1,0 +1,62 @@
+[
+  {
+    "degree": 163,
+    "prime_degree": true,
+    "proper_subfield_degrees": [
+      1
+    ],
+    "scope": "Menezes-Qu classical GHS field-wide bounds",
+    "minimum_m_gt_one": 163,
+    "minimum_genus_for_m_gt_one": 5846006549323611672814739330865132078623730171903,
+    "interpretation": "No claim about arbitrary covers or generalized descent",
+    "order_of_two_mod_degree": 162
+  },
+  {
+    "degree": 233,
+    "prime_degree": true,
+    "proper_subfield_degrees": [
+      1
+    ],
+    "scope": "Menezes-Qu classical GHS field-wide bounds",
+    "minimum_m_gt_one": 30,
+    "minimum_genus_for_m_gt_one": 536870911,
+    "interpretation": "No claim about arbitrary covers or generalized descent",
+    "order_of_two_mod_degree": 29
+  },
+  {
+    "degree": 283,
+    "prime_degree": true,
+    "proper_subfield_degrees": [
+      1
+    ],
+    "scope": "Menezes-Qu classical GHS field-wide bounds",
+    "minimum_m_gt_one": 95,
+    "minimum_genus_for_m_gt_one": 19807040628566084398385987583,
+    "interpretation": "No claim about arbitrary covers or generalized descent",
+    "order_of_two_mod_degree": 94
+  },
+  {
+    "degree": 409,
+    "prime_degree": true,
+    "proper_subfield_degrees": [
+      1
+    ],
+    "scope": "Menezes-Qu classical GHS field-wide bounds",
+    "minimum_m_gt_one": 205,
+    "minimum_genus_for_m_gt_one": 25711008708143844408671393477458601640355247900524685364822015,
+    "interpretation": "No claim about arbitrary covers or generalized descent",
+    "order_of_two_mod_degree": 204
+  },
+  {
+    "degree": 571,
+    "prime_degree": true,
+    "proper_subfield_degrees": [
+      1
+    ],
+    "scope": "Menezes-Qu classical GHS field-wide bounds",
+    "minimum_m_gt_one": 115,
+    "minimum_genus_for_m_gt_one": 20769187434139310514121985316880383,
+    "interpretation": "No claim about arbitrary covers or generalized descent",
+    "order_of_two_mod_degree": 114
+  }
+]
