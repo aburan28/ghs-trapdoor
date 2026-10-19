@@ -1,6 +1,6 @@
 # GHS research tracking
 
-Last updated: 2026-10-18.
+Last updated: 2026-10-19.
 
 | Work | Pull request | Evidence and current status |
 | --- | --- | --- |
@@ -11,7 +11,10 @@ Last updated: 2026-10-18.
 | Odd-degree genus-2 isogenies | Follow-up to #3 | Untested. Absence of rational Richelot kernels does not exclude these. |
 | Other target spaces and field connections | [#4](https://github.com/aburan28/ghs-trapdoor/pull/4) | Draft; primary-source catalogue of established methods and explicit untested directions. |
 | Rational quotients of a cubic elliptic Weil restriction | [#4](https://github.com/aburan28/ghs-trapdoor/pull/4) | Kernel screening implemented at ell=2/3. Published example: zero rational (2,2,2) kernels; 16 rational 3-torsion Lagrangians, 12 passing the no-coordinate-factor test. Combined suite: 34 local tests pass. |
-| Additional target reconstruction and point transfer | Follow-up to #4 | Untested. Candidate kernels still require a suitable Jacobian over the base field, explicit maps and an attack-cost comparison. |
+| Explicit quotient reconstruction | New reconstruction PR, stacked on #5 | All 24 candidate kernels give smooth plane quartics over F7. 22 match the required Frobenius polynomial; two opposite-sign targets have order 315, obstructing an F7-rational order-373 map. |
+| Explicit quotient-to-Kummer maps | New reconstruction PR | All 373 source points evaluated per curve; exactly 187 images, with only sign pairs colliding. All 81 tested kernel translations preserve the image for each source. |
+| Jacobian divisor lift | New reconstruction PR | Separate Sage experiment uses actual Jacobian Weil functions and O(r) enumerative inversion. Full subgroup verification is being checked; this is not a scalable inversion algorithm. |
+| Efficient Jacobian divisor inversion | Follow-up to reconstruction | Untested. Replace enumeration by the published polynomial-system inversion and compare full attack cost with known algorithms. |
 | Actual cubic-field curve census | [#5](https://github.com/aburan28/ghs-trapdoor/pull/5), stacked on #4 | 16,140 nonsingular equations checked. Two sampled prime-order F343 inputs, with j outside F7, have zero rational 2-kernels and 12 mixed 3-kernel candidates each. Quotient targets are not reconstructed. |
 | Explicit Prym factors | [#5](https://github.com/aburan28/ghs-trapdoor/pull/5) | 32 genus-3 covers with elliptic/genus-2 quotients; full Frobenius polynomial factorization verified in every case. 23 cases have an odd prime in the genus-2 factor order absent from the elliptic factor order. |
 | Torus DLP transfer controls | [#5](https://github.com/aburan28/ghs-trapdoor/pull/5) | Four nodal curves: all 440 group-law pairs and 40 scalar logs checked. The same candidate map fails on all four smooth elliptic perturbations. |
@@ -40,3 +43,5 @@ Further experiments should be tracked in their own PR with exact inputs, search 
 The [new batch notes](research/EXPERIMENT_BATCH.md) explain the search bounds, actual prime-order curve inputs, full Prym example, and positive/negative torus controls. The complete local suite now has 45 tests, including independent finite-field comparisons and group-law checks of both Frobenius eigenspaces via quadratic twists. The batch also fixes derivative trimming in the squarefreeness helper when the characteristic divides the polynomial degree.
 
 No previously unreported cryptographic vulnerability or NIST binary-curve break has been established.
+
+The [quotient reconstruction notes](research/QUOTIENT_RECONSTRUCTION.md) give equations, exact twist obstructions and the map methodology. The optional reconstruction backend is pinned in `research/requirements-reconstruction.txt`; 54 Python tests pass when it is installed.
