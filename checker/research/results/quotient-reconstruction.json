@@ -6334,5 +6334,122 @@
         ]
       }
     }
-  ]
+  ],
+  "source_equivalence_audit": {
+    "independent_Weil_restriction_examples": 1,
+    "relation": "second curve is K-isomorphic to the first coefficient-conjugate curve",
+    "coefficient_conjugation_exponent": 7,
+    "scaling_u_encoding": 78,
+    "point_map": "(x,y) -> (u^2*x^7,u^3*y^7)",
+    "point_transport_checks": 373,
+    "generator_maps_to_second_generator": true,
+    "j_frobenius_orbit_encodings": [
+      62,
+      16,
+      325
+    ],
+    "Weil_restriction_three_torsion_isomorphism_rows": [
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "isomorphism_commutes_with_Frobenius_verified": true,
+    "corresponding_kernel_indices": [
+      [
+        153,
+        397
+      ],
+      [
+        156,
+        292
+      ],
+      [
+        159,
+        262
+      ],
+      [
+        262,
+        512
+      ],
+      [
+        292,
+        452
+      ],
+      [
+        397,
+        641
+      ],
+      [
+        452,
+        156
+      ],
+      [
+        512,
+        159
+      ],
+      [
+        641,
+        153
+      ],
+      [
+        810,
+        810
+      ],
+      [
+        819,
+        819
+      ],
+      [
+        828,
+        828
+      ]
+    ],
+    "upper_bound_on_distinct_quotient_classes_across_24_constructions": 12,
+    "deduplication_within_the_12_kernels_per_source_performed": false
+  }
 }

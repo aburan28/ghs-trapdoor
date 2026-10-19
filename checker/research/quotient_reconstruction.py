@@ -678,6 +678,86 @@ def subgroup_map_report(weils, rows, seed, generator_y):
     }
 
 
+def source_equivalence_audit():
+    """The two census hits are Galois-related, hence give isomorphic restrictions."""
+    from research.cubic_curve_census import curve_data
+    from research.small_fields import SmallField, ec_add
+
+    k = SmallField(7, 3, [1, 0, 1, 1])
+    k.tables()
+    first, second = curve_data(k, 248, 42), curve_data(k, 3, 76)
+    u = 78
+    u2, u3 = k.pow(u, 2), k.pow(u, 3)
+    assert k.mul(k.pow(u, 4), k.pow(248, 7)) == 3
+    assert k.mul(k.pow(u, 6), k.pow(42, 7)) == 76
+    assert k.pow(first["j"], 7) == second["j"]
+
+    def transport(point):
+        return (
+            None
+            if point is None
+            else (k.mul(u2, k.pow(point[0], 7)), k.mul(u3, k.pow(point[1], 7)))
+        )
+
+    p, q = None, None
+    for _ in range(373):
+        assert transport(p) == q
+        p = ec_add(k, 0, 248, p, (0, 176))
+        q = ec_add(k, 0, 3, q, (0, 119))
+    assert p is None and q is None
+    w1 = EllipticWeilSet(encode(248), encode(42), encode(19), encode(65))
+    w2 = EllipticWeilSet(encode(3), encode(76), encode(36), encode(47))
+    source = [w1.conjugate(i) for i in range(3)]
+    target = [w2.conjugate(i) for i in range(3)]
+    matrix = [[0] * 6 for _ in range(6)]
+    for i in range(3):
+        j = (i - 1) % 3
+        scale = encode(u).frobenius(j)
+        for b, ab in enumerate(((1, 0), (0, 1))):
+            x, y = source[i].three[ab]
+            image = (scale**2 * x, scale**3 * y)
+            cd = next(cd for cd, point in target[j].three.items() if point == image)
+            matrix[2 * i + b][2 * j : 2 * j + 2] = cd
+    frob = frobenius_matrix(7, 3, [[2, 0], [0, 2]])
+    for i in range(6):
+        v = tuple(int(j == i) for j in range(6))
+        assert row_times(row_times(v, matrix, 3), frob, 3) == row_times(
+            row_times(v, frob, 3), matrix, 3
+        )
+    kernels = [
+        (index, rows)
+        for index, (rows, intersections) in enumerate(lagrangians(3, 1))
+        if not any(intersections)
+        and all(coordinates(row_times(v, frob, 3), rows, 3) is not None for v in rows)
+    ]
+    pairs = []
+    for index, rows in kernels:
+        images = [row_times(v, matrix, 3) for v in rows]
+        matches = [
+            other
+            for other, basis in kernels
+            if all(coordinates(v, basis, 3) is not None for v in images)
+        ]
+        assert len(matches) == 1
+        pairs.append([index, matches[0]])
+    assert len({j for i, j in pairs}) == 12
+    return {
+        "independent_Weil_restriction_examples": 1,
+        "relation": "second curve is K-isomorphic to the first coefficient-conjugate curve",
+        "coefficient_conjugation_exponent": 7,
+        "scaling_u_encoding": u,
+        "point_map": "(x,y) -> (u^2*x^7,u^3*y^7)",
+        "point_transport_checks": 373,
+        "generator_maps_to_second_generator": True,
+        "j_frobenius_orbit_encodings": [first["j"], second["j"], k.pow(first["j"], 49)],
+        "Weil_restriction_three_torsion_isomorphism_rows": matrix,
+        "isomorphism_commutes_with_Frobenius_verified": True,
+        "corresponding_kernel_indices": pairs,
+        "upper_bound_on_distinct_quotient_classes_across_24_constructions": 12,
+        "deduplication_within_the_12_kernels_per_source_performed": False,
+    }
+
+
 def run(include_subgroup_maps=True):
     census_path = Path(__file__).with_name("results") / "cubic-curve-census.json"
     census = json.loads(census_path.read_text())
@@ -758,6 +838,14 @@ def run(include_subgroup_maps=True):
                 **subgroup_map_report(weils, rows, seed, generator_y),
             }
         sources_out.append(report)
+    equivalence = source_equivalence_audit()
+    left = {t["kernel_enumeration_index"]: t for t in sources_out[0]["targets"]}
+    right = {t["kernel_enumeration_index"]: t for t in sources_out[1]["targets"]}
+    assert all(
+        left[i]["frobenius_polynomial_ascending"]
+        == right[j]["frobenius_polynomial_ascending"]
+        for i, j in equivalence["corresponding_kernel_indices"]
+    )
     return {
         "scope": {
             "toy_only": True,
@@ -777,6 +865,7 @@ def run(include_subgroup_maps=True):
             "census_z_embedding_coefficients": coefficients(z),
         },
         "sources": sources_out,
+        "source_equivalence_audit": equivalence,
     }
 
 

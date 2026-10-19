@@ -7,13 +7,13 @@ not an efficient cryptographic point-transfer algorithm.
 """
 
 import argparse
-from hashlib import sha256
 import itertools
 import json
-from pathlib import Path
 import sys
+from hashlib import sha256
+from pathlib import Path
 
-from sage.all import Curve, GF, PolynomialRing, matrix, prod, vector
+from sage.all import GF, Curve, EllipticCurve, PolynomialRing, matrix, prod, vector
 from sage.env import SAGE_VERSION
 
 if not __debug__:
@@ -143,7 +143,6 @@ def verify_source(data, row, progress=True):
     }
     residue_generators = {}
     descent_matrices = {}
-    log("contact divisors, Jacobian group and six Weil-function bases constructed")
 
     def evaluations(divisor):
         places = divisor.list()
@@ -229,7 +228,7 @@ def verify_source(data, row, progress=True):
             )
         return tuple(out)
 
-    initial_values, high, lift = evaluations(origin_effective)
+    initial_values, high, _lift = evaluations(origin_effective)
     denominator = initial_values.matrix_from_columns([0, 1, 2]).det() ** 2
     raw = []
     for i in range(6):
@@ -284,17 +283,24 @@ def verify_source(data, row, progress=True):
         lifted.append(candidates[0])
     # Scalar labels are used only to verify the constructed lift here.
     assert all(j == n * anchor % 373 for n, j in enumerate(lifted))
-    for n in range(373):
-        assert (
-            target_points[lifted[n]] + target_points[anchor]
-            == target_points[lifted[(n + 1) % 373]]
-        )
-    assert 37 * target_points[anchor] == target_points[lifted[37]]
-    # A compact F7 divisor witness in an independent base-field Hess group.
+    # Every target class is rational over F7: use the base-field Hess group
+    # for the exhaustive addition checks, and also check a scalar relation
+    # in the extension-field group whose Weil functions were evaluated.
     Obase, Pbase = O0.place(), P0.place()
     Gbase = C0.jacobian(model="hess", base_div=3 * Obase.divisor()).group()
     base_generator = Gbase.point(Pbase - Obase)
     assert 373 * base_generator == Gbase.zero()
+    base_points, current_base = [], Gbase.zero()
+    for _ in range(373):
+        base_points.append(current_base)
+        current_base += base_generator
+    assert current_base == Gbase.zero()
+    for n in range(373):
+        assert (
+            base_points[lifted[n]] + base_points[anchor]
+            == base_points[lifted[(n + 1) % 373]]
+        )
+    assert 37 * target_points[anchor] == target_points[lifted[37]]
     log("all 373 sign-resolved images and generator additions verified")
     return {
         "source_a": row["source_a"],
@@ -314,10 +320,141 @@ def verify_source(data, row, progress=True):
         "Jacobian_classes_evaluated_modulo_sign": 187,
         "source_points_lifted": 373,
         "generator_addition_checks": 373,
+        "generator_addition_check_field": "F7",
         "scalar_37_relation_verified": True,
         "all_source_scalar_relations_verified": True,
         "inversion_method": "exhaustive enumeration of the tiny Jacobian group modulo sign",
         "inversion_cost_linear_in_subgroup_order": True,
+        "scalable_divisor_inversion_implemented": False,
+    }
+
+
+def verify_conjugate_source(data, first_result, progress=True):
+    """Reuse the certified lift through the explicit Galois/scaling isomorphism."""
+    Fp = GF(7)
+    PP = PolynomialRing(Fp, "t")
+    K = GF(7**18, name="s", modulus=PP(data["working_field_modulus_ascending"]))
+    s = K.gen()
+    z = sum(K(c) * s**i for i, c in enumerate(data["census_z_embedding_coefficients"]))
+
+    def encode(n):
+        return K(n % 7) + K(n // 7 % 7) * z + K(n // 49) * z * z
+
+    first, second = data["sources"]
+    E1 = EllipticCurve(K, [encode(first["source_a"]), encode(first["source_b"])])
+    E2 = EllipticCurve(K, [encode(second["source_a"]), encode(second["source_b"])])
+    u = encode(78)
+    assert u**4 * E1.a4() ** 7 == E2.a4() and u**6 * E1.a6() ** 7 == E2.a6()
+    g1, g2 = (
+        E1([encode(c) for c in first["source_generator"]]),
+        E2([encode(c) for c in second["source_generator"]]),
+    )
+    assert 373 * g1 == E1(0) and 373 * g2 == E2(0)
+
+    def canonical_sqrt(value):
+        root = value.sqrt()
+
+        def key(x):
+            coefficients = list(map(int, x.polynomial()))
+            return tuple(coefficients + [0] * (18 - len(coefficients)))
+
+        return min((root, -root), key=key)
+
+    bases = []
+    for E, xx in ((E1, (19, 65)), (E2, (36, 47))):
+        bases.append(
+            [
+                (
+                    encode(x),
+                    canonical_sqrt(encode(x) ** 3 + E.a4() * encode(x) + E.a6()),
+                )
+                for x in xx
+            ]
+        )
+    T = matrix(GF(3), 6, 6)
+    for i in range(3):
+        j = (i - 1) % 3
+        EE = EllipticCurve(K, [E2.a4() ** (7**j), E2.a6() ** (7**j)])
+        target_basis = [EE([c ** (7**j) for c in P]) for P in bases[1]]
+        for b, P in enumerate(bases[0]):
+            xx, yy = [c ** (7**i) for c in P]
+            image = EE([u ** (2 * 7**j) * xx, u ** (3 * 7**j) * yy])
+            coefficients = next(
+                (a, b)
+                for a, b in itertools.product(range(3), repeat=2)
+                if a * target_basis[0] + b * target_basis[1] == image
+            )
+            T[2 * i + b, 2 * j], T[2 * i + b, 2 * j + 1] = coefficients
+    source_kernel = matrix(GF(3), first["kernel_basis_rows"])
+    target_kernel = (source_kernel * T).echelon_form()
+    expected_397 = matrix(
+        GF(3), [[1, 0, 0, 1, 2, 1], [0, 1, 0, 2, 0, 1], [0, 0, 1, 1, 1, 1]]
+    )
+    assert target_kernel == expected_397
+
+    R = PolynomialRing(Fp, names=("X", "Y", "Z"))
+    X, Y, Z = R.gens()
+    original = sum(
+        Fp(c) * X ** m[0] * Y ** m[1] * Z ** m[2] for m, c in first["quartic"]
+    )
+    M = matrix(Fp, first_result["target_chart_matrix"])
+    moved = original(
+        *[sum(M[i, j] * v for j, v in enumerate((X, Y, Z))) for i in range(3)]
+    )
+    C = Curve(moved)
+    O, P = (
+        C(first_result["target_base_point"]).place(),
+        C(first_result["target_generator_point"]).place(),
+    )
+    G = C.jacobian(model="hess", base_div=3 * O.divisor()).group()
+    generator = G.point(P - O)
+    anchor = first_result["source_generator_image_scalar_in_target_generator"]
+    source_points, image_table = [], {}
+    pp = E1(0)
+    image_generator = anchor * generator
+    image = G.zero()
+    for n in range(373):
+        expected = first["source_points_for_validation"][n]
+        assert pp == (E1(0) if expected is None else E1([encode(c) for c in expected]))
+        source_points.append(pp)
+        image_table[pp] = image
+        pp += g1
+        image += image_generator
+    assert pp == E1(0) and image == G.zero()
+    qq = E2(0)
+    images = []
+    for n in range(373):
+        expected = second["source_points_for_validation"][n]
+        assert qq == (E2(0) if expected is None else E2([encode(c) for c in expected]))
+        inverse = (
+            E1(0) if qq == E2(0) else E1([(qq[0] / u**2) ** 49, (qq[1] / u**3) ** 49])
+        )
+        assert inverse == source_points[n]
+        images.append(image_table[inverse])
+        qq += g2
+    for n in range(373):
+        assert images[n] + images[1] == images[(n + 1) % 373]
+    assert 37 * images[1] == images[37]
+    if progress:
+        print(
+            "source 3,76: all 373 composed divisor images verified",
+            file=sys.stderr,
+            flush=True,
+        )
+    return {
+        "source_a": second["source_a"],
+        "source_b": second["source_b"],
+        "kernel_enumeration_index": 397,
+        "kernel_basis_rows": [list(map(int, row)) for row in target_kernel.rows()],
+        "reuses_certified_first_source_Jacobian_target": True,
+        "new_Jacobian_inversions_required": 0,
+        "source_points_transported_and_lifted": 373,
+        "generator_addition_checks": 373,
+        "generator_addition_check_field": "F7",
+        "scalar_37_relation_verified": True,
+        "input_transport_to_first_curve": "(x,y) -> ((x/u^2)^49,(y/u^3)^49), u=78",
+        "source_generator_image_divisor_over_F7": str(images[1].divisor()),
+        "source_scalar_37_image_divisor_over_F7": str(images[37].divisor()),
         "scalable_divisor_inversion_implemented": False,
     }
 
@@ -333,20 +470,21 @@ def main():
     parser.add_argument("--source-index", type=int, choices=(0, 1))
     args = parser.parse_args()
     data = json.loads(args.input.read_text())
-    selected = (
-        data["sources"]
-        if args.source_index is None
-        else [data["sources"][args.source_index]]
-    )
+    if args.source_index is None:
+        first_result = verify_source(data, data["sources"][0])
+        results = [first_result, verify_conjugate_source(data, first_result)]
+    else:
+        results = [verify_source(data, data["sources"][args.source_index])]
     report = {
         "scope": {
             "toy_only": True,
             "Sage_version_used": SAGE_VERSION,
             "enumerative_divisor_inversion": True,
+            "independent_Weil_restriction_examples": 1,
             "practical_attack_speedup": False,
         },
         "input_sha256": sha256(args.input.read_bytes()).hexdigest(),
-        "sources": [verify_source(data, row) for row in selected],
+        "sources": results,
     }
     encoded = json.dumps(report, indent=2) + "\n"
     if args.output:

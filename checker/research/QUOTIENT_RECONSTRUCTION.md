@@ -11,6 +11,10 @@ Both source curves are over K=F7[z]/(z³+z²+1), use integer encoding a₀+7a₁
 | First census candidate | 248 | 42 | (0,176) |
 | Second census candidate | 3 | 76 | (0,119) |
 
+The two inputs are **Galois-related coordinate instances of one Weil-restriction case**. Their j-invariants have Frobenius orbit [62,16,325]. With u=78=1+4z+z², the map (x,y)↦(u²x⁷,u³y⁷) transports the first subgroup to the second and sends the displayed generators to each other; all 373 points are checked. The second curve is K-isomorphic to the coefficient-conjugate of the first, and their Weil restrictions over F7 are isomorphic.
+
+An explicit 6×6 torsion-module isomorphism commutes with Frobenius and pairs all twelve kernels across the two source models. Thus the 24 constructions give **at most twelve** distinct quotient classes. Further deduplication within those twelve kernels has not been performed. The native Kummer reports select kernel 153 on each source model. The completed Sage divisor transfer uses kernel 153 of the first source and its corresponding kernel 397 on the second, sharing one verified Jacobian target.
+
 The earlier screener gave 12 rational maximal-isotropic 3-torsion kernels per source after the no-coordinate-factor test. The [new implementation](quotient_reconstruction.py) reconstructs a smooth plane quartic over F7 for **all 24** kernel constructions, and verifies all 28 bitangent lines on each curve. These counts are of kernel constructions; targets have not been deduplicated by isomorphism class.
 
 | Each source's 12 kernels | Count | Curve counts over F7,F49,F343 | Frobenius polynomial | Jacobian order over F7 |
@@ -56,11 +60,21 @@ They avoid division by θ(R), including its zero locus. The code evaluates these
 
 The separate [Sage script](quotient_divisor_verification.py) uses actual genus-3 Jacobian arithmetic, not an arbitrary isomorphism between equal-order finite groups. The [exported input](results/quotient-divisor-inputs.json) gives source points, 64 theta-null values, the 28 labeled bitangents, and the seven selected quotient-section values for every source point. Scalar labels are supplied for validation; they are not a source-DLP oracle used to evaluate the theta functions.
 
-The bitangent contact divisors supply 2-torsion divisors and the even theta characteristic. Riemann-Roch bases construct six Jacobian Weil functions. Their scalings are calibrated at the identity to the source theta-null values. This links the explicit quotient coordinates to divisor classes on the reconstructed curve. Sage's [Hess model](https://doc.sagemath.org/html/en/reference/function_fields/sage/rings/function_field/jacobian_hess.html) supplies the target group arithmetic.
+The bitangent contact divisors supply 2-torsion divisors and the even theta characteristic. Riemann-Roch bases construct six Jacobian Weil functions. Common local uniformizer factors cancel the basis poles at support points, and the corresponding factors cancel in the norm terms. The resulting Weil functions are calibrated at the identity to the source theta-null values. This links the explicit quotient coordinates to divisor classes on the reconstructed curve. Sage's [Hess model](https://doc.sagemath.org/html/en/reference/function_fields/sage/rings/function_field/jacobian_hess.html) supplies the target group arithmetic.
 
 Divisor inversion in this experiment **enumerates the tiny order-373 Jacobian group modulo sign**. An additional quotient evaluation at P+G resolves the sign using the chosen image of G. Its O(r) inversion cost is infeasible at cryptographic subgroup sizes. Even a successful full toy transfer is therefore a correctness result, not an attack-cost improvement. The polynomial-system inversion described in the published method remains a separate implementation task.
 
-The script is designed to check every source point, all 373 additions by the source generator, and the scalar-37 relation in actual Jacobian arithmetic, and to emit compact divisor witnesses over F7. Its report is distinct from the Python reconstruction report, whose scope flag correctly leaves divisor transport unverified by that module.
+The [completed Sage report](results/quotient-divisor-verification.json) records **373 lifted points, 373 generator-addition checks, and the scalar-37 relation for each source model**. The first lift evaluates actual Jacobian Weil functions on all 187 classes modulo sign. The second reuses that certified lift through the independently checked conjugation/scaling map, including its kernel correspondence. The addition checks use the rational Jacobian group over F7, with an additional scalar check in the extension-field group used for the Weil functions.
+
+For a concrete divisor witness, write F for the first quartic displayed above and use C':F(X,Y+Z,Z)=0. Let O=(1:4:1), P0=(1:1:0), and Q=(1:2:4). With a consistent choice of the global sign, both displayed source generators map to
+
+\[
+110[P_0-O]=[Q+2P_0-3O].
+\]
+
+The report also gives the degree-3 closed-place divisor for the scalar-37 image. Thus this checks actual subgroup maps into a stated Jacobian, beyond equality of Frobenius polynomials or an arbitrary equal-order group identification. The inversion remains O(r). The native Python reconstruction report keeps its divisor-lift flag false because that verification is performed by the separate Sage experiment.
+
+The default Sage command handles the Galois-related pair through this shared target. The optional `--source-index 1` command instead requests a separate inversion for kernel 153 of the second model; that additional target is outside the completed default report.
 
 ## Reproduce
 
@@ -74,6 +88,6 @@ python -m unittest discover -v
 sage -python research/quotient_divisor_verification.py --input /tmp/quotient-divisor-inputs.json --output /tmp/quotient-divisor-verification.json
 ```
 
-The complete Python suite has **54 passing tests** with the optional backend installed. Nine reconstruction tests cover independent field arithmetic and cocycle probes, alternate Aronhold systems, zero-seed recovery, all saved reconstruction and subgroup data, smoothness controls, kernel/nonkernel translations and rejection of optimized Python that would strip assertions. The CI workflow installs the pinned optional backend on Python 3.10 and 3.13; the binary checker itself keeps its dependency-free runtime.
+The complete Python suite has **55 passing tests** with the optional backend installed. Ten reconstruction tests cover independent field arithmetic and cocycle probes, alternate Aronhold systems, zero-seed recovery, source-equivalence and kernel-pairing checks, all saved reconstruction and subgroup data, smoothness controls, kernel/nonkernel translations and rejection of optimized Python that would strip assertions. The CI workflow installs the pinned optional backend on Python 3.10 and 3.13; the binary checker itself keeps its dependency-free runtime.
 
 Sage 10.6 is used for the separate divisor experiment. It is not part of the Python CI job. Native source installation, or the official `sagemath/sagemath:10.6` container, can run that script. The tested container digest is `sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb`.

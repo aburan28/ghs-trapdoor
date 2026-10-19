@@ -105,6 +105,17 @@ class QuotientReconstructionTests(unittest.TestCase):
                     self.assertEqual(t["point_counts_over_F7_F49_F343"], [8, 50, 431])
                     self.assertEqual(t["jacobian_order"], 373)
 
+    def test_source_hits_are_one_galois_related_restriction_case(self):
+        audit = self.report["source_equivalence_audit"]
+        self.assertEqual(audit["independent_Weil_restriction_examples"], 1)
+        self.assertEqual(audit["j_frobenius_orbit_encodings"], [62, 16, 325])
+        self.assertEqual(audit["point_transport_checks"], 373)
+        self.assertEqual(len(audit["corresponding_kernel_indices"]), 12)
+        self.assertEqual(len({j for i, j in audit["corresponding_kernel_indices"]}), 12)
+        k = SmallField(7, 3, [1, 0, 1, 1])
+        # Scaling alone is not the asserted curve isomorphism: conjugation matters.
+        self.assertNotEqual(k.mul(k.pow(78, 4), 248), 3)
+
     def test_smoothness_negative_control_and_projective_change(self):
         self.assertFalse(qr.smooth({(4, 0, 0): qr.K(1), (0, 4, 0): qr.K(1)}))
         target = self.report["sources"][0]["targets"][0]

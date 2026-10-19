@@ -11,9 +11,9 @@ Last updated: 2026-10-19.
 | Odd-degree genus-2 isogenies | Follow-up to #3 | Untested. Absence of rational Richelot kernels does not exclude these. |
 | Other target spaces and field connections | [#4](https://github.com/aburan28/ghs-trapdoor/pull/4) | Draft; primary-source catalogue of established methods and explicit untested directions. |
 | Rational quotients of a cubic elliptic Weil restriction | [#4](https://github.com/aburan28/ghs-trapdoor/pull/4) | Kernel screening implemented at ell=2/3. Published example: zero rational (2,2,2) kernels; 16 rational 3-torsion Lagrangians, 12 passing the no-coordinate-factor test. Combined suite: 34 local tests pass. |
-| Explicit quotient reconstruction | New reconstruction PR, stacked on #5 | All 24 candidate kernels give smooth plane quartics over F7. 22 match the required Frobenius polynomial; two opposite-sign targets have order 315, obstructing an F7-rational order-373 map. |
-| Explicit quotient-to-Kummer maps | New reconstruction PR | All 373 source points evaluated per curve; exactly 187 images, with only sign pairs colliding. All 81 tested kernel translations preserve the image for each source. |
-| Jacobian divisor lift | New reconstruction PR | Separate Sage experiment uses actual Jacobian Weil functions and O(r) enumerative inversion. Full subgroup verification is being checked; this is not a scalable inversion algorithm. |
+| Explicit quotient reconstruction | [#6](https://github.com/aburan28/ghs-trapdoor/pull/6), stacked on #5 | All 24 candidate kernels give smooth plane quartics over F7. 22 match the required Frobenius polynomial; two opposite-sign targets have order 315, obstructing an F7-rational order-373 map. |
+| Explicit quotient-to-Kummer maps | [#6](https://github.com/aburan28/ghs-trapdoor/pull/6) | All 373 source points evaluated per curve; exactly 187 images, with only sign pairs colliding. All 81 tested kernel translations preserve the image for each source. |
+| Jacobian divisor lift | [#6](https://github.com/aburan28/ghs-trapdoor/pull/6) | Completed Sage experiment: all 373 points, 373 generator additions and the scalar-37 relation checked per source model. The second uses verified Galois transport into the first target. Divisor inversion remains O(r). |
 | Efficient Jacobian divisor inversion | Follow-up to reconstruction | Untested. Replace enumeration by the published polynomial-system inversion and compare full attack cost with known algorithms. |
 | Actual cubic-field curve census | [#5](https://github.com/aburan28/ghs-trapdoor/pull/5), stacked on #4 | 16,140 nonsingular equations checked. Two sampled prime-order F343 inputs, with j outside F7, have zero rational 2-kernels and 12 mixed 3-kernel candidates each. Quotient targets are not reconstructed. |
 | Explicit Prym factors | [#5](https://github.com/aburan28/ghs-trapdoor/pull/5) | 32 genus-3 covers with elliptic/genus-2 quotients; full Frobenius polynomial factorization verified in every case. 23 cases have an odd prime in the genus-2 factor order absent from the elliptic factor order. |
@@ -21,7 +21,7 @@ Last updated: 2026-10-19.
 
 Related existing implementation: [#1 — Sage trap-door demo and Lean formalization](https://github.com/aburan28/ghs-trapdoor/pull/1). Its reported results were inspected for context; Sage/Lean validation was not rerun in this session.
 
-Review order: #2 targets `main`; #3 targets `codex/classical-ghs-checker`. After #2 is merged, retarget #3 to `main` and check its diff. #4 targets `codex/genus2-weil-descent-audit`; after #3 is merged, retarget #4 to `main` and check its diff. #5 targets `codex/alternative-descent-targets`; after #4 is merged, retarget #5 to `main` and check its diff. PRs #2–#5 are drafts; no merge has been performed.
+Review order: #2 targets `main`; #3 targets `codex/classical-ghs-checker`. After #2 is merged, retarget #3 to `main` and check its diff. #4 targets `codex/genus2-weil-descent-audit`; after #3 is merged, retarget #4 to `main` and check its diff. #5 targets `codex/alternative-descent-targets`; after #4 is merged, retarget #5 to `main` and check its diff. #6 targets `codex/descent-experiment-batch`; after #5 is merged, retarget #6 to `main` and check its diff. PRs #2–#6 are drafts; no merge has been performed.
 
 Reproduce from the repository root:
 
@@ -44,4 +44,8 @@ The [new batch notes](research/EXPERIMENT_BATCH.md) explain the search bounds, a
 
 No previously unreported cryptographic vulnerability or NIST binary-curve break has been established.
 
-The [quotient reconstruction notes](research/QUOTIENT_RECONSTRUCTION.md) give equations, exact twist obstructions and the map methodology. The optional reconstruction backend is pinned in `research/requirements-reconstruction.txt`; 54 Python tests pass when it is installed.
+The [quotient reconstruction notes](research/QUOTIENT_RECONSTRUCTION.md) give equations, exact twist obstructions and the map methodology. The optional reconstruction backend is pinned in `research/requirements-reconstruction.txt`; 55 Python tests pass when it is installed.
+
+A source-equivalence audit finds one underlying Weil-restriction case: the two inputs are related by coefficient conjugation and an explicit scaling. All 373 point transports and the twelve-kernel correspondence are verified. Counts above refer to constructions, not independent curve families.
+
+Completed divisor-map evidence: [Sage report](research/results/quotient-divisor-verification.json), with input SHA256, explicit divisor witnesses, shared-target kernel correspondence and all subgroup checks.

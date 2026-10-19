@@ -1,6 +1,6 @@
 # Genus-2 isogeny and Weil-descent audit
 
-The [new experiment batch](EXPERIMENT_BATCH.md) adds an actual cubic-field curve census, explicit Prym covers and torus transfer controls. The [quotient reconstruction](QUOTIENT_RECONSTRUCTION.md) now constructs 24 plane quartics from the two prime-order F343 inputs, distinguishes 22 matching targets from two opposite-sign cases, and evaluates explicit quotient-to-Kummer maps. The full source-tree suite has 54 passing tests with the optional reconstruction backend installed. Reports include exact parameters and reproducible computations.
+The [new experiment batch](EXPERIMENT_BATCH.md) adds an actual cubic-field curve census, explicit Prym covers and torus transfer controls. The [quotient reconstruction](QUOTIENT_RECONSTRUCTION.md) now constructs 24 plane quartics from the two prime-order F343 inputs, distinguishes 22 matching targets from two opposite-sign cases, and evaluates explicit quotient-to-Kummer maps. The full source-tree suite has 55 passing tests with the optional reconstruction backend installed. Reports include exact parameters and reproducible computations.
 
 The published GLV/GLS lead produced a negative result for one precise route, plus a reproducible toy example of why isogenies can change a direct descent test. **No previously unreported cryptographic vulnerability has been established.**
 
@@ -90,7 +90,7 @@ python -m research.genus2_cover_example --output research/results/toy-cover.json
 python -m unittest discover -v
 ```
 
-The genus-2 audit adds nine experimental checks to the original 16 binary-checker tests. The [alternative-target extension](ALTERNATIVE_TARGETS.md) adds nine more checks, the [new batch](EXPERIMENT_BATCH.md) adds eleven, and the [quotient reconstruction](QUOTIENT_RECONSTRUCTION.md) adds nine, bringing the full source-tree suite to 54 tests. Independent validation includes an exhaustive PGL₂(F9) oracle on every set of six rational branches, an oracle with nonsplit branches, coordinate changes on a known positive example, and full Frobenius-polynomial comparisons for all 15 Richelot quotients of a separate toy curve. The source tree includes this research directory; installing the binary-checker wheel does not install it.
+The genus-2 audit adds nine experimental checks to the original 16 binary-checker tests. The [alternative-target extension](ALTERNATIVE_TARGETS.md) adds nine more checks, the [new batch](EXPERIMENT_BATCH.md) adds eleven, and the [quotient reconstruction](QUOTIENT_RECONSTRUCTION.md) adds ten, bringing the full source-tree suite to 55 tests. Independent validation includes an exhaustive PGL₂(F9) oracle on every set of six rational branches, an oracle with nonsplit branches, coordinate changes on a known positive example, and full Frobenius-polynomial comparisons for all 15 Richelot quotients of a separate toy curve. The source tree includes this research directory; installing the binary-checker wheel does not install it.
 
 The remaining research leads are hypotheses, with concrete conditions that the present audit does not establish:
 
