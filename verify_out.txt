@@ -1,0 +1,11 @@
+== 1. sparse Weil-restriction identity ==
+   y_{j-1}^2 + x y_j = x^3 + b_j for 30 random (x,Y): True
+== 2. Artin-Schreier tower identity ==
+   (verified inside fiber/psi computations: E-identity on 16/16 points)
+== 3. psi is a group homomorphism E(K) -> Jac(H) ==
+   5 random trials: True
+== 4. psi preserves the large-prime subgroup ==
+   ord(P) = 7717 ; ord(psi(P)) = 7717 -> True
+== 5. smooth hyperelliptic model ==
+   genus(H) = 4 (expected 4 = 2^(m-1), m = 3)
+ALL CHECKS DONE.
