@@ -1,0 +1,906 @@
+{
+  "edges": [
+    {
+      "codomain_scaling": 1,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        61,
+        325
+      ],
+      "kernel_x": 19,
+      "normalized_codomain_a": 161,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "cb1673bcfb6eb154cd25355b8c408453457f91ba8397f5d5a0b200c3828266cd",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 62,
+      "target_j": 94
+    },
+    {
+      "codomain_scaling": 1,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        337,
+        112
+      ],
+      "kernel_x": 65,
+      "normalized_codomain_a": 55,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "d00d70a843c988f7157870d1e5ae42192abcb05fb2245321757589b8072bbadb",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 62,
+      "target_j": 320
+    },
+    {
+      "codomain_scaling": 1,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        37,
+        131
+      ],
+      "kernel_x": 134,
+      "normalized_codomain_a": 311,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "6a1a64d531293ffcd07974891a90530469e5915bb3f69bb9d55c82cd60daa097",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 62,
+      "target_j": 16
+    },
+    {
+      "codomain_scaling": 1,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        71,
+        1
+      ],
+      "kernel_x": 237,
+      "normalized_codomain_a": 222,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "97e0432f543cc904223cc4c1384e175c3f1d40a07fef19ce2b8b260f4bb2cbc3",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 62,
+      "target_j": 325
+    },
+    {
+      "codomain_scaling": 2,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        52,
+        71
+      ],
+      "kernel_x": 13,
+      "normalized_codomain_a": 299,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "02ee0184e07bac6031029787ad20f5cea128bdb8b060a9f7f95133437d8f6cf1",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 94,
+      "target_j": 62
+    },
+    {
+      "codomain_scaling": 2,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        38,
+        330
+      ],
+      "kernel_x": 204,
+      "normalized_codomain_a": 299,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "09c826bf6c6b3cd417518b9fd2292db7fc3dd91396f3379c78d0c5ad8ac261da",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 320,
+      "target_j": 62
+    },
+    {
+      "codomain_scaling": 3,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        133,
+        330
+      ],
+      "kernel_x": 85,
+      "normalized_codomain_a": 94,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "cf5bd1ba244c78dc6a0e11d71adf1a196dd985743c508892f18d1d645b6a8406",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 16,
+      "target_j": 325
+    },
+    {
+      "codomain_scaling": 2,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        71,
+        337
+      ],
+      "kernel_x": 95,
+      "normalized_codomain_a": 299,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "b134dc7bc50f4b016e3c67377f2b88746316aaca0e0c44827c323233db2415b3",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 16,
+      "target_j": 62
+    },
+    {
+      "codomain_scaling": 1,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        159,
+        119
+      ],
+      "kernel_x": 301,
+      "normalized_codomain_a": 86,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "44dbe6aef12f3de163789eb05255fea46f1b107fecb183df6fd5d79e62bebbc8",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 16,
+      "target_j": 89
+    },
+    {
+      "codomain_scaling": 1,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        207,
+        87
+      ],
+      "kernel_x": 310,
+      "normalized_codomain_a": 319,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "e66281955f9969e2cf3dad9096705ed222c1bdf4df61d3f78c5d22e2970fca76",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 16,
+      "target_j": 291
+    },
+    {
+      "codomain_scaling": 3,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        142,
+        249
+      ],
+      "kernel_x": 85,
+      "normalized_codomain_a": 279,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "6c6d24e930fb7d24dca7e86a90811579ca1420ce5c2a52562ba07a82aedd7a7f",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 325,
+      "target_j": 16
+    },
+    {
+      "codomain_scaling": 2,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        201,
+        206
+      ],
+      "kernel_x": 143,
+      "normalized_codomain_a": 299,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "473bf5c062e62078f9ac05528dbae7bffb9cb69778b8414d92723aab577017da",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 325,
+      "target_j": 62
+    },
+    {
+      "codomain_scaling": 1,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        326,
+        200
+      ],
+      "kernel_x": 272,
+      "normalized_codomain_a": 201,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "c6ca1fc68d1896223d5bb63bc470d45b37002c8203bd66913088286df513ece7",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 325,
+      "target_j": 184
+    },
+    {
+      "codomain_scaling": 1,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        316,
+        44
+      ],
+      "kernel_x": 298,
+      "normalized_codomain_a": 320,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "6a9d5b31095692744d5b882802c1ee99c15ec4ed77ae2d54de46469b1e5e7994",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 325,
+      "target_j": 269
+    },
+    {
+      "codomain_scaling": 2,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        25,
+        53
+      ],
+      "kernel_x": 175,
+      "normalized_codomain_a": 159,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "24977dbf01ad78f1b042f67176bb6b9c828653d116dbe78e1c84cfa8746b3996",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 89,
+      "target_j": 16
+    },
+    {
+      "codomain_scaling": 2,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        82,
+        193
+      ],
+      "kernel_x": 155,
+      "normalized_codomain_a": 159,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "4ae52dba54e2d04804ae33eebfff017d0973cf3e170238061534efdee601de4d",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 291,
+      "target_j": 16
+    },
+    {
+      "codomain_scaling": 2,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        152,
+        268
+      ],
+      "kernel_x": 332,
+      "normalized_codomain_a": 139,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "1bb9b2c04a38908d9c1008695fb745e5b00b195980ed3f1c8a4230505a3cc52c",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 184,
+      "target_j": 325
+    },
+    {
+      "codomain_scaling": 2,
+      "generator_additions_verified": 373,
+      "image_generator": [
+        217,
+        59
+      ],
+      "kernel_x": 149,
+      "normalized_codomain_a": 139,
+      "normalized_codomain_b": 42,
+      "ordered_image_sha256": "49c06e3ce5b41dcbe668b3261a98a5052e35e61d975129862acf802bfedd7303",
+      "rational_point_images_verified": 373,
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 269,
+      "target_j": 325
+    }
+  ],
+  "endomorphism_inference": {
+    "frobenius_discriminant": -531,
+    "frobenius_order_conductor": 3,
+    "fundamental_discriminant": -59,
+    "ordinary": true,
+    "scalar_endomorphism_norm": 35,
+    "scalar_endomorphism_trace": -9,
+    "trace": -29
+  },
+  "field": {
+    "degree": 3,
+    "encoding": "a0+7*a1+49*a2",
+    "modulus_ascending": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "p": 7
+  },
+  "nodes": [
+    {
+      "a": 311,
+      "b": 42,
+      "endomorphism_discriminant_inferred": -59,
+      "frobenius_mod_2_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "frobenius_mod_3_representative": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "group_order": 373,
+      "j": 16,
+      "j_frobenius_orbit": [
+        16,
+        325,
+        62
+      ],
+      "j_in_prime_field": false,
+      "mixed_3_kernel_candidates": 12,
+      "rational_3_kernel_candidates": 16,
+      "rational_three_torsion_points_including_identity": 1,
+      "three_division_roots": [
+        85,
+        95,
+        301,
+        310
+      ],
+      "trace": -29,
+      "two_division_roots": []
+    },
+    {
+      "a": 248,
+      "b": 42,
+      "endomorphism_discriminant_inferred": -59,
+      "frobenius_mod_2_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "frobenius_mod_3_representative": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "group_order": 373,
+      "j": 62,
+      "j_frobenius_orbit": [
+        16,
+        325,
+        62
+      ],
+      "j_in_prime_field": false,
+      "mixed_3_kernel_candidates": 12,
+      "rational_3_kernel_candidates": 16,
+      "rational_three_torsion_points_including_identity": 1,
+      "three_division_roots": [
+        19,
+        65,
+        134,
+        237
+      ],
+      "trace": -29,
+      "two_division_roots": []
+    },
+    {
+      "a": 86,
+      "b": 42,
+      "endomorphism_discriminant_inferred": -531,
+      "frobenius_mod_2_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "frobenius_mod_3_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "group_order": 373,
+      "j": 89,
+      "j_frobenius_orbit": [
+        89,
+        269,
+        94
+      ],
+      "j_in_prime_field": false,
+      "mixed_3_kernel_candidates": 0,
+      "rational_3_kernel_candidates": 1,
+      "rational_three_torsion_points_including_identity": 1,
+      "three_division_roots": [
+        175
+      ],
+      "trace": -29,
+      "two_division_roots": []
+    },
+    {
+      "a": 161,
+      "b": 42,
+      "endomorphism_discriminant_inferred": -531,
+      "frobenius_mod_2_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "frobenius_mod_3_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "group_order": 373,
+      "j": 94,
+      "j_frobenius_orbit": [
+        89,
+        269,
+        94
+      ],
+      "j_in_prime_field": false,
+      "mixed_3_kernel_candidates": 0,
+      "rational_3_kernel_candidates": 1,
+      "rational_three_torsion_points_including_identity": 1,
+      "three_division_roots": [
+        13
+      ],
+      "trace": -29,
+      "two_division_roots": []
+    },
+    {
+      "a": 201,
+      "b": 42,
+      "endomorphism_discriminant_inferred": -531,
+      "frobenius_mod_2_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "frobenius_mod_3_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "group_order": 373,
+      "j": 184,
+      "j_frobenius_orbit": [
+        184,
+        320,
+        291
+      ],
+      "j_in_prime_field": false,
+      "mixed_3_kernel_candidates": 0,
+      "rational_3_kernel_candidates": 1,
+      "rational_three_torsion_points_including_identity": 1,
+      "three_division_roots": [
+        332
+      ],
+      "trace": -29,
+      "two_division_roots": []
+    },
+    {
+      "a": 320,
+      "b": 42,
+      "endomorphism_discriminant_inferred": -531,
+      "frobenius_mod_2_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "frobenius_mod_3_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "group_order": 373,
+      "j": 269,
+      "j_frobenius_orbit": [
+        89,
+        269,
+        94
+      ],
+      "j_in_prime_field": false,
+      "mixed_3_kernel_candidates": 0,
+      "rational_3_kernel_candidates": 1,
+      "rational_three_torsion_points_including_identity": 1,
+      "three_division_roots": [
+        149
+      ],
+      "trace": -29,
+      "two_division_roots": []
+    },
+    {
+      "a": 319,
+      "b": 42,
+      "endomorphism_discriminant_inferred": -531,
+      "frobenius_mod_2_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "frobenius_mod_3_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "group_order": 373,
+      "j": 291,
+      "j_frobenius_orbit": [
+        184,
+        320,
+        291
+      ],
+      "j_in_prime_field": false,
+      "mixed_3_kernel_candidates": 0,
+      "rational_3_kernel_candidates": 1,
+      "rational_three_torsion_points_including_identity": 1,
+      "three_division_roots": [
+        155
+      ],
+      "trace": -29,
+      "two_division_roots": []
+    },
+    {
+      "a": 55,
+      "b": 42,
+      "endomorphism_discriminant_inferred": -531,
+      "frobenius_mod_2_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "frobenius_mod_3_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "group_order": 373,
+      "j": 320,
+      "j_frobenius_orbit": [
+        184,
+        320,
+        291
+      ],
+      "j_in_prime_field": false,
+      "mixed_3_kernel_candidates": 0,
+      "rational_3_kernel_candidates": 1,
+      "rational_three_torsion_points_including_identity": 1,
+      "three_division_roots": [
+        204
+      ],
+      "trace": -29,
+      "two_division_roots": []
+    },
+    {
+      "a": 222,
+      "b": 42,
+      "endomorphism_discriminant_inferred": -59,
+      "frobenius_mod_2_representative": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "frobenius_mod_3_representative": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "group_order": 373,
+      "j": 325,
+      "j_frobenius_orbit": [
+        16,
+        325,
+        62
+      ],
+      "j_in_prime_field": false,
+      "mixed_3_kernel_candidates": 12,
+      "rational_3_kernel_candidates": 16,
+      "rational_three_torsion_points_including_identity": 1,
+      "three_division_roots": [
+        85,
+        143,
+        272,
+        298
+      ],
+      "trace": -29,
+      "two_division_roots": []
+    }
+  ],
+  "prior_divisor_report_sha256": "bf5bccdcd857d70eafe687a5e752720a8aa608e32a2db936c62df493dd6b996c",
+  "routes_to_prior_descent_example": [
+    {
+      "composed_point_checks": 373,
+      "image_scalar_relative_to_PR6_generator": 10,
+      "inherited_target_scalar_relative_to_PR6_J_generator": 354,
+      "isogeny_kernel_x": 175,
+      "new_Jacobian_inversion_performed": false,
+      "original_source_image": [
+        52,
+        328
+      ],
+      "prior_divisor_report": "quotient-divisor-verification.json",
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 89,
+      "surface_conjugation_power": 1,
+      "surface_j": 16,
+      "surface_scale": 168
+    },
+    {
+      "composed_point_checks": 373,
+      "image_scalar_relative_to_PR6_generator": 363,
+      "inherited_target_scalar_relative_to_PR6_J_generator": 19,
+      "isogeny_kernel_x": 13,
+      "new_Jacobian_inversion_performed": false,
+      "original_source_image": [
+        52,
+        71
+      ],
+      "prior_divisor_report": "quotient-divisor-verification.json",
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 94,
+      "surface_conjugation_power": 0,
+      "surface_j": 62,
+      "surface_scale": 1
+    },
+    {
+      "composed_point_checks": 373,
+      "image_scalar_relative_to_PR6_generator": 24,
+      "inherited_target_scalar_relative_to_PR6_J_generator": 29,
+      "isogeny_kernel_x": 332,
+      "new_Jacobian_inversion_performed": false,
+      "original_source_image": [
+        38,
+        330
+      ],
+      "prior_divisor_report": "quotient-divisor-verification.json",
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 184,
+      "surface_conjugation_power": 2,
+      "surface_j": 325,
+      "surface_scale": 173
+    },
+    {
+      "composed_point_checks": 373,
+      "image_scalar_relative_to_PR6_generator": 363,
+      "inherited_target_scalar_relative_to_PR6_J_generator": 19,
+      "isogeny_kernel_x": 149,
+      "new_Jacobian_inversion_performed": false,
+      "original_source_image": [
+        52,
+        71
+      ],
+      "prior_divisor_report": "quotient-divisor-verification.json",
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 269,
+      "surface_conjugation_power": 2,
+      "surface_j": 325,
+      "surface_scale": 173
+    },
+    {
+      "composed_point_checks": 373,
+      "image_scalar_relative_to_PR6_generator": 349,
+      "inherited_target_scalar_relative_to_PR6_J_generator": 344,
+      "isogeny_kernel_x": 155,
+      "new_Jacobian_inversion_performed": false,
+      "original_source_image": [
+        38,
+        69
+      ],
+      "prior_divisor_report": "quotient-divisor-verification.json",
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 291,
+      "surface_conjugation_power": 1,
+      "surface_j": 16,
+      "surface_scale": 168
+    },
+    {
+      "composed_point_checks": 373,
+      "image_scalar_relative_to_PR6_generator": 24,
+      "inherited_target_scalar_relative_to_PR6_J_generator": 29,
+      "isogeny_kernel_x": 204,
+      "new_Jacobian_inversion_performed": false,
+      "original_source_image": [
+        38,
+        330
+      ],
+      "prior_divisor_report": "quotient-divisor-verification.json",
+      "source_generator": [
+        0,
+        176
+      ],
+      "source_j": 320,
+      "surface_conjugation_power": 0,
+      "surface_j": 62,
+      "surface_scale": 1
+    }
+  ],
+  "scope": {
+    "ell": 3,
+    "explicit_isogeny_transport": true,
+    "inherited_map_uses_prior_enumerative_inversion": true,
+    "mixed_kernel_screen_is_construction_specific": true,
+    "new_Jacobian_maps_evaluated": false,
+    "novel_vulnerability_established": false,
+    "practical_speedup_established": false,
+    "toy_only": true
+  },
+  "summary": {
+    "directed_edges": 18,
+    "generator_additions_verified": 6714,
+    "j_frobenius_orbits": [
+      [
+        16,
+        325,
+        62
+      ],
+      [
+        89,
+        269,
+        94
+      ],
+      [
+        184,
+        320,
+        291
+      ]
+    ],
+    "j_vertices": 9,
+    "point_images_verified": 6714,
+    "vertices_by_mixed_kernel_count": {
+      "0": 6,
+      "12": 3
+    }
+  }
+}
