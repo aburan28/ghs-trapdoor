@@ -1,0 +1,365 @@
+{
+  "scope": {
+    "toy_only": true,
+    "Sage_version_used": "10.6",
+    "bounded_cases": [
+      [
+        13,
+        -83,
+        -211
+      ],
+      [
+        13,
+        61,
+        -563
+      ],
+      [
+        19,
+        -137,
+        -963
+      ]
+    ],
+    "all_class_polynomial_roots_in_stated_fields_examined": true,
+    "quotient_targets_constructed": false,
+    "source_to_Jacobian_maps_constructed": false,
+    "practical_speedup_established": false,
+    "novel_vulnerability_established": false
+  },
+  "summary": {
+    "selected_curve_models": 6,
+    "coefficient_Frobenius_j_orbits": 6,
+    "elliptic_isogeny_classes_over_stated_fields": 3,
+    "endomorphism_fields_distinct_from_prior_minus_59": true
+  },
+  "classes": [
+    {
+      "p": 13,
+      "trace": -83,
+      "group_order": 2281,
+      "CM_order_used_discriminant": -211,
+      "hilbert_class_polynomial_ascending": [
+        5310823021408898698117644288,
+        277390576406111100862464,
+        65873587288630099968,
+        1
+      ],
+      "class_polynomial_degree": 3,
+      "class_polynomial_roots_in_cubic_field": 3,
+      "selected_j_orbit_representatives": [
+        47
+      ]
+    },
+    {
+      "p": 13,
+      "trace": 61,
+      "group_order": 2137,
+      "CM_order_used_discriminant": -563,
+      "hilbert_class_polynomial_ascending": [
+        43119665714548420492047886093466807134592197197824000000000000000000000000000,
+        -35234810117519459392638534088986278749290536894464000000000000000000000000,
+        -293220759470178682392292933014895063861959852032000000000000000000000,
+        2708361788005831915402985300681883329196120342528000000000000000000,
+        1649165905826634040460430361752911807581329031168000000000000000,
+        47677151562079046545765009728044629819656241152000000000000,
+        902972984310776751917173149653050515347472384000000000,
+        -14606283900222775685741587608257953792000000,
+        236268091727660134877813805056000,
+        1
+      ],
+      "class_polynomial_degree": 9,
+      "class_polynomial_roots_in_cubic_field": 9,
+      "selected_j_orbit_representatives": [
+        249,
+        827,
+        1299
+      ]
+    },
+    {
+      "p": 19,
+      "trace": -137,
+      "group_order": 6997,
+      "CM_order_used_discriminant": -963,
+      "hilbert_class_polynomial_ascending": [
+        22576353114860596323808371902774966361260032000000000000000000,
+        -11551747659112351822438130857235662422147072000000000000000,
+        3886621812484169095239511756859674325942272000000000000,
+        253765758001451434795075083364515023159296000000000,
+        112488709831669838242898071905169624268800000000,
+        2186030586436385809493739168780136288256000,
+        1
+      ],
+      "class_polynomial_degree": 6,
+      "class_polynomial_roots_in_cubic_field": 6,
+      "selected_j_orbit_representatives": [
+        584,
+        1217
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "p": 13,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        11,
+        2,
+        0,
+        1
+      ],
+      "a": 563,
+      "b": 436,
+      "j": 47,
+      "j_frobenius_orbit_sorted": [
+        47,
+        444,
+        1886
+      ],
+      "group_order": 2281,
+      "trace": -83,
+      "CM_order_used_discriminant": -211,
+      "endomorphism_field_discriminant": -211,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        497,
+        1114,
+        1229,
+        1918
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        0,
+        257
+      ],
+      "generator_order_verified": 2281
+    },
+    {
+      "p": 13,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        11,
+        2,
+        0,
+        1
+      ],
+      "a": 2154,
+      "b": 1436,
+      "j": 249,
+      "j_frobenius_orbit_sorted": [
+        249,
+        581,
+        1551
+      ],
+      "group_order": 2137,
+      "trace": 61,
+      "CM_order_used_discriminant": -563,
+      "endomorphism_field_discriminant": -563,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        1028,
+        1794,
+        1999,
+        2121
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        1,
+        632
+      ],
+      "generator_order_verified": 2137
+    },
+    {
+      "p": 13,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        11,
+        2,
+        0,
+        1
+      ],
+      "a": 28,
+      "b": 98,
+      "j": 827,
+      "j_frobenius_orbit_sorted": [
+        827,
+        1797,
+        2129
+      ],
+      "group_order": 2137,
+      "trace": 61,
+      "CM_order_used_discriminant": -563,
+      "endomorphism_field_discriminant": -563,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        153,
+        1298,
+        1448,
+        1859
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        0,
+        633
+      ],
+      "generator_order_verified": 2137
+    },
+    {
+      "p": 13,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        11,
+        2,
+        0,
+        1
+      ],
+      "a": 1110,
+      "b": 1428,
+      "j": 1299,
+      "j_frobenius_orbit_sorted": [
+        1299,
+        1631,
+        1823
+      ],
+      "group_order": 2137,
+      "trace": 61,
+      "CM_order_used_discriminant": -563,
+      "endomorphism_field_discriminant": -563,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        1385,
+        1658,
+        1862,
+        1881
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        3,
+        1
+      ],
+      "generator_order_verified": 2137
+    },
+    {
+      "p": 19,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        17,
+        4,
+        0,
+        1
+      ],
+      "a": 1990,
+      "b": 5893,
+      "j": 584,
+      "j_frobenius_orbit_sorted": [
+        584,
+        1068,
+        5963
+      ],
+      "group_order": 6997,
+      "trace": -137,
+      "CM_order_used_discriminant": -963,
+      "endomorphism_field_discriminant": -107,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        501,
+        2775,
+        4359,
+        6824
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        1,
+        3165
+      ],
+      "generator_order_verified": 6997
+    },
+    {
+      "p": 19,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        17,
+        4,
+        0,
+        1
+      ],
+      "a": 3486,
+      "b": 4648,
+      "j": 1217,
+      "j_frobenius_orbit_sorted": [
+        1217,
+        2934,
+        3086
+      ],
+      "group_order": 6997,
+      "trace": -137,
+      "CM_order_used_discriminant": -963,
+      "endomorphism_field_discriminant": -107,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        1928,
+        2588,
+        4433,
+        5149
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        3,
+        2891
+      ],
+      "generator_order_verified": 6997
+    }
+  ]
+}
