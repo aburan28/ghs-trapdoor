@@ -1,5 +1,7 @@
 # Further descent experiments: isogeny routes, twists and target spaces
 
+The [follow-up experiments](DESCENT_FOLLOWUP.md) now implement three algebraic inverse fibers in an eight-function Kummer model, conditional sign certificates, six candidates in three additional isogeny classes, and Artin–Schreier presentation controls. The quotient-coordinate calibration and the broader Schottky/Prym searches remain pending.
+
 Two new bounded experiments give concrete leads. An exact 3-isogeny walk connects six curves rejected by the direct mixed-kernel screen to the previously verified descent example. A separate Jacobian calculation finds an order-373 trace-zero divisor on the opposite-sign quartic over F49. Neither calculation establishes a new vulnerable cryptographic family or a practical attack improvement.
 
 The useful search object is a **curve, its reachable isogenous representatives, a polarization, a target and an explicit subgroup map**. Testing one displayed equation or finding a geometric target is insufficient. The priorities below separate completed evidence from experiments still to run.

@@ -1,6 +1,6 @@
 # GHS research tracking
 
-Last updated: 2026-10-19.
+Last updated: 2026-10-20.
 
 | Work | Pull request | Evidence and current status |
 | --- | --- | --- |
@@ -14,7 +14,10 @@ Last updated: 2026-10-19.
 | Explicit quotient reconstruction | [#6](https://github.com/aburan28/ghs-trapdoor/pull/6), stacked on #5 | All 24 candidate kernels give smooth plane quartics over F7. 22 match the required Frobenius polynomial; two opposite-sign targets have order 315, obstructing an F7-rational order-373 map. |
 | Explicit quotient-to-Kummer maps | [#6](https://github.com/aburan28/ghs-trapdoor/pull/6) | All 373 source points evaluated per curve; exactly 187 images, with only sign pairs colliding. All 81 tested kernel translations preserve the image for each source. |
 | Jacobian divisor lift | [#6](https://github.com/aburan28/ghs-trapdoor/pull/6) | Completed Sage experiment: all 373 points, 373 generator additions and the scalar-37 relation checked per source model. The second uses verified Galois transport into the first target. Divisor inversion remains O(r). |
-| Efficient Jacobian divisor inversion | Follow-up to reconstruction | Untested. Replace enumeration by the published polynomial-system inversion and compare full attack cost with known algorithms. |
+| Algebraic Kummer-to-divisor inversion component | [#8](https://github.com/aburan28/ghs-trapdoor/pull/8), stacked on #7 | Eight-function diagonal system: rank 112, kernel 8. Three degree-12 fibers solved, each giving two effective divisors; exact residual identities and independent FLINT checks. No Jacobian-group enumeration. Calibration from elliptic quotient coordinates and exceptional charts remain pending. |
+| Conditional Frobenius lift-sign certificates | [#8](https://github.com/aburan28/ghs-trapdoor/pull/8) | Twelve actual base-field Jacobian divisor tests distinguish the two known twist possibilities: eleven positive signs, one negative at kernel 810. No extension-field curve counts used to form the certificates; not a general equal-order isogeny test or χ18 implementation. |
+| CM-guided candidates in additional isogeny classes | [#8](https://github.com/aburan28/ghs-trapdoor/pull/8) | Six Frobenius j-orbits over F13^3 and F19^3, in three elliptic isogeny classes. All independently recounted, prime-order generators checked, twelve mixed 3-kernel candidates each. Four first-class isogeny neighbors lose the condition. New quotient targets remain unconstructed. |
+| Wild Artin–Schreier extension classes | [#8](https://github.com/aburan28/ghs-trapdoor/pull/8) | Sixteen equivalent degree-12 presentations reduced to a genus-2 model over F8; 8192 affine point transports checked. Base Jacobian order 65 cannot preserve order-37/109 extension subgroups. Supersingular toy control; multiple-pole covers and actual norm-map tests remain pending. |
 | Isogeny routes and endomorphism orders | [#7](https://github.com/aburan28/ghs-trapdoor/pull/7), stacked on #6 | Exact nine-vertex F343 component: three vertices have 12 mixed 3-kernel candidates, six have zero and reach the earlier example via one 3-isogeny plus conjugation. All 6,714 edge point images and generator additions checked; Sage independently verifies all edges and the two CM class polynomials. |
 | Opposite-sign target over a quadratic extension | [#7](https://github.com/aburan28/ghs-trapdoor/pull/7); [new notes](research/DESCENT_LEADS.md) | Actual order-373 divisor in ker(Frob7+1) on the kernel-810 quartic Jacobian over F49. No explicit elliptic-source map into that target or relation-generation algorithm is constructed. Its class modulo sign is F7-rational, explaining why Kummer rationality alone is insufficient. |
 | Broader experiments and lower-cost filters | [#7](https://github.com/aburan28/ghs-trapdoor/pull/7) | Six prioritized directions include CM-guided parameter generation, Frobenius lift signs, nonenumerative inversion, χ18, dimension-four Jacobian/Prym tests and Artin–Schreier extension classes. Untested steps are labeled explicitly. |
@@ -24,7 +27,7 @@ Last updated: 2026-10-19.
 
 Related existing implementation: [#1 — Sage trap-door demo and Lean formalization](https://github.com/aburan28/ghs-trapdoor/pull/1). Its reported results were inspected for context; Sage/Lean validation was not rerun in this session.
 
-Review order: #2 targets `main`; #3 targets `codex/classical-ghs-checker`. After #2 is merged, retarget #3 to `main` and check its diff. #4 targets `codex/genus2-weil-descent-audit`; after #3 is merged, retarget #4 to `main` and check its diff. #5 targets `codex/alternative-descent-targets`; after #4 is merged, retarget #5 to `main` and check its diff. #6 targets `codex/descent-experiment-batch`; after #5 is merged, retarget #6 to `main` and check its diff. #7 targets `codex/explicit-quotient-reconstruction`; after #6 is merged, retarget #7 to `main` and check its diff. PRs #2–#7 are drafts; no merge has been performed.
+Review order: #2 targets `main`; #3 targets `codex/classical-ghs-checker`. After #2 is merged, retarget #3 to `main` and check its diff. #4 targets `codex/genus2-weil-descent-audit`; after #3 is merged, retarget #4 to `main` and check its diff. #5 targets `codex/alternative-descent-targets`; after #4 is merged, retarget #5 to `main` and check its diff. #6 targets `codex/descent-experiment-batch`; after #5 is merged, retarget #6 to `main` and check its diff. #7 targets `codex/explicit-quotient-reconstruction`; after #6 is merged, retarget #7 to `main` and check its diff. #8 targets `codex/isogeny-descent-leads`; after #7 is merged, retarget #8 to `main` and check its diff. PRs #2–#8 are drafts; no merge has been performed.
 
 Reproduce from the repository root:
 
@@ -53,4 +56,6 @@ A source-equivalence audit finds one underlying Weil-restriction case: the two i
 
 Completed divisor-map evidence: [Sage report](research/results/quotient-divisor-verification.json), with input SHA256, explicit divisor witnesses, shared-target kernel correspondence and all subgroup checks.
 
-The latest [descent leads](research/DESCENT_LEADS.md) bring the suite to **59 passing Python tests**. Four new tests cover the graph, independent kernel-point-sum oracles in characteristics 5,7,11, invalid kernels and trace-zero evidence boundaries. The separate Sage 10.6 report records 6,714 independently evaluated edge images, class-polynomial checks, and a trace-zero divisor witness; no new practical speedup is established.
+The #7 [descent leads](research/DESCENT_LEADS.md) brought the suite to **59 passing Python tests**. Four new tests cover the graph, independent kernel-point-sum oracles in characteristics 5,7,11, invalid kernels and trace-zero evidence boundaries. The separate Sage 10.6 report records 6,714 independently evaluated edge images, class-polynomial checks, and a trace-zero divisor witness; no new practical speedup is established.
+
+The [next follow-up](research/DESCENT_FOLLOWUP.md) brings the full suite to **67 passing Python tests**. Three new Sage 10.6 experiments completed: CM selection, conditional sign certificates and symmetric Kummer inversion. Reports and tests distinguish the new inversion component from a complete nonenumerative source-to-Jacobian transfer, which is not yet implemented. No change to the NIST conclusions follows.
