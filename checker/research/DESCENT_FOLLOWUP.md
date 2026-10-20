@@ -28,6 +28,8 @@ Specifically, a conic in the span {1,x,y,x²} cuts D+Dbar. Substituting its equa
 
 **Remaining boundary:** the new solver takes coordinates in this symmetric Kummer basis. The elliptic quotient currently exports seven selected theta-section coordinates, in a different presentation. A complete transfer still needs eight independent quotient sections, origin/theta-characteristic alignment, and the linear calibration to this basis. Repeated supports and points at infinity also need additional charts. The earlier complete EC-to-Jacobian transfer remains enumerative; this batch does not silently replace its cost claim.
 
+The [calibration experiment design](CALIBRATION_EXPERIMENT.md) now freezes the next test: nine training points, 32 unused coordinate inputs, explicit chart/origin/field alignment, exact acceptance gates, and separate inherited-anchor and seed-free profiles. Its source-side preflight confirms an eight-coordinate projection and a valid projective frame. Target calibration and transfer remain unexecuted.
+
 The [saved inversion report](results/symmetric-kummer-inversion-sage.json) contains the coordinate change, basis matrix, test inputs, twelve-solution fiber counts, recovered supports and residual conics. The small precomputation enumerates points of C(F49); it never enumerates the Jacobian. The fixed splitting field F7^12 contains the degree-at-most-three residue fields over F49 needed by these tests. Results are limited to these three fibers, with a bounded triangular solver rather than a general variety solver.
 
 ## Conditional sign certificates before extension-field point counts

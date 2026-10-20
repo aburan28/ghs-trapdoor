@@ -1,5 +1,7 @@
 # Genus-2 isogeny and Weil-descent audit
 
+The [calibration experiment design](CALIBRATION_EXPERIMENT.md) specifies the next test, with a completed source-side rank/frame preflight and 32 frozen challenge inputs. It separates calibration using the previous toy anchor from initialization without that anchor. Target calibration and blind transfer have not run.
+
 The latest [follow-up experiments](DESCENT_FOLLOWUP.md) add three nonenumerative algebraic inverse fibers in a symmetric Kummer model, conditional sign certificates, six CM-guided candidates in three additional isogeny classes, and sixteen Artin–Schreier presentation controls. The complete suite has **67 passing Python tests**; three new Sage experiments also completed. Connecting the algebraic inverse to the actual elliptic quotient still requires coordinate calibration.
 
 The [further descent leads](DESCENT_LEADS.md) add an exact nine-vertex 3-isogeny graph: six curves with no direct mixed 3-kernel route back to the earlier example in one step. A separate Sage computation constructs an order-373 trace-zero Jacobian divisor on the opposite-sign target over F49. The notes give six research directions with concrete next experiments and evidence limits. At the #7 stage, the suite had **59 passing Python tests**, plus the completed independent Sage experiment.
