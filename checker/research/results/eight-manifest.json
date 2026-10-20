@@ -1,0 +1,186 @@
+{
+  "Sage_container_digest": "sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb",
+  "artifacts": {
+    "research/results/eight-cost-baseline.json": {
+      "bytes": 917,
+      "sha256": "fd487107d497e91adfa144565ec8a46f46233a897ebc50437c1bfa94fbd13da5"
+    },
+    "research/results/eight-cross-characteristic-targets.json": {
+      "bytes": 30811,
+      "sha256": "567c34dbce7109831bbc9a6d44528ca3b5b95bd062af9030e9cd1975a37dc2e5"
+    },
+    "research/results/eight-dimension-four-control.json": {
+      "bytes": 1797,
+      "sha256": "520932939e4ae8e239616268a4a1ca55379b49bfb197df491d1023ca1a91ee4f"
+    },
+    "research/results/eight-dimension-four-kernels.json": {
+      "bytes": 66194,
+      "sha256": "d1b161d49db03ce2eb707b573707d3d32dd625487b70cf59343132da358b433c"
+    },
+    "research/results/eight-divisor-inversion-circuit.json": {
+      "bytes": 2903,
+      "sha256": "dce1df96396515af046b40cf6d8ad68daeeb61f3c4d2b74b503d668ceb58fa6b"
+    },
+    "research/results/eight-divisor-inversion-det3-source.py.gz": {
+      "bytes": 3164,
+      "sha256": "f369bb6658f20e27a4cc9b740c330491accbecf69681bbe4e73cd63b0fbe6872"
+    },
+    "research/results/eight-divisor-inversion-det3.json": {
+      "bytes": 649,
+      "sha256": "ecb01b18a916960787d559c91362d81d330b50d6f9d7eec95b981290cf5b5de4"
+    },
+    "research/results/eight-divisor-inversion-revised.json": {
+      "bytes": 745,
+      "sha256": "0fd19fe813c976f5c178eec21585d57036377e223b28b98104257ada61e4d9a0"
+    },
+    "research/results/eight-divisor-inversion.json": {
+      "bytes": 640,
+      "sha256": "14cb49028c3ec37ec1d087f2a6e58a3c2d5f3b919fdd7ef537782512027d5ad7"
+    },
+    "research/results/eight-independent-checks.json": {
+      "bytes": 11988,
+      "sha256": "560a826a6d7c6c2c758633205c181c431b807fd831eae92d8a57f6c312583110"
+    },
+    "research/results/eight-inversion-120-source.py.gz": {
+      "bytes": 2955,
+      "sha256": "f817355bc2edbfbfed10910ef1c4c0443b51dd8f5cc7aeba4438772a6df967ac"
+    },
+    "research/results/eight-inversion-300-source.py.gz": {
+      "bytes": 2975,
+      "sha256": "dd302ca51122b0078354b7eeb60a04e31c781317579928144f0020e68fa47e69"
+    },
+    "research/results/eight-isogeny-search.json": {
+      "bytes": 400259,
+      "sha256": "5e953c2c567499d6eb8d162e88a0ae631c86686da6b2e572993365f5b28bdfbe"
+    },
+    "research/results/eight-lift-signs-source.py.gz": {
+      "bytes": 6390,
+      "sha256": "903f7634a8e3d34b35e3d82d228fd24e668b787f094f09aafc979d6e30823356"
+    },
+    "research/results/eight-lift-signs.json": {
+      "bytes": 39340,
+      "sha256": "9d25baf1690cc84b01d9361ec720a2e44b91ee54c871fe02685f32033c266a88"
+    },
+    "research/results/eight-obstruction-filter.json": {
+      "bytes": 25953,
+      "sha256": "3aa35654420b18a7474057216c84422d971b2f4e8b0875f14e3ec124fbbfff4b"
+    },
+    "research/results/eight-prym-subgroup.json": {
+      "bytes": 885,
+      "sha256": "b299c6fbe4bd92519dcf14dab2dfcc82ecb408d20c2a37795c831acf6212a673"
+    },
+    "research/results/eight-prym.json": {
+      "bytes": 16433,
+      "sha256": "061e4df7ede6d03e9774edaa7d1d05c4a505ba8894a577b35305e10167e987b0"
+    },
+    "research/results/eight-python-tests.log.gz": {
+      "bytes": 1986,
+      "sha256": "98ecdaeeca2f54842bbfb819c88f12d7a49cb9f4b368b7a916ece16629636adb"
+    },
+    "research/results/eight-trace-zero-inputs.json": {
+      "bytes": 322122,
+      "sha256": "dccc1738959a85a2d26400344b0df92f364a57880c94ab3d71093ca0ce9a4f02"
+    },
+    "research/results/eight-trace-zero-run.log.gz": {
+      "bytes": 263,
+      "sha256": "e6aef1574a3843de6e1f4870fdfad280fd3e896b39d22be44c53cf40f443cb4f"
+    },
+    "research/results/eight-trace-zero-transport-source.py.gz": {
+      "bytes": 2390,
+      "sha256": "be352fb8fc0b9e37a0b2cc56c3143a45c697f4aa3810c941a58e94672e4dc33e"
+    },
+    "research/results/eight-trace-zero-transport.json": {
+      "bytes": 6319,
+      "sha256": "9e6b7b48afadcf49a4a77c8f7cd97b9937dbeec66f0b12c06263d8bb039a7e72"
+    },
+    "research/results/eight-validation.json": {
+      "bytes": 1221,
+      "sha256": "4aceebaff5c4afec28139235588bcacbaaf5628fff228f0621539ac2ab404c53"
+    },
+    "research/results/eight-wild-classes.json": {
+      "bytes": 71446,
+      "sha256": "5e77152fe2b8a9d78643b5ed12e583fbcacf185627fc42a4c11476bc9dbacd12"
+    },
+    "research/results/eight-wild-classical-comparison.json": {
+      "bytes": 145595,
+      "sha256": "993baa1f2bc47fc4f19d26dd8d94c8cb5b1a65bb50f1871bb959cde4cbcc98ed"
+    },
+    "research/results/eight-wild-cover.json": {
+      "bytes": 1608,
+      "sha256": "cc935416de3a3e2f3f5888005fd55e552d1b43c303fb49280a1ff2509f04eee4"
+    },
+    "research/results/eight-wild-subgroup.json": {
+      "bytes": 1146,
+      "sha256": "cbd5c74674d45142398242fddc8b443457f0fd949fba0143057ee077d5c28fda"
+    }
+  },
+  "base_commit": "85568148d1a04c3c68b0b1c79c2273727cf4bdc8",
+  "bounds": "Exhaustive only for the finite matrices in EIGHT_EXPERIMENTS.md; solver timeouts are not impossibility proofs",
+  "experiments": {
+    "1": [
+      "isogeny-search",
+      "cross-characteristic-targets"
+    ],
+    "2": [
+      "trace-zero-inputs",
+      "trace-zero-transport"
+    ],
+    "3": [
+      "lift-signs"
+    ],
+    "4": [
+      "divisor-inversion",
+      "divisor-inversion-revised",
+      "divisor-inversion-det3",
+      "divisor-inversion-circuit"
+    ],
+    "5": [
+      "obstruction-filter"
+    ],
+    "6": [
+      "dimension-four-kernels",
+      "dimension-four-control"
+    ],
+    "7": [
+      "prym",
+      "prym-subgroup"
+    ],
+    "8": [
+      "wild-classes",
+      "wild-classical-comparison",
+      "wild-cover",
+      "wild-subgroup"
+    ]
+  },
+  "open_goals": [
+    "scalable divisor inversion",
+    "global normalized lift-sign certificates",
+    "normalized chi18 filter",
+    "general dimension-four Schottky filter and reconstruction",
+    "matching arbitrary restriction factors to Pryms",
+    "general ordinary wild-cover subgroup maps",
+    "relation generation and linear algebra cost comparison"
+  ],
+  "practical_speedup_established": false,
+  "python_flint_version": "0.9.0",
+  "python_version": "3.12.14",
+  "sage_version": "10.6",
+  "schema_version": 1,
+  "source_sha256": {
+    "research/cover_subgroups_sage.py": "5bd316efd6f4dfc7351a791953a8bf678d137ee8deb3220e549dedba669dfe95",
+    "research/cross_characteristic_targets.py": "a2e452712fb299d63a44fc22c16ed6a0ec954591a6a3aaf3cef4214842f4f51a",
+    "research/dimension_four_kernels.py": "010e31982ff1c4f9fb7e48f222868e8cbba371cd923431e672716f1d7b6d02d1",
+    "research/divisor_inversion_circuit_sage.py": "bced5c97d751895d0646c26b908adb60a9a60e367e1f72f5dac6518c280eb6f3",
+    "research/divisor_inversion_system_sage.py": "ff4273835eb04994245b82dfd64e4f65b47606a350b8c258503b3503da004777",
+    "research/eight_cost_baseline.py": "4fd8eb7d77d37b09552d838016bf1cd83ac19f3f76a2b7f2bbe4434df0b10e90",
+    "research/eight_geometry_sage.py": "904a2e2833320629fb5961b74809d32965f74642fb4a427b9518c493ca4e9cdf",
+    "research/eight_independent_checks_sage.py": "2f54432dae65ad66ba2052de90545783f0387ceaaeae9596e9b41d4fe0c7900d",
+    "research/obstruction_filter_probe.py": "bdefb109b6f631e6c88e204046ec5a298d5f805bedfae9ba3706fc18470a7ce1",
+    "research/quotient_divisor_verification.py": "cc8f1220cf421600860cdf2f0cb88f00c011a6f4387e02b03a5cede9010312f1",
+    "research/quotient_reconstruction.py": "c9a02b544435144189f995721d831ac8eb7e1dd75f95b82dc57cef3d32424544",
+    "research/run_eight_experiments.py": "87ea9de9632f8fe4e6f297aba2f9014efcc78b5d413cf3f9d5715a7765b25b2f",
+    "research/trace_zero_transport_sage.py": "0995e9632a55c82dc9d67440b91126950545bd271df3b9af521368e2e7dc4647",
+    "research/wild_artin_schreier.py": "f22b9ff07dcc9cef553aeddd22b2bea4374964080b8c63683d91c86dfd4fae6f",
+    "research/wild_classical_comparison.py": "67cd8c62cccdb381b3797fc2f49882c14573ed9ea72064d6782db0f00e7e9744"
+  }
+}

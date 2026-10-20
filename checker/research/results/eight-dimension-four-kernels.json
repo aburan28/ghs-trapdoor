@@ -1,0 +1,3340 @@
+{
+  "RREF_planes_examined_per_pairing": 200787,
+  "dimension": 4,
+  "ell": 2,
+  "experiment": 6,
+  "modules": [
+    {
+      "Frobenius_rows_binary": [
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        1,
+        2
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": null,
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            33,
+            18,
+            132,
+            72
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            225,
+            210,
+            180,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            34,
+            68,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            145,
+            34,
+            100,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            49,
+            34,
+            196,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            177,
+            34,
+            228,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            98,
+            68,
+            152
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            209,
+            226,
+            116,
+            184
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            50,
+            68,
+            200
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            114,
+            68,
+            216
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            65,
+            170,
+            68,
+            80
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            65,
+            234,
+            68,
+            80
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            169,
+            106,
+            204,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            105,
+            170,
+            204,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            85,
+            130,
+            136,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            213,
+            130,
+            136,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            1,
+            4,
+            16,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            12,
+            48,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            2,
+            8,
+            32,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "elliptic_degree4_identity",
+      "passing_no_factor_test": 16,
+      "rational_Lagrangians": 19
+    },
+    {
+      "Frobenius_rows_binary": [
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        2,
+        1
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": null,
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            3,
+            12,
+            48,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "elliptic_degree4_unipotent",
+      "passing_no_factor_test": 0,
+      "rational_Lagrangians": 1
+    },
+    {
+      "Frobenius_rows_binary": [
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        2,
+        3
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": null,
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            33,
+            50,
+            132,
+            200
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        }
+      ],
+      "module": "elliptic_degree4_irreducible_order3",
+      "passing_no_factor_test": 1,
+      "rational_Lagrangians": 1
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        1,
+        2,
+        4,
+        8
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            129,
+            66,
+            36,
+            24
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            129,
+            34,
+            68,
+            24
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            129,
+            242,
+            68,
+            24
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            129,
+            34,
+            244,
+            24
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            65,
+            130,
+            20,
+            40
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            130,
+            68,
+            40
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            241,
+            130,
+            68,
+            40
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            130,
+            244,
+            40
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            146,
+            84,
+            56
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            161,
+            34,
+            100,
+            56
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            161,
+            34,
+            212,
+            56
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            146,
+            228,
+            56
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            33,
+            18,
+            132,
+            72
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            34,
+            132,
+            72
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            241,
+            34,
+            132,
+            72
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            242,
+            132,
+            72
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            193,
+            98,
+            68,
+            88
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            193,
+            178,
+            68,
+            88
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            50,
+            148,
+            88
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            226,
+            148,
+            88
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            81,
+            194,
+            68,
+            104
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            177,
+            194,
+            68,
+            104
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            49,
+            34,
+            164,
+            104
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            209,
+            34,
+            164,
+            104
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            225,
+            210,
+            180,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            209,
+            226,
+            180,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            225,
+            178,
+            212,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            177,
+            210,
+            228,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            65,
+            34,
+            20,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            65,
+            242,
+            20,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            66,
+            36,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            241,
+            66,
+            36,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            33,
+            18,
+            68,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            34,
+            68,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            241,
+            34,
+            68,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            242,
+            68,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            161,
+            146,
+            116,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            145,
+            162,
+            116,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            193,
+            114,
+            148,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            193,
+            162,
+            148,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            113,
+            194,
+            164,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            145,
+            194,
+            164,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            145,
+            114,
+            196,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            161,
+            146,
+            196,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            113,
+            162,
+            196,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            145,
+            162,
+            196,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            33,
+            18,
+            244,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            34,
+            244,
+            136
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            82,
+            52,
+            152
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            50,
+            84,
+            152
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            226,
+            84,
+            152
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            50,
+            228,
+            152
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            97,
+            34,
+            52,
+            168
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            49,
+            34,
+            100,
+            168
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            209,
+            34,
+            100,
+            168
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            49,
+            34,
+            212,
+            168
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            97,
+            82,
+            68,
+            184
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            81,
+            98,
+            68,
+            184
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            225,
+            210,
+            116,
+            184
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            209,
+            226,
+            116,
+            184
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            97,
+            82,
+            68,
+            200
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            81,
+            98,
+            68,
+            200
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            177,
+            98,
+            68,
+            200
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            81,
+            178,
+            68,
+            200
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            97,
+            34,
+            52,
+            216
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            49,
+            34,
+            100,
+            216
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            225,
+            114,
+            180,
+            216
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            177,
+            114,
+            228,
+            216
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            82,
+            52,
+            232
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            50,
+            84,
+            232
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            113,
+            210,
+            180,
+            232
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            113,
+            178,
+            212,
+            232
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            65,
+            34,
+            20,
+            248
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            66,
+            36,
+            248
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            33,
+            18,
+            68,
+            248
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            34,
+            68,
+            248
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            1,
+            170,
+            108,
+            16
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            1,
+            202,
+            172,
+            16
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            1,
+            106,
+            204,
+            16
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            1,
+            170,
+            204,
+            16
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            97,
+            66,
+            36,
+            112
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            97,
+            34,
+            68,
+            112
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            33,
+            98,
+            68,
+            112
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            65,
+            34,
+            100,
+            112
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            9,
+            66,
+            36,
+            144
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            9,
+            34,
+            68,
+            144
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            9,
+            98,
+            68,
+            144
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            9,
+            34,
+            100,
+            144
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            201,
+            170,
+            108,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            105,
+            202,
+            172,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            169,
+            106,
+            204,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            105,
+            170,
+            204,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            153,
+            2,
+            92,
+            32
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            201,
+            2,
+            156,
+            32
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            89,
+            2,
+            204,
+            32
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            153,
+            2,
+            204,
+            32
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            65,
+            10,
+            20,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            10,
+            68,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            81,
+            10,
+            68,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            10,
+            84,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            153,
+            58,
+            4,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            169,
+            154,
+            4,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            57,
+            170,
+            4,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            153,
+            170,
+            4,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            33,
+            18,
+            12,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            34,
+            12,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            49,
+            34,
+            12,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            50,
+            12,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            5,
+            130,
+            40,
+            80
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            5,
+            34,
+            136,
+            80
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            5,
+            162,
+            136,
+            80
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            5,
+            34,
+            168,
+            80
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            161,
+            130,
+            40,
+            176
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            161,
+            34,
+            136,
+            176
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            33,
+            162,
+            136,
+            176
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            129,
+            34,
+            168,
+            176
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            129,
+            6,
+            24,
+            96
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            6,
+            136,
+            96
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            145,
+            6,
+            136,
+            96
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            6,
+            152,
+            96
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            85,
+            54,
+            8,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            101,
+            86,
+            8,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            53,
+            102,
+            8,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            85,
+            102,
+            8,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            5,
+            2,
+            80,
+            32
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            9,
+            2,
+            144,
+            32
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            1,
+            6,
+            16,
+            96
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            9,
+            6,
+            144,
+            96
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            1,
+            10,
+            16,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            5,
+            10,
+            80,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            132,
+            72,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            68,
+            136,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            196,
+            136,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            68,
+            200,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            193,
+            132,
+            72,
+            208
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            193,
+            68,
+            136,
+            208
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            65,
+            196,
+            136,
+            208
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            129,
+            68,
+            200,
+            208
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            4,
+            48,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            9,
+            4,
+            144,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            1,
+            12,
+            16,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            12,
+            48,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            8,
+            48,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            5,
+            8,
+            80,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            194,
+            132,
+            72,
+            224
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            194,
+            68,
+            136,
+            224
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            66,
+            196,
+            136,
+            224
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            130,
+            68,
+            200,
+            224
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            10,
+            4,
+            160,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            2,
+            12,
+            32,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            6,
+            8,
+            96,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "genus2_degree2_split_2torsion",
+      "passing_no_factor_test": 76,
+      "rational_Lagrangians": 151
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        14,
+        13,
+        11,
+        7
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            201,
+            170,
+            108,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            105,
+            202,
+            172,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            169,
+            106,
+            204,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            105,
+            170,
+            204,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            9,
+            6,
+            144,
+            96
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            5,
+            10,
+            80,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            12,
+            48,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "genus2_degree2_cycles_1_1_1_1_2",
+      "passing_no_factor_test": 0,
+      "rational_Lagrangians": 7
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        9,
+        10,
+        12,
+        7
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            193,
+            162,
+            148,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            145,
+            194,
+            164,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            161,
+            146,
+            196,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            145,
+            162,
+            196,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            5,
+            162,
+            40,
+            80
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            145,
+            6,
+            24,
+            96
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            196,
+            72,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "genus2_degree2_cycles_1_1_1_3",
+      "passing_no_factor_test": 4,
+      "rational_Lagrangians": 7
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        14,
+        13,
+        7,
+        11
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            97,
+            82,
+            180,
+            72
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            81,
+            98,
+            180,
+            72
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            161,
+            146,
+            132,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            145,
+            162,
+            132,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            132,
+            72,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            68,
+            136,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            196,
+            136,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            68,
+            200,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            4,
+            48,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            12,
+            48,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            8,
+            48,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "genus2_degree2_cycles_1_1_2_2",
+      "passing_no_factor_test": 4,
+      "rational_Lagrangians": 11
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        5,
+        6,
+        12,
+        11
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        1,
+        1,
+        4
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            3,
+            8,
+            48,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "genus2_degree2_cycles_1_1_4",
+      "passing_no_factor_test": 0,
+      "rational_Lagrangians": 1
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        9,
+        12,
+        10,
+        7
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        1,
+        2,
+        3
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            145,
+            6,
+            24,
+            96
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "genus2_degree2_cycles_1_2_3",
+      "passing_no_factor_test": 0,
+      "rational_Lagrangians": 1
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        3,
+        6,
+        10,
+        13
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        1,
+        5
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            81,
+            194,
+            180,
+            72
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        }
+      ],
+      "module": "genus2_degree2_cycles_1_5",
+      "passing_no_factor_test": 1,
+      "rational_Lagrangians": 1
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        13,
+        14,
+        7,
+        11
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        2,
+        2,
+        2
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            201,
+            170,
+            108,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            105,
+            202,
+            172,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            169,
+            106,
+            204,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            105,
+            170,
+            204,
+            240
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            33,
+            18,
+            12,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            34,
+            12,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            49,
+            34,
+            12,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            17,
+            50,
+            12,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            9,
+            6,
+            144,
+            96
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            5,
+            10,
+            80,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            132,
+            72,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            68,
+            136,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            196,
+            136,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            68,
+            200,
+            48
+          ],
+          "factor_intersection_dimensions": [
+            1,
+            1
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            4,
+            48,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            1,
+            12,
+            16,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            12,
+            48,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            3,
+            8,
+            48,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            2,
+            12,
+            32,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "genus2_degree2_cycles_2_2_2",
+      "passing_no_factor_test": 0,
+      "rational_Lagrangians": 19
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        6,
+        5,
+        12,
+        11
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        2,
+        4
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            3,
+            8,
+            48,
+            128
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "genus2_degree2_cycles_2_4",
+      "passing_no_factor_test": 0,
+      "rational_Lagrangians": 1
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        10,
+        12,
+        9,
+        7
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        3,
+        3
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            225,
+            18,
+            148,
+            56
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            65,
+            194,
+            180,
+            88
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            161,
+            210,
+            36,
+            104
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            161,
+            194,
+            148,
+            120
+          ],
+          "factor_intersection_dimensions": [
+            0,
+            0
+          ],
+          "passes_no_factor_test": true
+        },
+        {
+          "basis_rows_binary": [
+            1,
+            10,
+            16,
+            160
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            9,
+            4,
+            144,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        },
+        {
+          "basis_rows_binary": [
+            2,
+            12,
+            32,
+            192
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "genus2_degree2_cycles_3_3",
+      "passing_no_factor_test": 4,
+      "rational_Lagrangians": 7
+    },
+    {
+      "Frobenius_rows_binary": [
+        16,
+        32,
+        64,
+        128,
+        3,
+        5,
+        9,
+        14
+      ],
+      "all_geometric_Lagrangians": 2295,
+      "branch_cycle_partition": [
+        6
+      ],
+      "kernels": [
+        {
+          "basis_rows_binary": [
+            9,
+            4,
+            144,
+            64
+          ],
+          "factor_intersection_dimensions": [
+            2,
+            2
+          ],
+          "passes_no_factor_test": false
+        }
+      ],
+      "module": "genus2_degree2_cycles_6",
+      "passing_no_factor_test": 0,
+      "rational_Lagrangians": 1
+    }
+  ],
+  "scope": {
+    "Jacobian_locus_certified": false,
+    "Schottky_filter_implemented": false,
+    "all_declared_level2_module_kernels_exhausted": true,
+    "indecomposability_certified": false,
+    "module_curve_realization_verified_in_this_script": false,
+    "practical_speedup_established": false,
+    "principally_polarized_quotient_kernel_condition_verified": true
+  },
+  "source_sha256": "010e31982ff1c4f9fb7e48f222868e8cbba371cd923431e672716f1d7b6d02d1",
+  "timing_seconds": {
+    "evaluation": 0.043786624000858865,
+    "setup": 0.8227438389985764
+  }
+}

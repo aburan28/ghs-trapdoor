@@ -1,0 +1,29 @@
+{
+  "baby_table_entries": 20,
+  "baseline": "baby-step giant-step on the original elliptic subgroup",
+  "comparison_scope": "toy sanity baseline only; different arithmetic backends and representations; no end-to-end speedup comparison",
+  "counted_group_additions": 26,
+  "field": "F343",
+  "input_generator": [
+    0,
+    176
+  ],
+  "input_sha256": "40a052f167c532ba8908cd11025b692d637fb6f699d989804852914efa13c9de",
+  "input_target": [
+    130,
+    217
+  ],
+  "practical_speedup_established": false,
+  "solution_for_validation": 137,
+  "source_sha256": "4fd8eb7d77d37b09552d838016bf1cd83ac19f3f76a2b7f2bbe4434df0b10e90",
+  "subgroup_order": 373,
+  "timing_seconds": {
+    "DLP_evaluation": 0.00042299000051571056,
+    "setup": 0.5894957919990702
+  },
+  "unimplemented_attack_cost_categories": {
+    "large_field_divisor_inversion": null,
+    "linear_algebra": null,
+    "trace_zero_relation_generation": null
+  }
+}
