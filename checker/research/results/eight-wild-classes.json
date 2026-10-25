@@ -1,0 +1,2563 @@
+{
+  "bounds": {
+    "coefficients": "all a,b and both constant trace classes",
+    "families": [
+      "a*x^3+b*x+c",
+      "a*x+b/x+c"
+    ],
+    "fields": [
+      [
+        4,
+        19
+      ],
+      [
+        6,
+        67
+      ]
+    ]
+  },
+  "experiment": 8,
+  "fields": [
+    {
+      "constant_trace_one_representative": 8,
+      "constant_wp_image_size": 8,
+      "degree": 4,
+      "families": [
+        {
+          "distribution": [
+            {
+              "classes": 1,
+              "genus": 0,
+              "geometric": true,
+              "rank": 0,
+              "source_genus": 0
+            },
+            {
+              "classes": 1,
+              "genus": null,
+              "geometric": false,
+              "rank": 1,
+              "source_genus": 0
+            },
+            {
+              "classes": 2,
+              "genus": 0,
+              "geometric": true,
+              "rank": 1,
+              "source_genus": 0
+            },
+            {
+              "classes": 4,
+              "genus": 1,
+              "geometric": true,
+              "rank": 1,
+              "source_genus": 1
+            },
+            {
+              "classes": 4,
+              "genus": 0,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 0
+            },
+            {
+              "classes": 4,
+              "genus": 2,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 1
+            },
+            {
+              "classes": 16,
+              "genus": 3,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 1
+            },
+            {
+              "classes": 8,
+              "genus": 0,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 0
+            },
+            {
+              "classes": 8,
+              "genus": 4,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 16,
+              "genus": 6,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 64,
+              "genus": 7,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 16,
+              "genus": 0,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 0
+            },
+            {
+              "classes": 16,
+              "genus": 8,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 32,
+              "genus": 12,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 64,
+              "genus": 14,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 256,
+              "genus": 15,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            }
+          ],
+          "family": "cubic",
+          "geometric_nonconstant_spans": 510,
+          "ordered_class_results_sha256": "a9a88e404c7d4301a3a4b16de6ee02bfdb2ed8da7650c8b754ce1fe9a63911fd",
+          "ordinary_genus1_family": false,
+          "reduced_classes_examined": 512,
+          "representatives": [
+            {
+              "Frobenius_span_basis_binary": [
+                17
+              ],
+              "a": 1,
+              "b": 1,
+              "compositum_genus_from_conductors": 1,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                8,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 25,
+              "span_rank": 1
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                65,
+                33,
+                16
+              ],
+              "a": 1,
+              "b": 2,
+              "compositum_genus_from_conductors": 4,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 17,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                97,
+                16
+              ],
+              "a": 1,
+              "b": 6,
+              "compositum_genus_from_conductors": 2,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                8,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 25,
+              "span_rank": 2
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                129,
+                64,
+                48,
+                16
+              ],
+              "a": 1,
+              "b": 8,
+              "compositum_genus_from_conductors": 8,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 17,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                18,
+                6,
+                1
+              ],
+              "a": 2,
+              "b": 1,
+              "compositum_genus_from_conductors": 7,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                4,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 21,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                130,
+                70,
+                55,
+                16
+              ],
+              "a": 2,
+              "b": 8,
+              "compositum_genus_from_conductors": 14,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                -4,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 13,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                22,
+                1
+              ],
+              "a": 6,
+              "b": 1,
+              "compositum_genus_from_conductors": 3,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                4,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 21,
+              "span_rank": 2
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                71,
+                38,
+                16
+              ],
+              "a": 6,
+              "b": 2,
+              "compositum_genus_from_conductors": 6,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                4,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 21,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                134,
+                65,
+                49,
+                16
+              ],
+              "a": 6,
+              "b": 8,
+              "compositum_genus_from_conductors": 12,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                -4,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 13,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                24,
+                4,
+                3,
+                1
+              ],
+              "a": 8,
+              "b": 1,
+              "compositum_genus_from_conductors": 15,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 17,
+              "span_rank": 4
+            }
+          ]
+        },
+        {
+          "distribution": [
+            {
+              "classes": 1,
+              "genus": 0,
+              "geometric": true,
+              "rank": 0,
+              "source_genus": 0
+            },
+            {
+              "classes": 1,
+              "genus": null,
+              "geometric": false,
+              "rank": 1,
+              "source_genus": 0
+            },
+            {
+              "classes": 4,
+              "genus": 0,
+              "geometric": true,
+              "rank": 1,
+              "source_genus": 0
+            },
+            {
+              "classes": 2,
+              "genus": 1,
+              "geometric": true,
+              "rank": 1,
+              "source_genus": 1
+            },
+            {
+              "classes": 8,
+              "genus": 0,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 0
+            },
+            {
+              "classes": 8,
+              "genus": 2,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 1
+            },
+            {
+              "classes": 8,
+              "genus": 3,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 1
+            },
+            {
+              "classes": 16,
+              "genus": 0,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 0
+            },
+            {
+              "classes": 16,
+              "genus": 4,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 32,
+              "genus": 6,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 32,
+              "genus": 7,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 32,
+              "genus": 0,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 0
+            },
+            {
+              "classes": 32,
+              "genus": 8,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 64,
+              "genus": 12,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 128,
+              "genus": 14,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 128,
+              "genus": 15,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            }
+          ],
+          "family": "two_poles",
+          "geometric_nonconstant_spans": 510,
+          "ordered_class_results_sha256": "5c71b4f57d9fdb48ddcb75460b8cd23ee5627c451950ab39984737986a061391",
+          "ordinary_genus1_family": true,
+          "reduced_classes_examined": 512,
+          "representatives": [
+            {
+              "Frobenius_span_basis_binary": [
+                17
+              ],
+              "a": 1,
+              "b": 1,
+              "compositum_genus_from_conductors": 1,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                -1,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 16,
+              "span_rank": 1
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                65,
+                33,
+                16
+              ],
+              "a": 1,
+              "b": 2,
+              "compositum_genus_from_conductors": 4,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                -1,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 16,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                97,
+                16
+              ],
+              "a": 1,
+              "b": 6,
+              "compositum_genus_from_conductors": 2,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                7,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 24,
+              "span_rank": 2
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                129,
+                64,
+                48,
+                16
+              ],
+              "a": 1,
+              "b": 8,
+              "compositum_genus_from_conductors": 8,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                3,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 20,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                68,
+                34,
+                17
+              ],
+              "a": 2,
+              "b": 2,
+              "compositum_genus_from_conductors": 7,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                -1,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 16,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                98,
+                22,
+                1
+              ],
+              "a": 2,
+              "b": 6,
+              "compositum_genus_from_conductors": 6,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                3,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 20,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                130,
+                70,
+                55,
+                16
+              ],
+              "a": 2,
+              "b": 8,
+              "compositum_genus_from_conductors": 14,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                -1,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 16,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                102,
+                17
+              ],
+              "a": 6,
+              "b": 6,
+              "compositum_genus_from_conductors": 3,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                7,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 24,
+              "span_rank": 2
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                134,
+                65,
+                49,
+                16
+              ],
+              "a": 6,
+              "b": 8,
+              "compositum_genus_from_conductors": 12,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                -1,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 16,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                136,
+                68,
+                51,
+                17
+              ],
+              "a": 8,
+              "b": 8,
+              "compositum_genus_from_conductors": 15,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                16,
+                3,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 20,
+              "span_rank": 4
+            }
+          ]
+        }
+      ],
+      "field_size": 16,
+      "modulus_binary": 19,
+      "timing_seconds": {
+        "evaluation": 0.014805610000621527,
+        "setup": 0.00024790200041024946
+      }
+    },
+    {
+      "constant_trace_one_representative": 32,
+      "constant_wp_image_size": 32,
+      "degree": 6,
+      "families": [
+        {
+          "distribution": [
+            {
+              "classes": 1,
+              "genus": 0,
+              "geometric": true,
+              "rank": 0,
+              "source_genus": 0
+            },
+            {
+              "classes": 1,
+              "genus": null,
+              "geometric": false,
+              "rank": 1,
+              "source_genus": 0
+            },
+            {
+              "classes": 2,
+              "genus": 0,
+              "geometric": true,
+              "rank": 1,
+              "source_genus": 0
+            },
+            {
+              "classes": 4,
+              "genus": 1,
+              "geometric": true,
+              "rank": 1,
+              "source_genus": 1
+            },
+            {
+              "classes": 7,
+              "genus": 0,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 0
+            },
+            {
+              "classes": 4,
+              "genus": 2,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 1
+            },
+            {
+              "classes": 28,
+              "genus": 3,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 1
+            },
+            {
+              "classes": 3,
+              "genus": null,
+              "geometric": false,
+              "rank": 3,
+              "source_genus": 0
+            },
+            {
+              "classes": 12,
+              "genus": null,
+              "geometric": false,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 6,
+              "genus": 0,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 0
+            },
+            {
+              "classes": 12,
+              "genus": 4,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 24,
+              "genus": 6,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 48,
+              "genus": 7,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 24,
+              "genus": 0,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 0
+            },
+            {
+              "classes": 12,
+              "genus": 8,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 132,
+              "genus": 12,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 48,
+              "genus": 14,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 384,
+              "genus": 15,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 12,
+              "genus": null,
+              "geometric": false,
+              "rank": 5,
+              "source_genus": 0
+            },
+            {
+              "classes": 36,
+              "genus": null,
+              "geometric": false,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 192,
+              "genus": null,
+              "geometric": false,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 24,
+              "genus": 0,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 0
+            },
+            {
+              "classes": 48,
+              "genus": 16,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 72,
+              "genus": 24,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 144,
+              "genus": 28,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 384,
+              "genus": 30,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 768,
+              "genus": 31,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 48,
+              "genus": 0,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 0
+            },
+            {
+              "classes": 48,
+              "genus": 32,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 336,
+              "genus": 48,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 144,
+              "genus": 56,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 1344,
+              "genus": 60,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 768,
+              "genus": 62,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 3072,
+              "genus": 63,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            }
+          ],
+          "family": "cubic",
+          "geometric_nonconstant_spans": 7935,
+          "ordered_class_results_sha256": "2d056eebd2483cd86f1ee822b482a6c1e84528c148bac609e793cf7cfe113c7b",
+          "ordinary_genus1_family": false,
+          "reduced_classes_examined": 8192,
+          "representatives": [
+            {
+              "Frobenius_span_basis_binary": [
+                65
+              ],
+              "a": 1,
+              "b": 1,
+              "compositum_genus_from_conductors": 1,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 1
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1025,
+                769,
+                257,
+                129,
+                65
+              ],
+              "a": 1,
+              "b": 2,
+              "compositum_genus_from_conductors": 16,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1473,
+                897,
+                1
+              ],
+              "a": 1,
+              "b": 14,
+              "compositum_genus_from_conductors": 4,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                16,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 81,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2049,
+                1024,
+                768,
+                384,
+                192,
+                64
+              ],
+              "a": 1,
+              "b": 32,
+              "compositum_genus_from_conductors": 32,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2177,
+                1408,
+                896,
+                64
+              ],
+              "a": 1,
+              "b": 34,
+              "compositum_genus_from_conductors": 8,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                3713,
+                64
+              ],
+              "a": 1,
+              "b": 58,
+              "compositum_genus_from_conductors": 2,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 2
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                66,
+                18,
+                14,
+                6,
+                3
+              ],
+              "a": 2,
+              "b": 1,
+              "compositum_genus_from_conductors": 31,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -8,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 57,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2050,
+                1030,
+                788,
+                401,
+                218,
+                64
+              ],
+              "a": 2,
+              "b": 32,
+              "compositum_genus_from_conductors": 62,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                8,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 73,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                67,
+                18,
+                14,
+                6,
+                3
+              ],
+              "a": 3,
+              "b": 1,
+              "compositum_genus_from_conductors": 30,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1105,
+                845,
+                325,
+                195
+              ],
+              "a": 3,
+              "b": 3,
+              "compositum_genus_from_conductors": 15,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                4291,
+                1170,
+                910,
+                390,
+                195
+              ],
+              "a": 3,
+              "b": 3,
+              "compositum_genus_from_conductors": null,
+              "constant_representative": 32,
+              "constant_trace_bit": 1,
+              "geometrically_connected": false,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2051,
+                1030,
+                788,
+                401,
+                218,
+                64
+              ],
+              "a": 3,
+              "b": 32,
+              "compositum_genus_from_conductors": 60,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                16,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 81,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                78,
+                25,
+                14
+              ],
+              "a": 14,
+              "b": 1,
+              "compositum_genus_from_conductors": 6,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                16,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 81,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1049,
+                782,
+                279,
+                142,
+                64
+              ],
+              "a": 14,
+              "b": 2,
+              "compositum_genus_from_conductors": 24,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1113,
+                846,
+                343,
+                206
+              ],
+              "a": 14,
+              "b": 3,
+              "compositum_genus_from_conductors": 12,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                4302,
+                1175,
+                896,
+                409,
+                206
+              ],
+              "a": 14,
+              "b": 3,
+              "compositum_genus_from_conductors": null,
+              "constant_representative": 32,
+              "constant_trace_bit": 1,
+              "geometrically_connected": false,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1495,
+                910
+              ],
+              "a": 14,
+              "b": 14,
+              "compositum_genus_from_conductors": 3,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 2
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                5006,
+                1625,
+                910
+              ],
+              "a": 14,
+              "b": 14,
+              "compositum_genus_from_conductors": null,
+              "constant_representative": 32,
+              "constant_trace_bit": 1,
+              "geometrically_connected": false,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2062,
+                1049,
+                782,
+                409,
+                206,
+                64
+              ],
+              "a": 14,
+              "b": 32,
+              "compositum_genus_from_conductors": 48,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                79,
+                25,
+                14
+              ],
+              "a": 15,
+              "b": 1,
+              "compositum_genus_from_conductors": 7,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1048,
+                783,
+                278,
+                143,
+                65
+              ],
+              "a": 15,
+              "b": 2,
+              "compositum_genus_from_conductors": 28,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2063,
+                1049,
+                782,
+                409,
+                206,
+                64
+              ],
+              "a": 15,
+              "b": 32,
+              "compositum_genus_from_conductors": 56,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2191,
+                1433,
+                919,
+                64
+              ],
+              "a": 15,
+              "b": 34,
+              "compositum_genus_from_conductors": 14,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                0,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 65,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                96,
+                16,
+                12,
+                6,
+                3,
+                1
+              ],
+              "a": 32,
+              "b": 1,
+              "compositum_genus_from_conductors": 63,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                8,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 73,
+              "span_rank": 6
+            }
+          ]
+        },
+        {
+          "distribution": [
+            {
+              "classes": 1,
+              "genus": 0,
+              "geometric": true,
+              "rank": 0,
+              "source_genus": 0
+            },
+            {
+              "classes": 1,
+              "genus": null,
+              "geometric": false,
+              "rank": 1,
+              "source_genus": 0
+            },
+            {
+              "classes": 4,
+              "genus": 0,
+              "geometric": true,
+              "rank": 1,
+              "source_genus": 0
+            },
+            {
+              "classes": 2,
+              "genus": 1,
+              "geometric": true,
+              "rank": 1,
+              "source_genus": 1
+            },
+            {
+              "classes": 14,
+              "genus": 0,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 0
+            },
+            {
+              "classes": 8,
+              "genus": 2,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 1
+            },
+            {
+              "classes": 17,
+              "genus": 3,
+              "geometric": true,
+              "rank": 2,
+              "source_genus": 1
+            },
+            {
+              "classes": 6,
+              "genus": null,
+              "geometric": false,
+              "rank": 3,
+              "source_genus": 0
+            },
+            {
+              "classes": 9,
+              "genus": null,
+              "geometric": false,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 12,
+              "genus": 0,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 0
+            },
+            {
+              "classes": 12,
+              "genus": 3,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 12,
+              "genus": 4,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 36,
+              "genus": 6,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 18,
+              "genus": 7,
+              "geometric": true,
+              "rank": 3,
+              "source_genus": 1
+            },
+            {
+              "classes": 48,
+              "genus": 0,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 0
+            },
+            {
+              "classes": 24,
+              "genus": 8,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 24,
+              "genus": 9,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 24,
+              "genus": 11,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 192,
+              "genus": 12,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 72,
+              "genus": 14,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 216,
+              "genus": 15,
+              "geometric": true,
+              "rank": 4,
+              "source_genus": 1
+            },
+            {
+              "classes": 24,
+              "genus": null,
+              "geometric": false,
+              "rank": 5,
+              "source_genus": 0
+            },
+            {
+              "classes": 72,
+              "genus": null,
+              "geometric": false,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 144,
+              "genus": null,
+              "geometric": false,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 48,
+              "genus": 0,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 0
+            },
+            {
+              "classes": 48,
+              "genus": 15,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 48,
+              "genus": 16,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 144,
+              "genus": 24,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 144,
+              "genus": 27,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 144,
+              "genus": 28,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 576,
+              "genus": 30,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 288,
+              "genus": 31,
+              "geometric": true,
+              "rank": 5,
+              "source_genus": 1
+            },
+            {
+              "classes": 96,
+              "genus": 0,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 0
+            },
+            {
+              "classes": 96,
+              "genus": 32,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 96,
+              "genus": 45,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 96,
+              "genus": 47,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 480,
+              "genus": 48,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 288,
+              "genus": 56,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 288,
+              "genus": 57,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 288,
+              "genus": 59,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 1728,
+              "genus": 60,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 1152,
+              "genus": 62,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            },
+            {
+              "classes": 1152,
+              "genus": 63,
+              "geometric": true,
+              "rank": 6,
+              "source_genus": 1
+            }
+          ],
+          "family": "two_poles",
+          "geometric_nonconstant_spans": 7935,
+          "ordered_class_results_sha256": "be6a07851627895223a2e32238776d5022f1bfb23271bf57e8c5e18835c1db5e",
+          "ordinary_genus1_family": true,
+          "reduced_classes_examined": 8192,
+          "representatives": [
+            {
+              "Frobenius_span_basis_binary": [
+                65
+              ],
+              "a": 1,
+              "b": 1,
+              "compositum_genus_from_conductors": 1,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -9,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 56,
+              "span_rank": 1
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1025,
+                769,
+                257,
+                129,
+                65
+              ],
+              "a": 1,
+              "b": 2,
+              "compositum_genus_from_conductors": 16,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -1,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 64,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1089,
+                833,
+                321,
+                193,
+                1
+              ],
+              "a": 1,
+              "b": 3,
+              "compositum_genus_from_conductors": 15,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -9,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 56,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1473,
+                897,
+                1
+              ],
+              "a": 1,
+              "b": 14,
+              "compositum_genus_from_conductors": 3,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                15,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 80,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1409,
+                961,
+                65
+              ],
+              "a": 1,
+              "b": 15,
+              "compositum_genus_from_conductors": 4,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                7,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 72,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2049,
+                1024,
+                768,
+                384,
+                192,
+                64
+              ],
+              "a": 1,
+              "b": 32,
+              "compositum_genus_from_conductors": 32,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                11,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 76,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2177,
+                1408,
+                896,
+                64
+              ],
+              "a": 1,
+              "b": 34,
+              "compositum_genus_from_conductors": 8,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -5,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 60,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                3713,
+                64
+              ],
+              "a": 1,
+              "b": 58,
+              "compositum_genus_from_conductors": 2,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                11,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 76,
+              "span_rank": 2
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1040,
+                780,
+                260,
+                130,
+                65
+              ],
+              "a": 2,
+              "b": 2,
+              "compositum_genus_from_conductors": 31,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -1,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 64,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1104,
+                844,
+                324,
+                194,
+                1
+              ],
+              "a": 2,
+              "b": 3,
+              "compositum_genus_from_conductors": 30,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -1,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 64,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1476,
+                898,
+                22,
+                14,
+                1
+              ],
+              "a": 2,
+              "b": 14,
+              "compositum_genus_from_conductors": 24,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -1,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 64,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1412,
+                962,
+                86,
+                23,
+                14
+              ],
+              "a": 2,
+              "b": 15,
+              "compositum_genus_from_conductors": 28,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                7,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 72,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2050,
+                1030,
+                788,
+                401,
+                218,
+                64
+              ],
+              "a": 2,
+              "b": 32,
+              "compositum_genus_from_conductors": 62,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -9,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 56,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2178,
+                1414,
+                914,
+                78,
+                25,
+                14
+              ],
+              "a": 2,
+              "b": 34,
+              "compositum_genus_from_conductors": 59,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                7,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 72,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                3714,
+                70,
+                18,
+                8,
+                5,
+                3
+              ],
+              "a": 2,
+              "b": 58,
+              "compositum_genus_from_conductors": 47,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -13,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 52,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1105,
+                845,
+                325,
+                195
+              ],
+              "a": 3,
+              "b": 3,
+              "compositum_genus_from_conductors": 15,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -9,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 56,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                4291,
+                1170,
+                910,
+                390,
+                195
+              ],
+              "a": 3,
+              "b": 3,
+              "compositum_genus_from_conductors": null,
+              "constant_representative": 32,
+              "constant_trace_bit": 1,
+              "geometrically_connected": false,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                9,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 74,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1477,
+                899,
+                23,
+                14
+              ],
+              "a": 3,
+              "b": 14,
+              "compositum_genus_from_conductors": 12,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -9,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 56,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                4995,
+                1606,
+                916,
+                23,
+                14
+              ],
+              "a": 3,
+              "b": 14,
+              "compositum_genus_from_conductors": null,
+              "constant_representative": 32,
+              "constant_trace_bit": 1,
+              "geometrically_connected": false,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                9,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 74,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1413,
+                963,
+                87,
+                23,
+                14
+              ],
+              "a": 3,
+              "b": 15,
+              "compositum_genus_from_conductors": 27,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -9,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 56,
+              "span_rank": 5
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2051,
+                1030,
+                788,
+                401,
+                218,
+                64
+              ],
+              "a": 3,
+              "b": 32,
+              "compositum_genus_from_conductors": 60,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -5,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 60,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2179,
+                1414,
+                914,
+                78,
+                25,
+                14
+              ],
+              "a": 3,
+              "b": 34,
+              "compositum_genus_from_conductors": 57,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -5,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 60,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                3715,
+                70,
+                18,
+                8,
+                5,
+                3
+              ],
+              "a": 3,
+              "b": 58,
+              "compositum_genus_from_conductors": 45,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -9,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 56,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1495,
+                910
+              ],
+              "a": 14,
+              "b": 14,
+              "compositum_genus_from_conductors": 3,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                15,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 80,
+              "span_rank": 2
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                5006,
+                1625,
+                910
+              ],
+              "a": 14,
+              "b": 14,
+              "compositum_genus_from_conductors": null,
+              "constant_representative": 32,
+              "constant_trace_bit": 1,
+              "geometrically_connected": false,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -15,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 50,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1431,
+                974,
+                64
+              ],
+              "a": 14,
+              "b": 15,
+              "compositum_genus_from_conductors": 6,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                15,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 80,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2062,
+                1049,
+                782,
+                409,
+                206,
+                64
+              ],
+              "a": 14,
+              "b": 32,
+              "compositum_genus_from_conductors": 48,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -1,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 64,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                3726,
+                89,
+                23,
+                14
+              ],
+              "a": 14,
+              "b": 58,
+              "compositum_genus_from_conductors": 9,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -9,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 56,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                1430,
+                975,
+                65
+              ],
+              "a": 15,
+              "b": 15,
+              "compositum_genus_from_conductors": 7,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                7,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 72,
+              "span_rank": 3
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2063,
+                1049,
+                782,
+                409,
+                206,
+                64
+              ],
+              "a": 15,
+              "b": 32,
+              "compositum_genus_from_conductors": 56,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -13,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 52,
+              "span_rank": 6
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2191,
+                1433,
+                919,
+                64
+              ],
+              "a": 15,
+              "b": 34,
+              "compositum_genus_from_conductors": 14,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                -13,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 52,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                3727,
+                89,
+                23,
+                14
+              ],
+              "a": 15,
+              "b": 58,
+              "compositum_genus_from_conductors": 11,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                3,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 68,
+              "span_rank": 4
+            },
+            {
+              "Frobenius_span_basis_binary": [
+                2080,
+                1040,
+                780,
+                390,
+                195,
+                65
+              ],
+              "a": 32,
+              "b": 32,
+              "compositum_genus_from_conductors": 63,
+              "constant_representative": 0,
+              "constant_trace_bit": 0,
+              "geometrically_connected": true,
+              "source_full_Frobenius_polynomial_ascending": [
+                64,
+                11,
+                1
+              ],
+              "source_genus": 1,
+              "source_point_count": 76,
+              "span_rank": 6
+            }
+          ]
+        }
+      ],
+      "field_size": 64,
+      "modulus_binary": 67,
+      "timing_seconds": {
+        "evaluation": 0.575076810999235,
+        "setup": 0.0029279930004122434
+      }
+    }
+  ],
+  "scope": {
+    "Jacobian_norm_conorm_evaluated": false,
+    "all_declared_reduced_classes_exhausted": true,
+    "compositum_genus_uses_conductor_discriminant_formula": true,
+    "full_Frobenius_polynomials_for_genus1_quotients": true,
+    "general_compositum_equations_constructed": false,
+    "practical_speedup_established": false
+  },
+  "source_sha256": "f22b9ff07dcc9cef553aeddd22b2bea4374964080b8c63683d91c86dfd4fae6f"
+}

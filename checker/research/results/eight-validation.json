@@ -1,0 +1,30 @@
+{
+  "Python_test_status": "passed",
+  "Python_tests": 71,
+  "Sage_validation": "separate exact experiments and independent oracles; see report artifacts",
+  "all_full_repository_findings_in_unmodified_HEAD_files": true,
+  "changed_Python_files_linted": 16,
+  "changed_file_lint_status": "passed",
+  "full_repository_ruff_findings": 28,
+  "preexisting_lint_files": [
+    "checker/ghs_checker/__init__.py",
+    "checker/ghs_checker/analysis.py",
+    "checker/ghs_checker/cli.py",
+    "checker/ghs_checker/curve.py",
+    "checker/ghs_checker/field.py",
+    "checker/ghs_checker/isogeny.py",
+    "checker/research/cubic_curve_census.py",
+    "checker/research/genus2_cover_example.py",
+    "checker/research/prym_cover_experiments.py",
+    "checker/research/small_fields.py",
+    "checker/research/weil_quotient_kernels.py",
+    "checker/scripts/import_presets.py",
+    "checker/tests/test_checker.py",
+    "checker/tests/test_experiment_batch.py",
+    "checker/tests/test_genus2_research.py",
+    "checker/tests/test_weil_quotient_kernels.py"
+  ],
+  "remote_CI_run": false,
+  "test_log": "research/results/eight-python-tests.log.gz",
+  "test_log_sha256": "98ecdaeeca2f54842bbfb819c88f12d7a49cb9f4b368b7a916ece16629636adb"
+}

@@ -1,0 +1,69 @@
+{
+  "constructive_genus4_control": {
+    "cover_equals_source_evaluated_at_T_squared": true,
+    "cover_over_F7": [
+      2401,
+      0,
+      -196,
+      0,
+      -26,
+      0,
+      -4,
+      0,
+      1
+    ],
+    "weak_and_neighbor_over_F49": [
+      2401,
+      -196,
+      -26,
+      -4,
+      1
+    ]
+  },
+  "elapsed_seconds": 51.69781004299875,
+  "experiment": 6,
+  "finite_split_fiber_source_points": 16,
+  "input_sha256": {
+    "research/results/quotient-reconstruction.json": "1d1db3d864894f894174cc2f57e0b4ba377ff74cdb367eb1f3fc173301938621",
+    "research/results/toy-cover.json": "b00a38672074ae7cf71c6b54b91f1730cfe7ef56fdfa272650d8f76d1799ee3a"
+  },
+  "order17_subgroup_witness": {
+    "O": [
+      10,
+      1,
+      1
+    ],
+    "P": [
+      10,
+      6,
+      1
+    ],
+    "cofactor": 128,
+    "finite_split_fiber_points": [
+      [
+        32,
+        17,
+        1
+      ],
+      [
+        13,
+        10,
+        1
+      ]
+    ],
+    "image_divisor": "-4*Place (1/x1, 1/x1*x2^6 + 3*x1*x2^5 + ((5*x1^3 + 4*x1 + 1)/x1^2)*x2^4 + ((3*x1 + 3)/x1)*x2^3 + 5*x2^2 + 2*x2 + 6)\n + 2*Place (x1 + i, x2 + 2*i + 1)\n + 2*Place (x1 + 6*i, x2 + 5*i + 1)",
+    "map": "D -> pi^*D + Frob7(pi^*D)",
+    "order": 17,
+    "source_divisor": "-2*Place (x1 + 5*i + 6, x2 + 5*i + 6)\n + Place (x1^2 + (6*i + 4)*x1 + 6*i + 6, x2 + (5*i + 1)*x1 + 5*i + 4)"
+  },
+  "practical_speedup_established": false,
+  "random_seed": 20261020,
+  "sage_version": "10.6",
+  "scope": {
+    "actual_genus4_Jacobian_subgroup_image_verified": true,
+    "exceptional_and_nonsplit_map_charts_evaluated": false,
+    "general_Schottky_filter_implemented": false,
+    "general_dimension4_quotient_reconstruction_implemented": false
+  },
+  "source_sha256": "904a2e2833320629fb5961b74809d32965f74642fb4a427b9518c493ca4e9cdf"
+}
