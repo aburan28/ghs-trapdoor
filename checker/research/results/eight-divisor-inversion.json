@@ -1,0 +1,17 @@
+{
+  "attempts": [],
+  "chart": "U=x^3+u2*x^2+u1*x+u0, Z=V(x), V=v2*x^2+v1*x+v0",
+  "construction_status": "time_budget_exhausted",
+  "experiment": 4,
+  "input_sha256": "40a052f167c532ba8908cd11025b692d637fb6f699d989804852914efa13c9de",
+  "sage_version": "10.6",
+  "scope": {
+    "global_sign_resolved": false,
+    "scalable_inversion_established": false
+  },
+  "setup_seconds": 82.04151919799915,
+  "solver_budget_seconds_per_attempt": 120,
+  "source_archive": "research/results/eight-inversion-120-source.py.gz",
+  "source_sha256": "740456942bc76b28eb675eae4d3ea6db8135351a982bd2495a7dbb5ab4f6b5e7",
+  "subgroup_enumeration_used": false
+}

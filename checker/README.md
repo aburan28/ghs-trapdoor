@@ -2,6 +2,8 @@
 
 A dependency-free Python research tool for **classical characteristic-two GHS screening** and **bounded, explicit rational 3-isogeny searches**.
 
+The separate [research experiments](research/DESCENT_LEADS.md) now include exact isogeny routes from curves rejected by a direct kernel screen, an opposite-sign target's quadratic trace-zero subgroup, and further hypotheses for alternative descent spaces. These toy experiments do not change the binary checker's scope or establish a practical attack.
+
 The tool supports ordinary binary elliptic curves
 
 \[

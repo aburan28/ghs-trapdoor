@@ -1,0 +1,17 @@
+{
+  "attempts": [],
+  "chart": "U=x^3+u2*x^2+u1*x+u0, Z=V(x), V=v2*x^2+v1*x+v0",
+  "construction_status": "time_budget_exhausted",
+  "experiment": 4,
+  "input_sha256": "40a052f167c532ba8908cd11025b692d637fb6f699d989804852914efa13c9de",
+  "sage_version": "10.6",
+  "scope": {
+    "global_sign_resolved": false,
+    "scalable_inversion_established": false
+  },
+  "setup_seconds": 76.34064010300062,
+  "solver_budget_seconds_per_attempt": 300,
+  "source_archive": "research/results/eight-divisor-inversion-det3-source.py.gz",
+  "source_sha256": "95182fdc3f056dc7154ace3d2a59ab86fb53e7a629878e91d65a65f42aa4ac0b",
+  "subgroup_enumeration_used": false
+}
