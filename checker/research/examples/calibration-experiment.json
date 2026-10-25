@@ -1,0 +1,160 @@
+{
+  "protocol": "ghs-quotient-calibration-v1",
+  "status": "designed_target_experiment_not_executed",
+  "preflight": {
+    "path": "research/results/calibration-preflight.json",
+    "sha256": "cfca312b80fe7a35da6cd8d31ee44b195885aad5fbd6b1de07b1fc9dfe33dc65",
+    "source_rank_checked": true,
+    "target_frame_checked": false
+  },
+  "source": {
+    "p": 7,
+    "extension_degree": 3,
+    "modulus_ascending": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "a": 248,
+    "b": 42,
+    "generator": [
+      0,
+      176
+    ],
+    "subgroup_order": 373,
+    "kernel_enumeration_index": 153,
+    "kernel_basis_rows": [
+      [
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "theta_seed": [
+      0,
+      0,
+      0
+    ]
+  },
+  "selected_section_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "training_frame_known_scalars": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11
+  ],
+  "holdout": {
+    "path": "research/results/calibration-preflight.json",
+    "field": "holdout_coordinate_inputs",
+    "primary_points": 32,
+    "pilot_stage_primary_points": 8,
+    "refit_or_replace_after_target_results": false,
+    "scalar_labels_in_evaluator_input": false
+  },
+  "field_plan": {
+    "calibration_characteristic": 7,
+    "calibration_extension_degree": 18,
+    "conservative_support_extension_degree_over_F7": 108,
+    "old_F7_12_splitting_field_reusable": false,
+    "explicit_embedding_certificates_required": true
+  },
+  "calibration": {
+    "matrix_rows": 8,
+    "matrix_columns": 8,
+    "constraint_rows": 63,
+    "constraint_columns": 64,
+    "required_rank": 63,
+    "required_nullity": 1,
+    "determinant_nonzero": true,
+    "freeze_before_holdout_targets": true,
+    "training_fit_counts_as_validation": false
+  },
+  "profile_A": {
+    "uses_certified_inherited_anchor": true,
+    "anchor_source": "research/results/quotient-divisor-verification.json",
+    "anchor_scalar_110_used_for_evaluation": false,
+    "seed_free_initialization_claim": false
+  },
+  "profile_B": {
+    "uses_certified_inherited_anchor": false,
+    "uses_normalized_target_Weil_functions": true,
+    "global_section_identity_certificate_required": true,
+    "reference_lookup_files_in_evaluator_input": false
+  },
+  "inverse": {
+    "regular_fiber_degree": 12,
+    "ordered_solutions": 12,
+    "unordered_effective_divisors": 2,
+    "permutations_per_regular_divisor": 6,
+    "exact_residual_relation_required": true,
+    "translation_attempts": [
+      0,
+      1,
+      2
+    ],
+    "maximum_inverse_systems_per_point": 6
+  },
+  "validation": {
+    "primary_exact_images_required": 32,
+    "scalar_37_checks": 8,
+    "addition_checks": 8,
+    "order_checks_required": true,
+    "Jacobian_class_Frobenius_fixed_required": true,
+    "independent_arithmetic_required": true,
+    "global_sign_chosen_once": true,
+    "finite_group_agreement_is_global_identity_proof": false
+  },
+  "budgets": {
+    "memory_bytes": 2147483648,
+    "cpu_seconds_per_inverse_system": 60,
+    "profile_A_wall_seconds": 3600,
+    "budget_exhaustion_result": "inconclusive_under_fixed_budget"
+  },
+  "implemented": {
+    "source_preflight": true,
+    "target_frame_evaluation": false,
+    "calibration_fit": false,
+    "blind_transfer": false,
+    "seed_free_initialization": false
+  },
+  "input_sha256": {
+    "quotient-reconstruction.json": "1d1db3d864894f894174cc2f57e0b4ba377ff74cdb367eb1f3fc173301938621",
+    "quotient-divisor-inputs.json": "40a052f167c532ba8908cd11025b692d637fb6f699d989804852914efa13c9de",
+    "quotient-divisor-verification.json": "bf5bccdcd857d70eafe687a5e752720a8aa608e32a2db936c62df493dd6b996c",
+    "symmetric-kummer-inversion-sage.json": "9dcf86c9b7b9effadfe89f5fd3d77e4d491c4c1a72bd6b0eb9433edd11bfe7b0"
+  }
+}

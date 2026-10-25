@@ -1,0 +1,724 @@
+{
+  "scope": {
+    "toy_only": true,
+    "field_degrees_supported_for_reduction": "odd",
+    "polynomial_single_pole_Artin_Schreier_covers_only": true,
+    "nonpolynomial_covers_or_multiple_poles_implemented": false,
+    "coordinate_isomorphism_is_not_a_Jacobian_DLP_descent": true,
+    "norm_conorm_subgroup_map_evaluated": false,
+    "novel_vulnerability_established": false
+  },
+  "field_F512": {
+    "characteristic": 2,
+    "degree": 9,
+    "modulus": "x^9+x+1",
+    "modulus_hex": "0x203",
+    "basis": "polynomial",
+    "irreducibility_verified": true
+  },
+  "field_F8": {
+    "characteristic": 2,
+    "degree": 3,
+    "modulus": "x^3+x+1",
+    "modulus_hex": "0xb",
+    "basis": "polynomial",
+    "irreducibility_verified": true
+  },
+  "base_curve_polynomial_ascending": [
+    0,
+    1,
+    0,
+    3,
+    0,
+    1
+  ],
+  "smooth_cover_genus": 2,
+  "curve_counts_F8_F64_F512": [
+    9,
+    65,
+    513
+  ],
+  "F8_Frobenius_polynomial_ascending": [
+    64,
+    0,
+    0,
+    0,
+    1
+  ],
+  "F512_Frobenius_polynomial_ascending_from_cubed_roots": [
+    262144,
+    0,
+    0,
+    0,
+    1
+  ],
+  "F8_Jacobian_order": 65,
+  "F512_Jacobian_order": 262145,
+  "F512_Jacobian_order_factorization": [
+    [
+      5,
+      1
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      37,
+      1
+    ],
+    [
+      109,
+      1
+    ]
+  ],
+  "trace_zero_factor_order": 4033,
+  "supersingular_genus_2_toy_control": true,
+  "extension_group_odd_primes_absent_from_base_Jacobian_order": [
+    37,
+    109
+  ],
+  "DLP_descent_control": "Every homomorphism to the base rational Jacobian kills a subgroup of one of the displayed absent prime orders",
+  "experiments": [
+    {
+      "raw_polynomial_ascending": [
+        348,
+        430,
+        344,
+        176,
+        461,
+        269,
+        70,
+        0,
+        234,
+        0,
+        464,
+        0,
+        85
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        84,
+        431,
+        235,
+        77,
+        502,
+        268,
+        15
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        352,
+        55,
+        167,
+        367,
+        399,
+        155,
+        323,
+        0,
+        222,
+        0,
+        292,
+        0,
+        499
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        472,
+        54,
+        437,
+        402,
+        376,
+        154,
+        423
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        470,
+        120,
+        426,
+        321,
+        145,
+        299,
+        232,
+        0,
+        170,
+        0,
+        450,
+        0,
+        332
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        176,
+        121,
+        245,
+        444,
+        510,
+        298,
+        94
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        120,
+        303,
+        295,
+        435,
+        197,
+        428,
+        175,
+        0,
+        418,
+        0,
+        439,
+        0,
+        411
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        98,
+        302,
+        245,
+        334,
+        426,
+        429,
+        355
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        324,
+        361,
+        385,
+        357,
+        188,
+        384,
+        411,
+        0,
+        255,
+        0,
+        481,
+        0,
+        195
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        438,
+        360,
+        95,
+        408,
+        497,
+        385,
+        315
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        116,
+        86,
+        61,
+        421,
+        462,
+        123,
+        442,
+        0,
+        472,
+        0,
+        346,
+        0,
+        410
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        388,
+        87,
+        304,
+        344,
+        328,
+        122,
+        354
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        176,
+        473,
+        300,
+        32,
+        117,
+        232,
+        214,
+        0,
+        113,
+        0,
+        63,
+        0,
+        171
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        362,
+        472,
+        404,
+        221,
+        133,
+        233,
+        511
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        188,
+        239,
+        52,
+        291,
+        379,
+        212,
+        448,
+        0,
+        83,
+        0,
+        361,
+        0,
+        462
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        140,
+        238,
+        30,
+        478,
+        47,
+        213,
+        364
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        430,
+        469,
+        325,
+        457,
+        153,
+        74,
+        507,
+        0,
+        466,
+        0,
+        93,
+        0,
+        463
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        210,
+        468,
+        429,
+        308,
+        302,
+        75,
+        365
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        404,
+        9,
+        374,
+        202,
+        230,
+        87,
+        60,
+        0,
+        270,
+        0,
+        268,
+        0,
+        467
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        348,
+        8,
+        310,
+        55,
+        116,
+        86,
+        303
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        136,
+        100,
+        253,
+        442,
+        148,
+        102,
+        439,
+        0,
+        426,
+        0,
+        11,
+        0,
+        322
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        170,
+        101,
+        242,
+        327,
+        494,
+        103,
+        58
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        474,
+        314,
+        164,
+        505,
+        240,
+        319,
+        92,
+        0,
+        315,
+        0,
+        210,
+        0,
+        424
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        342,
+        315,
+        103,
+        260,
+        251,
+        318,
+        460
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        12,
+        472,
+        294,
+        419,
+        348,
+        101,
+        104,
+        0,
+        447,
+        0,
+        14,
+        0,
+        118
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        486,
+        473,
+        415,
+        350,
+        489,
+        100,
+        164
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        428,
+        267,
+        244,
+        419,
+        54,
+        218,
+        242,
+        0,
+        358,
+        0,
+        317,
+        0,
+        338
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        156,
+        266,
+        304,
+        350,
+        176,
+        219,
+        62
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        360,
+        503,
+        5,
+        2,
+        309,
+        61,
+        501,
+        0,
+        212,
+        0,
+        342,
+        0,
+        300
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        114,
+        502,
+        239,
+        255,
+        286,
+        60,
+        222
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    },
+    {
+      "raw_polynomial_ascending": [
+        212,
+        503,
+        117,
+        344,
+        403,
+        59,
+        151,
+        0,
+        114,
+        0,
+        322,
+        0,
+        414
+      ],
+      "reduced_polynomial_ascending": [
+        0,
+        1,
+        0,
+        253,
+        0,
+        1
+      ],
+      "coordinate_correction_h_ascending": [
+        166,
+        502,
+        159,
+        421,
+        166,
+        58,
+        352
+      ],
+      "raw_polynomial_degree": 12,
+      "reduced_odd_pole_order": 5,
+      "smooth_cover_genus": 2,
+      "affine_point_transports_checked": 512,
+      "polynomial_identity_verified": true,
+      "reduced_coefficients_fixed_by_Frobenius_8": true
+    }
+  ]
+}

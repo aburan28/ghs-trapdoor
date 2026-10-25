@@ -1,0 +1,401 @@
+{
+  "scope": {
+    "toy_only": true,
+    "point_counts_exhaustive_for_each_selected_equation": true,
+    "enumeration_of_all_curves_over_these_fields": false,
+    "CM_selection_and_class_polynomials_checked_separately_in_Sage": true,
+    "Jacobian_quotient_construction_implemented": false,
+    "DLP_solved": false,
+    "novel_vulnerability_established": false
+  },
+  "sage_input_sha256": "f0db230400aafd324a9a705848f637ecadabfd347ca6a10bfa6b0e6215fc7ed3",
+  "summary": {
+    "verified_curve_models": 6,
+    "distinct_j_Frobenius_orbits": 6,
+    "elliptic_isogeny_classes_over_stated_fields": 3,
+    "endomorphism_field_discriminants": [
+      -563,
+      -211,
+      -107
+    ]
+  },
+  "candidates": [
+    {
+      "p": 13,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        11,
+        2,
+        0,
+        1
+      ],
+      "a": 563,
+      "b": 436,
+      "j": 47,
+      "j_frobenius_orbit_sorted": [
+        47,
+        444,
+        1886
+      ],
+      "group_order": 2281,
+      "trace": -83,
+      "CM_order_used_discriminant": -211,
+      "endomorphism_field_discriminant": -211,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        497,
+        1114,
+        1229,
+        1918
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        0,
+        257
+      ],
+      "generator_order_verified": 2281,
+      "independent_field_and_point_count_check": true,
+      "independent_division_polynomial_and_generator_checks": true,
+      "rational_2_kernels": 0,
+      "mixed_2_kernel_candidates": 0,
+      "rational_3_kernels": 16,
+      "mixed_3_kernel_candidates": 12,
+      "quotient_Jacobian_constructed": false
+    },
+    {
+      "p": 13,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        11,
+        2,
+        0,
+        1
+      ],
+      "a": 2154,
+      "b": 1436,
+      "j": 249,
+      "j_frobenius_orbit_sorted": [
+        249,
+        581,
+        1551
+      ],
+      "group_order": 2137,
+      "trace": 61,
+      "CM_order_used_discriminant": -563,
+      "endomorphism_field_discriminant": -563,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        1028,
+        1794,
+        1999,
+        2121
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        1,
+        632
+      ],
+      "generator_order_verified": 2137,
+      "independent_field_and_point_count_check": true,
+      "independent_division_polynomial_and_generator_checks": true,
+      "rational_2_kernels": 0,
+      "mixed_2_kernel_candidates": 0,
+      "rational_3_kernels": 16,
+      "mixed_3_kernel_candidates": 12,
+      "quotient_Jacobian_constructed": false
+    },
+    {
+      "p": 13,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        11,
+        2,
+        0,
+        1
+      ],
+      "a": 28,
+      "b": 98,
+      "j": 827,
+      "j_frobenius_orbit_sorted": [
+        827,
+        1797,
+        2129
+      ],
+      "group_order": 2137,
+      "trace": 61,
+      "CM_order_used_discriminant": -563,
+      "endomorphism_field_discriminant": -563,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        153,
+        1298,
+        1448,
+        1859
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        0,
+        633
+      ],
+      "generator_order_verified": 2137,
+      "independent_field_and_point_count_check": true,
+      "independent_division_polynomial_and_generator_checks": true,
+      "rational_2_kernels": 0,
+      "mixed_2_kernel_candidates": 0,
+      "rational_3_kernels": 16,
+      "mixed_3_kernel_candidates": 12,
+      "quotient_Jacobian_constructed": false
+    },
+    {
+      "p": 13,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        11,
+        2,
+        0,
+        1
+      ],
+      "a": 1110,
+      "b": 1428,
+      "j": 1299,
+      "j_frobenius_orbit_sorted": [
+        1299,
+        1631,
+        1823
+      ],
+      "group_order": 2137,
+      "trace": 61,
+      "CM_order_used_discriminant": -563,
+      "endomorphism_field_discriminant": -563,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        1385,
+        1658,
+        1862,
+        1881
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        3,
+        1
+      ],
+      "generator_order_verified": 2137,
+      "independent_field_and_point_count_check": true,
+      "independent_division_polynomial_and_generator_checks": true,
+      "rational_2_kernels": 0,
+      "mixed_2_kernel_candidates": 0,
+      "rational_3_kernels": 16,
+      "mixed_3_kernel_candidates": 12,
+      "quotient_Jacobian_constructed": false
+    },
+    {
+      "p": 19,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        17,
+        4,
+        0,
+        1
+      ],
+      "a": 1990,
+      "b": 5893,
+      "j": 584,
+      "j_frobenius_orbit_sorted": [
+        584,
+        1068,
+        5963
+      ],
+      "group_order": 6997,
+      "trace": -137,
+      "CM_order_used_discriminant": -963,
+      "endomorphism_field_discriminant": -107,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        501,
+        2775,
+        4359,
+        6824
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        1,
+        3165
+      ],
+      "generator_order_verified": 6997,
+      "independent_field_and_point_count_check": true,
+      "independent_division_polynomial_and_generator_checks": true,
+      "rational_2_kernels": 0,
+      "mixed_2_kernel_candidates": 0,
+      "rational_3_kernels": 16,
+      "mixed_3_kernel_candidates": 12,
+      "quotient_Jacobian_constructed": false
+    },
+    {
+      "p": 19,
+      "extension_degree": 3,
+      "modulus_ascending": [
+        17,
+        4,
+        0,
+        1
+      ],
+      "a": 3486,
+      "b": 4648,
+      "j": 1217,
+      "j_frobenius_orbit_sorted": [
+        1217,
+        2934,
+        3086
+      ],
+      "group_order": 6997,
+      "trace": -137,
+      "CM_order_used_discriminant": -963,
+      "endomorphism_field_discriminant": -107,
+      "endomorphism_ring_fully_determined": false,
+      "three_division_roots": [
+        1928,
+        2588,
+        4433,
+        5149
+      ],
+      "q3_Frobenius_mod_3_verified": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "subgroup_generator": [
+        3,
+        2891
+      ],
+      "generator_order_verified": 6997,
+      "independent_field_and_point_count_check": true,
+      "independent_division_polynomial_and_generator_checks": true,
+      "rational_2_kernels": 0,
+      "mixed_2_kernel_candidates": 0,
+      "rational_3_kernels": 16,
+      "mixed_3_kernel_candidates": 12,
+      "quotient_Jacobian_constructed": false
+    }
+  ],
+  "first_class_four_isogeny_neighbors": {
+    "source_p": 13,
+    "source_j": 47,
+    "source_mixed_3_kernel_candidates": 12,
+    "neighbors": [
+      {
+        "kernel_x": 497,
+        "target_a": 883,
+        "target_b": 1504,
+        "target_j": 2139,
+        "group_order": 2281,
+        "rational_3_kernels": 1,
+        "mixed_3_kernel_candidates": 0,
+        "source_generator_image": [
+          957,
+          741
+        ],
+        "scalar_37_relation_verified": true,
+        "source_and_image_order": 2281,
+        "all_group_points_enumerated_for_this_map": false
+      },
+      {
+        "kernel_x": 1114,
+        "target_a": 1698,
+        "target_b": 1486,
+        "target_j": 686,
+        "group_order": 2281,
+        "rational_3_kernels": 1,
+        "mixed_3_kernel_candidates": 0,
+        "source_generator_image": [
+          884,
+          154
+        ],
+        "scalar_37_relation_verified": true,
+        "source_and_image_order": 2281,
+        "all_group_points_enumerated_for_this_map": false
+      },
+      {
+        "kernel_x": 1229,
+        "target_a": 342,
+        "target_b": 46,
+        "target_j": 682,
+        "group_order": 2281,
+        "rational_3_kernels": 1,
+        "mixed_3_kernel_candidates": 0,
+        "source_generator_image": [
+          1277,
+          473
+        ],
+        "scalar_37_relation_verified": true,
+        "source_and_image_order": 2281,
+        "all_group_points_enumerated_for_this_map": false
+      },
+      {
+        "kernel_x": 1918,
+        "target_a": 286,
+        "target_b": 905,
+        "target_j": 1906,
+        "group_order": 2281,
+        "rational_3_kernels": 1,
+        "mixed_3_kernel_candidates": 0,
+        "source_generator_image": [
+          1711,
+          1221
+        ],
+        "scalar_37_relation_verified": true,
+        "source_and_image_order": 2281,
+        "all_group_points_enumerated_for_this_map": false
+      }
+    ]
+  }
+}

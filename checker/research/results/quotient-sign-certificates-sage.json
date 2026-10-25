@@ -1,0 +1,319 @@
+{
+  "scope": {
+    "toy_only": true,
+    "Sage_version_used": "10.6",
+    "conditional_on_the_proven_geometric_quotient_and_twist_dichotomy": true,
+    "not_a_general_equal_order_isogeny_test": true,
+    "source_models_deduplicated_to_first_galois_orbit": true,
+    "quotient_to_Jacobian_map_evaluated_here": false,
+    "practical_speedup_established": false
+  },
+  "input_sha256": "1d1db3d864894f894174cc2f57e0b4ba377ff74cdb367eb1f3fc173301938621",
+  "summary": {
+    "kernel_constructions": 12,
+    "positive_lift_sign": 11,
+    "negative_lift_sign": 1
+  },
+  "certificates": [
+    {
+      "kernel_enumeration_index": 153,
+      "chart_parameters": [
+        0,
+        0,
+        1
+      ],
+      "point_P": [
+        1,
+        1,
+        0
+      ],
+      "point_O": [
+        0,
+        6,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 156,
+      "chart_parameters": [
+        0,
+        0,
+        0
+      ],
+      "point_P": [
+        0,
+        3,
+        1
+      ],
+      "point_O": [
+        0,
+        1,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 159,
+      "chart_parameters": [
+        0,
+        0,
+        1
+      ],
+      "point_P": [
+        1,
+        1,
+        0
+      ],
+      "point_O": [
+        0,
+        6,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 262,
+      "chart_parameters": [
+        0,
+        0,
+        0
+      ],
+      "point_P": [
+        0,
+        6,
+        1
+      ],
+      "point_O": [
+        0,
+        3,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 292,
+      "chart_parameters": [
+        0,
+        0,
+        0
+      ],
+      "point_P": [
+        0,
+        2,
+        1
+      ],
+      "point_O": [
+        0,
+        1,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 397,
+      "chart_parameters": [
+        0,
+        0,
+        0
+      ],
+      "point_P": [
+        2,
+        4,
+        1
+      ],
+      "point_O": [
+        1,
+        0,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 452,
+      "chart_parameters": [
+        0,
+        0,
+        0
+      ],
+      "point_P": [
+        1,
+        1,
+        1
+      ],
+      "point_O": [
+        0,
+        6,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 512,
+      "chart_parameters": [
+        0,
+        0,
+        0
+      ],
+      "point_P": [
+        0,
+        6,
+        1
+      ],
+      "point_O": [
+        0,
+        1,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 641,
+      "chart_parameters": [
+        0,
+        0,
+        2
+      ],
+      "point_P": [
+        0,
+        3,
+        1
+      ],
+      "point_O": [
+        0,
+        1,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 810,
+      "chart_parameters": [
+        0,
+        0,
+        0
+      ],
+      "point_P": [
+        0,
+        5,
+        1
+      ],
+      "point_O": [
+        0,
+        2,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": false,
+      "multiplication_by_315_is_zero": true,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": -1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 819,
+      "chart_parameters": [
+        0,
+        0,
+        0
+      ],
+      "point_P": [
+        0,
+        6,
+        1
+      ],
+      "point_O": [
+        0,
+        1,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    },
+    {
+      "kernel_enumeration_index": 828,
+      "chart_parameters": [
+        0,
+        1,
+        0
+      ],
+      "point_P": [
+        2,
+        1,
+        1
+      ],
+      "point_O": [
+        2,
+        0,
+        1
+      ],
+      "nonzero_divisor_class": "[P-O]",
+      "multiplication_by_373_is_zero": true,
+      "multiplication_by_315_is_zero": false,
+      "quotient_to_model_Frobenius_lift_sign_under_twist_dichotomy": 1,
+      "sign_matches_prior_full_Frobenius_polynomial": true,
+      "extension_field_curve_counts_used_to_form_certificate": false,
+      "explicit_quotient_map_Frobenius_conjugation_evaluated": false
+    }
+  ]
+}
