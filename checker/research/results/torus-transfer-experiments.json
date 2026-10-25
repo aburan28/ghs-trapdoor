@@ -1,0 +1,223 @@
+{
+  "scope": {
+    "toy_only": true,
+    "known_singular_curve_to_torus_isomorphism": true,
+    "DLP_transfer_demonstrated_on_singular_curves_only": true,
+    "smooth_elliptic_to_torus_reduction_established": false,
+    "novel_vulnerability_established": false
+  },
+  "experiments": [
+    {
+      "p": 5,
+      "delta_nonsquare": 2,
+      "quadratic_modulus_ascending": [
+        3,
+        0,
+        1
+      ],
+      "nodal_equation": "y^2=x^2*(x+delta)",
+      "torus_map": "(y-gamma*x)/(y+gamma*x); gamma^2=delta; O maps to 1",
+      "inverse_map": "z=gamma*(1+t)/(1-t); x=z^2-delta; y=z*x; t=1 maps to O",
+      "smooth_locus_order": 6,
+      "torus_order": 6,
+      "bijection_and_inverse_verified": true,
+      "group_law_pairs_checked": 36,
+      "all_scalar_logs_checked": 6,
+      "toy_DLP": {
+        "generator": [
+          2,
+          1
+        ],
+        "target": [
+          4,
+          1
+        ],
+        "generator_torus": 13,
+        "target_torus": 17,
+        "secret": 4,
+        "recovered_by_torus_enumeration": 4
+      },
+      "smooth_elliptic_negative_control": {
+        "equation": "y^2=x^3+delta*x^2+1",
+        "group_order": 7,
+        "nonsingularity_verified": true,
+        "same_candidate_map_is_homomorphism": false,
+        "explicit_counterexample": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "P_plus_Q": [
+            3,
+            4
+          ],
+          "map_P_plus_Q": 13,
+          "map_P_times_map_Q": 1
+        }
+      }
+    },
+    {
+      "p": 7,
+      "delta_nonsquare": 3,
+      "quadratic_modulus_ascending": [
+        4,
+        0,
+        1
+      ],
+      "nodal_equation": "y^2=x^2*(x+delta)",
+      "torus_map": "(y-gamma*x)/(y+gamma*x); gamma^2=delta; O maps to 1",
+      "inverse_map": "z=gamma*(1+t)/(1-t); x=z^2-delta; y=z*x; t=1 maps to O",
+      "smooth_locus_order": 8,
+      "torus_order": 8,
+      "bijection_and_inverse_verified": true,
+      "group_law_pairs_checked": 64,
+      "all_scalar_logs_checked": 8,
+      "toy_DLP": {
+        "generator": [
+          5,
+          2
+        ],
+        "target": [
+          6,
+          3
+        ],
+        "generator_torus": 47,
+        "target_torus": 9,
+        "secret": 5,
+        "recovered_by_torus_enumeration": 5
+      },
+      "smooth_elliptic_negative_control": {
+        "equation": "y^2=x^3+delta*x^2+1",
+        "group_order": 6,
+        "nonsingularity_verified": true,
+        "same_candidate_map_is_homomorphism": false,
+        "explicit_counterexample": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "P_plus_Q": [
+            4,
+            6
+          ],
+          "map_P_plus_Q": 28,
+          "map_P_times_map_Q": 1
+        }
+      }
+    },
+    {
+      "p": 11,
+      "delta_nonsquare": 2,
+      "quadratic_modulus_ascending": [
+        9,
+        0,
+        1
+      ],
+      "nodal_equation": "y^2=x^2*(x+delta)",
+      "torus_map": "(y-gamma*x)/(y+gamma*x); gamma^2=delta; O maps to 1",
+      "inverse_map": "z=gamma*(1+t)/(1-t); x=z^2-delta; y=z*x; t=1 maps to O",
+      "smooth_locus_order": 12,
+      "torus_order": 12,
+      "bijection_and_inverse_verified": true,
+      "group_law_pairs_checked": 144,
+      "all_scalar_logs_checked": 12,
+      "toy_DLP": {
+        "generator": [
+          2,
+          4
+        ],
+        "target": [
+          10,
+          10
+        ],
+        "generator_torus": 102,
+        "target_torus": 30,
+        "secret": 7,
+        "recovered_by_torus_enumeration": 7
+      },
+      "smooth_elliptic_negative_control": {
+        "equation": "y^2=x^3+delta*x^2+1",
+        "group_order": 14,
+        "nonsingularity_verified": true,
+        "same_candidate_map_is_homomorphism": false,
+        "explicit_counterexample": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "P_plus_Q": [
+            9,
+            10
+          ],
+          "map_P_plus_Q": 115,
+          "map_P_times_map_Q": 1
+        }
+      }
+    },
+    {
+      "p": 13,
+      "delta_nonsquare": 2,
+      "quadratic_modulus_ascending": [
+        11,
+        0,
+        1
+      ],
+      "nodal_equation": "y^2=x^2*(x+delta)",
+      "torus_map": "(y-gamma*x)/(y+gamma*x); gamma^2=delta; O maps to 1",
+      "inverse_map": "z=gamma*(1+t)/(1-t); x=z^2-delta; y=z*x; t=1 maps to O",
+      "smooth_locus_order": 14,
+      "torus_order": 14,
+      "bijection_and_inverse_verified": true,
+      "group_law_pairs_checked": 196,
+      "all_scalar_logs_checked": 14,
+      "toy_DLP": {
+        "generator": [
+          2,
+          4
+        ],
+        "target": [
+          12,
+          12
+        ],
+        "generator_torus": 146,
+        "target_torus": 36,
+        "secret": 8,
+        "recovered_by_torus_enumeration": 8
+      },
+      "smooth_elliptic_negative_control": {
+        "equation": "y^2=x^3+delta*x^2+1",
+        "group_order": 14,
+        "nonsingularity_verified": true,
+        "same_candidate_map_is_homomorphism": false,
+        "explicit_counterexample": {
+          "P": [
+            0,
+            1
+          ],
+          "Q": [
+            0,
+            1
+          ],
+          "P_plus_Q": [
+            11,
+            12
+          ],
+          "map_P_plus_Q": 112,
+          "map_P_times_map_Q": 1
+        }
+      }
+    }
+  ]
+}
