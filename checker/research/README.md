@@ -1,5 +1,7 @@
 # Genus-2 isogeny and Weil-descent audit
 
+The [further descent leads](DESCENT_LEADS.md) add an exact nine-vertex 3-isogeny graph: six curves with no direct mixed 3-kernel route back to the earlier example in one step. A separate Sage computation constructs an order-373 trace-zero Jacobian divisor on the opposite-sign target over F49. The notes give six research directions with concrete next experiments and evidence limits. The full suite now has **59 passing Python tests**, plus the completed independent Sage experiment.
+
 The [new experiment batch](EXPERIMENT_BATCH.md) adds an actual cubic-field curve census, explicit Prym covers and torus transfer controls. The [quotient reconstruction](QUOTIENT_RECONSTRUCTION.md) now constructs 24 plane quartics from the two prime-order F343 inputs, distinguishes 22 matching targets from two opposite-sign cases, and evaluates explicit quotient-to-Kummer maps. The full source-tree suite has 55 passing tests with the optional reconstruction backend installed. Reports include exact parameters and reproducible computations.
 
 The published GLV/GLS lead produced a negative result for one precise route, plus a reproducible toy example of why isogenies can change a direct descent test. **No previously unreported cryptographic vulnerability has been established.**
