@@ -1,0 +1,98 @@
+{
+  "scope": {
+    "toy_only": true,
+    "Sage_version_used": "10.6",
+    "enumerative_divisor_inversion": true,
+    "practical_attack_speedup": false,
+    "independent_Weil_restriction_examples": 1
+  },
+  "input_sha256": "40a052f167c532ba8908cd11025b692d637fb6f699d989804852914efa13c9de",
+  "sources": [
+    {
+      "source_a": 248,
+      "source_b": 42,
+      "kernel_enumeration_index": 153,
+      "target_chart_matrix": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "target_base_point": [
+        1,
+        4,
+        1
+      ],
+      "target_generator_point": [
+        1,
+        1,
+        0
+      ],
+      "target_generator_class": "[P0-O0]",
+      "source_generator_image_scalar_in_target_generator": 110,
+      "source_generator_image_divisor_over_F7": "-3*Place (Y + 3, Z + 6)\n + Place (Y + 5, Z + 3)\n + 2*Place (Y + 6, Z)",
+      "source_scalar_37_image_divisor_over_F7": "-3*Place (Y + 3, Z + 6)\n + Place (Y^3 + 5*Y^2 + 3*Y + 4, Z + 4*Y^2 + 6*Y + 5)",
+      "Jacobian_classes_evaluated_modulo_sign": 187,
+      "source_points_lifted": 373,
+      "generator_addition_checks": 373,
+      "generator_addition_check_field": "F7",
+      "scalar_37_relation_verified": true,
+      "all_source_scalar_relations_verified": true,
+      "inversion_method": "exhaustive enumeration of the tiny Jacobian group modulo sign",
+      "inversion_cost_linear_in_subgroup_order": true,
+      "scalable_divisor_inversion_implemented": false
+    },
+    {
+      "source_a": 3,
+      "source_b": 76,
+      "kernel_enumeration_index": 397,
+      "kernel_basis_rows": [
+        [
+          1,
+          0,
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "reuses_certified_first_source_Jacobian_target": true,
+      "new_Jacobian_inversions_required": 0,
+      "source_points_transported_and_lifted": 373,
+      "generator_addition_checks": 373,
+      "generator_addition_check_field": "F7",
+      "scalar_37_relation_verified": true,
+      "input_transport_to_first_curve": "(x,y) -> ((x/u^2)^49,(y/u^3)^49), u=78",
+      "source_generator_image_divisor_over_F7": "-3*Place (Y + 3, Z + 6)\n + Place (Y + 5, Z + 3)\n + 2*Place (Y + 6, Z)",
+      "source_scalar_37_image_divisor_over_F7": "-3*Place (Y + 3, Z + 6)\n + Place (Y^3 + 5*Y^2 + 3*Y + 4, Z + 4*Y^2 + 6*Y + 5)",
+      "scalable_divisor_inversion_implemented": false
+    }
+  ]
+}
