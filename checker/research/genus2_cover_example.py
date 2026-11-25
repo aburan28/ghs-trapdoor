@@ -65,6 +65,9 @@ def poly_power(field, poly, n):
 
 def squarefree_prime(poly, p):
     a, b = list(poly), [(i*poly[i]) % p for i in range(1, len(poly))]
+    # The derivative can lose its leading terms when p divides a degree.
+    while b and b[-1] == 0:
+        b.pop()
     while b:
         while len(a) >= len(b):
             shift = len(a)-len(b)

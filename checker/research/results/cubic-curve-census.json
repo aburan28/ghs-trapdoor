@@ -1,0 +1,4378 @@
+{
+  "scope": {
+    "toy_parameters_only": true,
+    "equations_not_isomorphism_classes": true,
+    "point_counts_exhaustive_for_each_equation": true,
+    "torsion_Frobenius_conjugacy_classes_verified": true,
+    "torsion_basis_coordinates_constructed": false,
+    "quotient_targets_constructed": false,
+    "DLP_solved": false,
+    "novel_vulnerability_established": false
+  },
+  "fields": [
+    {
+      "p": 5,
+      "extension_degree": 3,
+      "field_size": 125,
+      "modulus_ascending": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "equation": "y^2=x^3+a*x+b",
+      "sampling": "exhaustive coefficient pairs",
+      "requested_nonsingular_sample_size": null,
+      "totals": {
+        "coefficient_pairs_examined": 15625,
+        "j_outside_prime_field": 14880,
+        "nonsingular_equations": 15500,
+        "prime_order_equations": 1116,
+        "prime_order_zero_2_but_mixed_3_candidates": 0,
+        "prime_order_zero_2_mixed_3_and_j_outside_base": 0,
+        "singular_equations_skipped": 125,
+        "with_mixed_2_kernel_candidates": 2542,
+        "with_mixed_3_kernel_candidates": 7688,
+        "zero_rational_2_kernels_but_mixed_3_candidates": 2604
+      },
+      "ordered_curve_data_sha256": "0676dc409a43b6c76f0dbd93f7f69c66fb59a36e9f102df48b6793e4279af335",
+      "module_classes": [
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "equations": 3844,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            4,
+            2
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "equations": 1953,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "equations": 1953,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "equations": 2604,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            4,
+            2
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "equations": 1302,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "equations": 1302,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "equations": 1240,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            4,
+            2
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "equations": 651,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "equations": 651,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        }
+      ],
+      "prime_order_extension_j_candidates": [],
+      "representatives": {
+        "module:((0, 1), (1, 0)):((0, 1), (1, 0))": {
+          "a": 0,
+          "b": 1,
+          "group_order": 126,
+          "trace": 0,
+          "two_division_roots": [
+            4
+          ],
+          "three_division_roots": [
+            0,
+            1
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "j_in_prime_field": true,
+          "j": 0,
+          "group_order_factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 4,
+          "mixed_3_kernel_candidates": 2,
+          "subgroup_witness": {
+            "order": 7,
+            "point": [
+              92,
+              94
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (1, 2))": {
+          "a": 1,
+          "b": 0,
+          "group_order": 148,
+          "trace": -22,
+          "two_division_roots": [
+            0,
+            2,
+            3
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "j_in_prime_field": true,
+          "j": 3,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              37,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 37,
+            "point": [
+              123,
+              62
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (1, 0))": {
+          "a": 1,
+          "b": 1,
+          "group_order": 108,
+          "trace": 18,
+          "two_division_roots": [
+            58,
+            102,
+            120
+          ],
+          "three_division_roots": [
+            1,
+            2
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "j_in_prime_field": true,
+          "j": 2,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 4,
+          "mixed_3_kernel_candidates": 2,
+          "subgroup_witness": null
+        },
+        "module:((0, 1), (1, 0)):((0, 1), (1, 2))": {
+          "a": 1,
+          "b": 2,
+          "group_order": 148,
+          "trace": -22,
+          "two_division_roots": [
+            4
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "j_in_prime_field": true,
+          "j": 1,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              37,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 37,
+            "point": [
+              102,
+              4
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (1, 2))": {
+          "a": 1,
+          "b": 6,
+          "group_order": 133,
+          "trace": -7,
+          "two_division_roots": [],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 51,
+          "group_order_factorization": [
+            [
+              7,
+              1
+            ],
+            [
+              19,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 19,
+            "point": [
+              43,
+              17
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (1, 1))": {
+          "a": 1,
+          "b": 8,
+          "group_order": 128,
+          "trace": -2,
+          "two_division_roots": [
+            47,
+            54,
+            59
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 82,
+          "group_order_factorization": [
+            [
+              2,
+              7
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": null
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (1, 0))": {
+          "a": 1,
+          "b": 9,
+          "group_order": 123,
+          "trace": 3,
+          "two_division_roots": [],
+          "three_division_roots": [
+            25,
+            35
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 35,
+          "group_order_factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              41,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 4,
+          "mixed_3_kernel_candidates": 2,
+          "subgroup_witness": {
+            "order": 41,
+            "point": [
+              12,
+              6
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((0, 1), (1, 1))": {
+          "a": 1,
+          "b": 26,
+          "group_order": 128,
+          "trace": -2,
+          "two_division_roots": [
+            99
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 70,
+          "group_order_factorization": [
+            [
+              2,
+              7
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": null
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (1, 1))": {
+          "a": 1,
+          "b": 27,
+          "group_order": 143,
+          "trace": -17,
+          "two_division_roots": [],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 57,
+          "group_order_factorization": [
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 13,
+            "point": [
+              116,
+              54
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        }
+      }
+    },
+    {
+      "p": 7,
+      "extension_degree": 3,
+      "field_size": 343,
+      "modulus_ascending": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "equation": "y^2=x^3+a*x+b",
+      "sampling": "SHA256 ghs-cubic-census-v1 counter stream; without replacement",
+      "requested_nonsingular_sample_size": 512,
+      "totals": {
+        "coefficient_pairs_examined": 513,
+        "j_outside_prime_field": 499,
+        "nonsingular_equations": 512,
+        "prime_order_equations": 44,
+        "prime_order_zero_2_but_mixed_3_candidates": 2,
+        "prime_order_zero_2_mixed_3_and_j_outside_base": 2,
+        "singular_equations_skipped": 1,
+        "with_mixed_2_kernel_candidates": 81,
+        "with_mixed_3_kernel_candidates": 51,
+        "zero_rational_2_kernels_but_mixed_3_candidates": 16
+      },
+      "ordered_curve_data_sha256": "6fe6a9bb99c24303795d3e6b5ca3fd2de03643df728a191c6aa3aeed1f87263e",
+      "module_classes": [
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "equations": 73,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "equations": 71,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "equations": 70,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "equations": 10,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            16,
+            12
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "equations": 16,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            16,
+            12
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "equations": 44,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "equations": 59,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "equations": 72,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "equations": 8,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            16,
+            12
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "equations": 8,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            16,
+            12
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "equations": 23,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "equations": 23,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "equations": 26,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "equations": 3,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            16,
+            12
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "equations": 6,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            16,
+            12
+          ]
+        }
+      ],
+      "prime_order_extension_j_candidates": [
+        {
+          "a": 248,
+          "b": 42,
+          "group_order": 373,
+          "trace": -29,
+          "two_division_roots": [],
+          "three_division_roots": [
+            19,
+            65,
+            134,
+            237
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 62,
+          "group_order_factorization": [
+            [
+              373,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 373,
+            "point": [
+              0,
+              176
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        {
+          "a": 3,
+          "b": 76,
+          "group_order": 373,
+          "trace": -29,
+          "two_division_roots": [],
+          "three_division_roots": [
+            36,
+            47,
+            154,
+            211
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 16,
+          "group_order_factorization": [
+            [
+              373,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 373,
+            "point": [
+              0,
+              119
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        }
+      ],
+      "representatives": {
+        "module:((0, 1), (1, 0)):((0, 1), (2, 0))": {
+          "a": 68,
+          "b": 325,
+          "group_order": 308,
+          "trace": 36,
+          "two_division_roots": [
+            14
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 125,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 11,
+            "point": [
+              72,
+              43
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((0, 1), (2, 2))": {
+          "a": 183,
+          "b": 14,
+          "group_order": 336,
+          "trace": 8,
+          "two_division_roots": [
+            307
+          ],
+          "three_division_roots": [
+            159
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 70,
+          "group_order_factorization": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 7,
+            "point": [
+              21,
+              201
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (2, 2))": {
+          "a": 251,
+          "b": 55,
+          "group_order": 312,
+          "trace": 32,
+          "two_division_roots": [
+            203,
+            256,
+            283
+          ],
+          "three_division_roots": [
+            78
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 45,
+          "group_order_factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 13,
+            "point": [
+              186,
+              330
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (2, 1))": {
+          "a": 161,
+          "b": 239,
+          "group_order": 361,
+          "trace": -17,
+          "two_division_roots": [],
+          "three_division_roots": [
+            276
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 86,
+          "group_order_factorization": [
+            [
+              19,
+              2
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 19,
+            "point": [
+              291,
+              247
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (2, 0))": {
+          "a": 312,
+          "b": 116,
+          "group_order": 320,
+          "trace": 24,
+          "two_division_roots": [
+            152,
+            269,
+            328
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 136,
+          "group_order_factorization": [
+            [
+              2,
+              6
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 5,
+            "point": [
+              17,
+              310
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((0, 1), (2, 1))": {
+          "a": 5,
+          "b": 291,
+          "group_order": 340,
+          "trace": 4,
+          "two_division_roots": [
+            61
+          ],
+          "three_division_roots": [
+            12
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 149,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              17,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 17,
+            "point": [
+              162,
+              65
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((1, 0), (0, 1))": {
+          "a": 233,
+          "b": 58,
+          "group_order": 369,
+          "trace": -25,
+          "two_division_roots": [],
+          "three_division_roots": [
+            15,
+            18,
+            187,
+            235
+          ],
+          "rational_three_torsion_points_including_identity": 9,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 176,
+          "group_order_factorization": [
+            [
+              3,
+              2
+            ],
+            [
+              41,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 41,
+            "point": [
+              166,
+              44
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (2, 0))": {
+          "a": 192,
+          "b": 22,
+          "group_order": 329,
+          "trace": 15,
+          "two_division_roots": [],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 336,
+          "group_order_factorization": [
+            [
+              7,
+              1
+            ],
+            [
+              47,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 47,
+            "point": [
+              186,
+              322
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (2, 2))": {
+          "a": 328,
+          "b": 42,
+          "group_order": 345,
+          "trace": -1,
+          "two_division_roots": [],
+          "three_division_roots": [
+            299
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 108,
+          "group_order_factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              23,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 23,
+            "point": [
+              176,
+              208
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (2, 1))": {
+          "a": 308,
+          "b": 292,
+          "group_order": 376,
+          "trace": -32,
+          "two_division_roots": [
+            15,
+            177,
+            207
+          ],
+          "three_division_roots": [
+            193
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 45,
+          "group_order_factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              47,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 47,
+            "point": [
+              228,
+              219
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((2, 0), (0, 2))": {
+          "a": 241,
+          "b": 280,
+          "group_order": 364,
+          "trace": -20,
+          "two_division_roots": [
+            114
+          ],
+          "three_division_roots": [
+            13,
+            90,
+            149,
+            154
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 249,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 13,
+            "point": [
+              61,
+              179
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((2, 0), (0, 2))": {
+          "a": 151,
+          "b": 37,
+          "group_order": 319,
+          "trace": 25,
+          "two_division_roots": [],
+          "three_division_roots": [
+            24,
+            72,
+            74,
+            285
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 176,
+          "group_order_factorization": [
+            [
+              11,
+              1
+            ],
+            [
+              29,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 29,
+            "point": [
+              106,
+              158
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((1, 0), (0, 1))": {
+          "a": 105,
+          "b": 180,
+          "group_order": 342,
+          "trace": 2,
+          "two_division_roots": [
+            48
+          ],
+          "three_division_roots": [
+            113,
+            117,
+            244,
+            324
+          ],
+          "rational_three_torsion_points_including_identity": 9,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 258,
+          "group_order_factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              19,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 19,
+            "point": [
+              190,
+              285
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((2, 0), (0, 2))": {
+          "a": 222,
+          "b": 11,
+          "group_order": 328,
+          "trace": 16,
+          "two_division_roots": [
+            89,
+            153,
+            164
+          ],
+          "three_division_roots": [
+            38,
+            58,
+            92,
+            260
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 245,
+          "group_order_factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              41,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 41,
+            "point": [
+              3,
+              239
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((1, 0), (0, 1))": {
+          "a": 0,
+          "b": 24,
+          "group_order": 324,
+          "trace": 20,
+          "two_division_roots": [
+            187,
+            293,
+            318
+          ],
+          "three_division_roots": [
+            0,
+            22,
+            39,
+            44
+          ],
+          "rational_three_torsion_points_including_identity": 9,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "j_in_prime_field": true,
+          "j": 0,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": null
+        }
+      }
+    },
+    {
+      "p": 11,
+      "extension_degree": 3,
+      "field_size": 1331,
+      "modulus_ascending": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "equation": "y^2=x^3+a*x+b",
+      "sampling": "SHA256 ghs-cubic-census-v1 counter stream; without replacement",
+      "requested_nonsingular_sample_size": 64,
+      "totals": {
+        "coefficient_pairs_examined": 65,
+        "j_outside_prime_field": 63,
+        "nonsingular_equations": 64,
+        "prime_order_equations": 4,
+        "prime_order_zero_2_but_mixed_3_candidates": 0,
+        "prime_order_zero_2_mixed_3_and_j_outside_base": 0,
+        "singular_equations_skipped": 1,
+        "with_mixed_2_kernel_candidates": 9,
+        "with_mixed_3_kernel_candidates": 39,
+        "zero_rational_2_kernels_but_mixed_3_candidates": 17
+      },
+      "ordered_curve_data_sha256": "1c7cbf671471941b9e56ccf498b2ac964e0f4dc6d40e467367a9c02f9b699c13",
+      "module_classes": [
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "equations": 18,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            4,
+            2
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "equations": 10,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "equations": 2,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "equations": 17,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            4,
+            2
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "equations": 4,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "equations": 4,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "equations": 4,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            4,
+            2
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "equations": 1,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "equations": 4,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        }
+      ],
+      "prime_order_extension_j_candidates": [],
+      "representatives": {
+        "module:((0, 1), (1, 0)):((0, 1), (1, 1))": {
+          "a": 1114,
+          "b": 332,
+          "group_order": 1328,
+          "trace": 4,
+          "two_division_roots": [
+            820
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 1145,
+          "group_order_factorization": [
+            [
+              2,
+              4
+            ],
+            [
+              83,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 83,
+            "point": [
+              1060,
+              958
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((0, 1), (1, 0))": {
+          "a": 415,
+          "b": 930,
+          "group_order": 1284,
+          "trace": 48,
+          "two_division_roots": [
+            845
+          ],
+          "three_division_roots": [
+            526,
+            657
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 769,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              107,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 4,
+          "mixed_3_kernel_candidates": 2,
+          "subgroup_witness": {
+            "order": 107,
+            "point": [
+              359,
+              927
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (1, 2))": {
+          "a": 343,
+          "b": 646,
+          "group_order": 1384,
+          "trace": -52,
+          "two_division_roots": [
+            537,
+            1187,
+            1202
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 677,
+          "group_order_factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              173,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 173,
+            "point": [
+              1190,
+              275
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (1, 0))": {
+          "a": 962,
+          "b": 573,
+          "group_order": 1317,
+          "trace": 15,
+          "two_division_roots": [],
+          "three_division_roots": [
+            87,
+            680
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 272,
+          "group_order_factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              439,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 4,
+          "mixed_3_kernel_candidates": 2,
+          "subgroup_witness": {
+            "order": 439,
+            "point": [
+              1116,
+              28
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((0, 1), (1, 2))": {
+          "a": 518,
+          "b": 20,
+          "group_order": 1378,
+          "trace": -46,
+          "two_division_roots": [
+            449
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 270,
+          "group_order_factorization": [
+            [
+              2,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              53,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 53,
+            "point": [
+              156,
+              810
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (1, 2))": {
+          "a": 939,
+          "b": 1135,
+          "group_order": 1297,
+          "trace": 35,
+          "two_division_roots": [],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 451,
+          "group_order_factorization": [
+            [
+              1297,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 1297,
+            "point": [
+              1,
+              355
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (1, 1))": {
+          "a": 965,
+          "b": 1,
+          "group_order": 1313,
+          "trace": 19,
+          "two_division_roots": [],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 228,
+          "group_order_factorization": [
+            [
+              13,
+              1
+            ],
+            [
+              101,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 101,
+            "point": [
+              1120,
+              670
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (1, 0))": {
+          "a": 1258,
+          "b": 913,
+          "group_order": 1380,
+          "trace": -48,
+          "two_division_roots": [
+            740,
+            827,
+            1227
+          ],
+          "three_division_roots": [
+            521,
+            788
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 266,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              23,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 4,
+          "mixed_3_kernel_candidates": 2,
+          "subgroup_witness": {
+            "order": 23,
+            "point": [
+              841,
+              778
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (1, 1))": {
+          "a": 4,
+          "b": 563,
+          "group_order": 1292,
+          "trace": 40,
+          "two_division_roots": [
+            507,
+            1010,
+            1277
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 198,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              19,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 19,
+            "point": [
+              607,
+              745
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        }
+      }
+    },
+    {
+      "p": 13,
+      "extension_degree": 3,
+      "field_size": 2197,
+      "modulus_ascending": [
+        1,
+        0,
+        4,
+        1
+      ],
+      "equation": "y^2=x^3+a*x+b",
+      "sampling": "SHA256 ghs-cubic-census-v1 counter stream; without replacement",
+      "requested_nonsingular_sample_size": 64,
+      "totals": {
+        "coefficient_pairs_examined": 64,
+        "j_outside_prime_field": 64,
+        "nonsingular_equations": 64,
+        "prime_order_equations": 7,
+        "prime_order_zero_2_but_mixed_3_candidates": 0,
+        "prime_order_zero_2_mixed_3_and_j_outside_base": 0,
+        "with_mixed_2_kernel_candidates": 10,
+        "with_mixed_3_kernel_candidates": 5,
+        "zero_rational_2_kernels_but_mixed_3_candidates": 1
+      },
+      "ordered_curve_data_sha256": "f1d8fb28e4d9a9669ddedad279d9a4e278e1f62bc3124e7238c9361c5a0ed7d0",
+      "module_classes": [
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "equations": 5,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "equations": 17,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "equations": 8,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "equations": 1,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            16,
+            12
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "equations": 2,
+          "two_kernel_counts": [
+            1,
+            0
+          ],
+          "three_kernel_counts": [
+            16,
+            12
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "equations": 6,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "equations": 7,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "equations": 7,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "equations": 1,
+          "two_kernel_counts": [
+            0,
+            0
+          ],
+          "three_kernel_counts": [
+            16,
+            12
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "equations": 3,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            0,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "equations": 2,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "equations": 4,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "equations": 1,
+          "two_kernel_counts": [
+            9,
+            6
+          ],
+          "three_kernel_counts": [
+            16,
+            12
+          ]
+        }
+      ],
+      "prime_order_extension_j_candidates": [],
+      "representatives": {
+        "module:((0, 1), (1, 1)):((0, 1), (2, 0))": {
+          "a": 22,
+          "b": 2183,
+          "group_order": 2279,
+          "trace": -81,
+          "two_division_roots": [],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 2145,
+          "group_order_factorization": [
+            [
+              43,
+              1
+            ],
+            [
+              53,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 53,
+            "point": [
+              1560,
+              1139
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (2, 1))": {
+          "a": 1123,
+          "b": 124,
+          "group_order": 2209,
+          "trace": -11,
+          "two_division_roots": [],
+          "three_division_roots": [
+            830
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 999,
+          "group_order_factorization": [
+            [
+              47,
+              2
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 47,
+            "point": [
+              1395,
+              1735
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((0, 1), (2, 0))": {
+          "a": 1549,
+          "b": 539,
+          "group_order": 2240,
+          "trace": -42,
+          "two_division_roots": [
+            433
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 2063,
+          "group_order_factorization": [
+            [
+              2,
+              6
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 7,
+            "point": [
+              1247,
+              177
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((0, 1), (2, 1))": {
+          "a": 1067,
+          "b": 1047,
+          "group_order": 2272,
+          "trace": -74,
+          "two_division_roots": [
+            680
+          ],
+          "three_division_roots": [
+            1618
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 1953,
+          "group_order_factorization": [
+            [
+              2,
+              5
+            ],
+            [
+              71,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 71,
+            "point": [
+              1477,
+              1538
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((0, 1), (2, 2))": {
+          "a": 1594,
+          "b": 1055,
+          "group_order": 2265,
+          "trace": -67,
+          "two_division_roots": [],
+          "three_division_roots": [
+            500
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 1794,
+          "group_order_factorization": [
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              151,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 151,
+            "point": [
+              1464,
+              1133
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (2, 2))": {
+          "a": 117,
+          "b": 1,
+          "group_order": 2256,
+          "trace": -58,
+          "two_division_roots": [
+            298,
+            610,
+            1653
+          ],
+          "three_division_roots": [
+            1230
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 1832,
+          "group_order_factorization": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              47,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 47,
+            "point": [
+              1828,
+              1324
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (2, 0))": {
+          "a": 2079,
+          "b": 1330,
+          "group_order": 2216,
+          "trace": -18,
+          "two_division_roots": [
+            508,
+            602,
+            1269
+          ],
+          "three_division_roots": [],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 1188,
+          "group_order_factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              277,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 0,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 277,
+            "point": [
+              1887,
+              337
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 1)):((1, 0), (0, 1))": {
+          "a": 659,
+          "b": 200,
+          "group_order": 2277,
+          "trace": -79,
+          "two_division_roots": [],
+          "three_division_roots": [
+            1530,
+            1609,
+            1792,
+            1868
+          ],
+          "rational_three_torsion_points_including_identity": 9,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 1018,
+          "group_order_factorization": [
+            [
+              3,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              23,
+              1
+            ]
+          ],
+          "rational_2_kernels": 0,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 23,
+            "point": [
+              2026,
+              1521
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((0, 1), (2, 2))": {
+          "a": 2058,
+          "b": 1596,
+          "group_order": 2196,
+          "trace": 2,
+          "two_division_roots": [
+            964
+          ],
+          "three_division_roots": [
+            1192
+          ],
+          "rational_three_torsion_points_including_identity": 3,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 1771,
+          "group_order_factorization": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              61,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 61,
+            "point": [
+              1336,
+              861
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((2, 0), (0, 2))": {
+          "a": 373,
+          "b": 1490,
+          "group_order": 2200,
+          "trace": -2,
+          "two_division_roots": [
+            2085
+          ],
+          "three_division_roots": [
+            234,
+            1203,
+            1251,
+            1888
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 2143,
+          "group_order_factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 11,
+            "point": [
+              542,
+              2068
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((0, 1), (2, 1))": {
+          "a": 967,
+          "b": 690,
+          "group_order": 2200,
+          "trace": -2,
+          "two_division_roots": [
+            125,
+            775,
+            1661
+          ],
+          "three_division_roots": [
+            2056
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 620,
+          "group_order_factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 1,
+          "mixed_3_kernel_candidates": 0,
+          "subgroup_witness": {
+            "order": 11,
+            "point": [
+              678,
+              1267
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((1, 0), (0, 1)):((2, 0), (0, 2))": {
+          "a": 517,
+          "b": 1609,
+          "group_order": 2272,
+          "trace": -74,
+          "two_division_roots": [
+            978,
+            1695,
+            1903
+          ],
+          "three_division_roots": [
+            186,
+            1020,
+            1196,
+            2174
+          ],
+          "rational_three_torsion_points_including_identity": 1,
+          "frobenius_mod_2_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              2,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 1990,
+          "group_order_factorization": [
+            [
+              2,
+              5
+            ],
+            [
+              71,
+              1
+            ]
+          ],
+          "rational_2_kernels": 9,
+          "mixed_2_kernel_candidates": 6,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 71,
+            "point": [
+              1304,
+              926
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        },
+        "module:((0, 1), (1, 0)):((1, 0), (0, 1))": {
+          "a": 1127,
+          "b": 704,
+          "group_order": 2232,
+          "trace": -34,
+          "two_division_roots": [
+            631
+          ],
+          "three_division_roots": [
+            43,
+            62,
+            663,
+            1793
+          ],
+          "rational_three_torsion_points_including_identity": 9,
+          "frobenius_mod_2_representative": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "frobenius_mod_3_representative": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "j_in_prime_field": false,
+          "j": 57,
+          "group_order_factorization": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              31,
+              1
+            ]
+          ],
+          "rational_2_kernels": 1,
+          "mixed_2_kernel_candidates": 0,
+          "rational_3_kernels": 16,
+          "mixed_3_kernel_candidates": 12,
+          "subgroup_witness": {
+            "order": 31,
+            "point": [
+              2091,
+              2034
+            ],
+            "order_verified_by_scalar_multiplication": true,
+            "coprime_to_2_and_3": true
+          }
+        }
+      }
+    }
+  ]
+}
