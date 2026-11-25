@@ -24,6 +24,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Install optional exact quotient arithmetic
+        working-directory: checker
+        run: python -m pip install -r research/requirements-reconstruction.txt
       - name: Run checker and available research tests
         working-directory: checker
         run: python -m unittest discover -v

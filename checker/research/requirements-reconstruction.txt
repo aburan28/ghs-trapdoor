@@ -1,0 +1,2 @@
+# Optional arithmetic backend for the explicit genus-3 quotient experiments.
+python-flint==0.9.0
