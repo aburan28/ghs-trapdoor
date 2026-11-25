@@ -1,0 +1,1615 @@
+{
+  "published_example_verification": {
+    "source": "https://arxiv.org/html/2012.07173v1#S3.SS4",
+    "q": 523,
+    "field": "F523[w]/(w^3+2)",
+    "theta_squared": [
+      6,
+      1,
+      0
+    ],
+    "basis_points_x_and_y_over_theta": [
+      [
+        [
+          337,
+          370,
+          222
+        ],
+        [
+          400,
+          387,
+          122
+        ]
+      ],
+      [
+        [
+          156,
+          484,
+          319
+        ],
+        [
+          108,
+          484,
+          298
+        ]
+      ]
+    ],
+    "curve_membership_verified": true,
+    "three_division_polynomial_verified": true,
+    "independence_verified_by_distinct_x": true,
+    "q3_frobenius_matrix_verified": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "two_division_cubic_irreducible_verified": true,
+    "gcd_degree_with_X_to_field_order_minus_X": 0,
+    "claimed_curve_group_order": 143069629,
+    "curve_group_order_recounted": false
+  },
+  "published_example_kernel_screen": {
+    "q": 523,
+    "ell": 3,
+    "extension_degree": 3,
+    "dimension": 3,
+    "q3_frobenius_on_E_torsion_rows": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "q_frobenius_on_Weil_restriction_rows": [
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "pairing_block_weights": [
+      1,
+      1,
+      1
+    ],
+    "geometric_lagrangians_enumerated": 1120,
+    "frobenius_stable_lagrangians": 16,
+    "stable_kernels_passing_no_coordinate_factor_test": 12,
+    "witnesses": [
+      {
+        "basis_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            2,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "frobenius_on_kernel_rows": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "coordinate_factor_intersection_dimensions": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "basis_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            2,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "frobenius_on_kernel_rows": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "coordinate_factor_intersection_dimensions": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "basis_rows": [
+          [
+            1,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            2,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "frobenius_on_kernel_rows": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ]
+        ],
+        "coordinate_factor_intersection_dimensions": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "quotient_isogeny_degree": 27,
+    "claimed_subgroup_order": 143069629,
+    "subgroup_injective_if_claimed_order_is_valid": true,
+    "status": "kernel_candidates_require_target_and_map_construction",
+    "scope": {
+      "explicit_frobenius_matrix_required": true,
+      "q_prime_power_assumed": true,
+      "curve_realization_of_input_module_verified": true,
+      "geometric_indecomposability_verified": false,
+      "jacobian_over_base_field_verified": false,
+      "quotient_equations_constructed": false,
+      "point_transport_implemented": false,
+      "DLP_solved": false,
+      "novel_vulnerability_established": false
+    }
+  },
+  "same_curve_two_torsion_obstruction": {
+    "q": 523,
+    "ell": 2,
+    "extension_degree": 3,
+    "dimension": 3,
+    "q3_frobenius_on_E_torsion_rows": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "q_frobenius_on_Weil_restriction_rows": [
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "pairing_block_weights": [
+      1,
+      1,
+      1
+    ],
+    "geometric_lagrangians_enumerated": 135,
+    "frobenius_stable_lagrangians": 0,
+    "stable_kernels_passing_no_coordinate_factor_test": 0,
+    "witnesses": [],
+    "quotient_isogeny_degree": 8,
+    "claimed_subgroup_order": 143069629,
+    "subgroup_injective_if_claimed_order_is_valid": true,
+    "status": "no_kernel_passes_these_conditions_for_this_torsion_module",
+    "scope": {
+      "explicit_frobenius_matrix_required": true,
+      "q_prime_power_assumed": true,
+      "curve_realization_of_input_module_verified": true,
+      "geometric_indecomposability_verified": false,
+      "jacobian_over_base_field_verified": false,
+      "quotient_equations_constructed": false,
+      "point_transport_implemented": false,
+      "DLP_solved": false,
+      "novel_vulnerability_established": false
+    }
+  },
+  "residue_class_survey_not_a_curve_vulnerability_survey": [
+    {
+      "matrix_type": "companion",
+      "trace_residue": 0,
+      "q_residue": 1,
+      "q": 3,
+      "ell": 2,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        1,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 135,
+      "frobenius_stable_lagrangians": 1,
+      "stable_kernels_passing_no_coordinate_factor_test": 0,
+      "witnesses": [],
+      "quotient_isogeny_degree": 8,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "no_kernel_passes_these_conditions_for_this_torsion_module",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    },
+    {
+      "matrix_type": "scalar",
+      "trace_residue": 0,
+      "q_residue": 1,
+      "q": 3,
+      "ell": 2,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        1,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 135,
+      "frobenius_stable_lagrangians": 9,
+      "stable_kernels_passing_no_coordinate_factor_test": 6,
+      "witnesses": [
+        {
+          "basis_rows": [
+            [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "frobenius_on_kernel_rows": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "coordinate_factor_intersection_dimensions": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "quotient_isogeny_degree": 8,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "kernel_candidates_require_target_and_map_construction",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    },
+    {
+      "matrix_type": "companion",
+      "trace_residue": 1,
+      "q_residue": 1,
+      "q": 3,
+      "ell": 2,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        1,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 135,
+      "frobenius_stable_lagrangians": 0,
+      "stable_kernels_passing_no_coordinate_factor_test": 0,
+      "witnesses": [],
+      "quotient_isogeny_degree": 8,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "no_kernel_passes_these_conditions_for_this_torsion_module",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    },
+    {
+      "matrix_type": "companion",
+      "trace_residue": 0,
+      "q_residue": 1,
+      "q": 4,
+      "ell": 3,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        1,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 1120,
+      "frobenius_stable_lagrangians": 0,
+      "stable_kernels_passing_no_coordinate_factor_test": 0,
+      "witnesses": [],
+      "quotient_isogeny_degree": 27,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "no_kernel_passes_these_conditions_for_this_torsion_module",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    },
+    {
+      "matrix_type": "companion",
+      "trace_residue": 1,
+      "q_residue": 1,
+      "q": 4,
+      "ell": 3,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        1,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 1120,
+      "frobenius_stable_lagrangians": 1,
+      "stable_kernels_passing_no_coordinate_factor_test": 0,
+      "witnesses": [],
+      "quotient_isogeny_degree": 27,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "no_kernel_passes_these_conditions_for_this_torsion_module",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    },
+    {
+      "matrix_type": "scalar",
+      "trace_residue": 1,
+      "q_residue": 1,
+      "q": 4,
+      "ell": 3,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        1,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 1120,
+      "frobenius_stable_lagrangians": 16,
+      "stable_kernels_passing_no_coordinate_factor_test": 12,
+      "witnesses": [
+        {
+          "basis_rows": [
+            [
+              1,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          "frobenius_on_kernel_rows": [
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              2,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "coordinate_factor_intersection_dimensions": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "quotient_isogeny_degree": 27,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "kernel_candidates_require_target_and_map_construction",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    },
+    {
+      "matrix_type": "companion",
+      "trace_residue": 2,
+      "q_residue": 1,
+      "q": 4,
+      "ell": 3,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        1,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 1120,
+      "frobenius_stable_lagrangians": 1,
+      "stable_kernels_passing_no_coordinate_factor_test": 0,
+      "witnesses": [],
+      "quotient_isogeny_degree": 27,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "no_kernel_passes_these_conditions_for_this_torsion_module",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    },
+    {
+      "matrix_type": "scalar",
+      "trace_residue": 2,
+      "q_residue": 1,
+      "q": 4,
+      "ell": 3,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        1,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 1120,
+      "frobenius_stable_lagrangians": 16,
+      "stable_kernels_passing_no_coordinate_factor_test": 12,
+      "witnesses": [
+        {
+          "basis_rows": [
+            [
+              1,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              2,
+              0
+            ]
+          ],
+          "frobenius_on_kernel_rows": [
+            [
+              2,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "coordinate_factor_intersection_dimensions": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "quotient_isogeny_degree": 27,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "kernel_candidates_require_target_and_map_construction",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    },
+    {
+      "matrix_type": "companion",
+      "trace_residue": 0,
+      "q_residue": 2,
+      "q": 5,
+      "ell": 3,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        2,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 1120,
+      "frobenius_stable_lagrangians": 4,
+      "stable_kernels_passing_no_coordinate_factor_test": 2,
+      "witnesses": [
+        {
+          "basis_rows": [
+            [
+              1,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              2,
+              2
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              1,
+              2
+            ]
+          ],
+          "frobenius_on_kernel_rows": [
+            [
+              0,
+              1,
+              1
+            ],
+            [
+              2,
+              2,
+              0
+            ],
+            [
+              2,
+              1,
+              0
+            ]
+          ],
+          "coordinate_factor_intersection_dimensions": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "quotient_isogeny_degree": 27,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "kernel_candidates_require_target_and_map_construction",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    },
+    {
+      "matrix_type": "companion",
+      "trace_residue": 1,
+      "q_residue": 2,
+      "q": 5,
+      "ell": 3,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        2,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 1120,
+      "frobenius_stable_lagrangians": 0,
+      "stable_kernels_passing_no_coordinate_factor_test": 0,
+      "witnesses": [],
+      "quotient_isogeny_degree": 27,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "no_kernel_passes_these_conditions_for_this_torsion_module",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    },
+    {
+      "matrix_type": "companion",
+      "trace_residue": 2,
+      "q_residue": 2,
+      "q": 5,
+      "ell": 3,
+      "extension_degree": 3,
+      "dimension": 3,
+      "q3_frobenius_on_E_torsion_rows": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "q_frobenius_on_Weil_restriction_rows": [
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "pairing_block_weights": [
+        1,
+        2,
+        1
+      ],
+      "geometric_lagrangians_enumerated": 1120,
+      "frobenius_stable_lagrangians": 0,
+      "stable_kernels_passing_no_coordinate_factor_test": 0,
+      "witnesses": [],
+      "quotient_isogeny_degree": 27,
+      "claimed_subgroup_order": null,
+      "subgroup_injective_if_claimed_order_is_valid": null,
+      "status": "no_kernel_passes_these_conditions_for_this_torsion_module",
+      "scope": {
+        "explicit_frobenius_matrix_required": true,
+        "q_prime_power_assumed": true,
+        "curve_realization_of_input_module_verified": false,
+        "geometric_indecomposability_verified": false,
+        "jacobian_over_base_field_verified": false,
+        "quotient_equations_constructed": false,
+        "point_transport_implemented": false,
+        "DLP_solved": false,
+        "novel_vulnerability_established": false
+      }
+    }
+  ]
+}
