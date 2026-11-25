@@ -1,0 +1,169 @@
+{
+  "scope": {
+    "toy_only": true,
+    "novel_attack_claimed": false,
+    "cover_map_constructed": true,
+    "Richelot_point_map_implemented": false,
+    "DLP_solved": false,
+    "practical_speedup_claimed": false
+  },
+  "field": "K=F7[i]/(i^2+1)",
+  "coefficient_encoding": "[real, imaginary], ascending powers",
+  "weak_curve": {
+    "equation": "y^2=(x-(1+i))*x*(x-1)*(x-2)*(x-3)",
+    "rhs": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "6",
+        "6"
+      ],
+      [
+        "4",
+        "3"
+      ],
+      [
+        "3",
+        "6"
+      ],
+      [
+        "0",
+        "6"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ]
+  },
+  "richelot_neighbor": {
+    "rhs": [
+      [
+        "0",
+        "3"
+      ],
+      [
+        "5",
+        "5"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "4",
+        "3"
+      ],
+      [
+        "6",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ],
+      [
+        "5",
+        "4"
+      ]
+    ],
+    "determinant": [
+      "6",
+      "2"
+    ],
+    "partition_of_weak_curve": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "branch_screen": {
+      "branch_condition_candidates": 0,
+      "candidate_maps_tested": 240,
+      "witnesses": [],
+      "status": "excluded_for_this_model_class"
+    },
+    "connection": "The dual Richelot isogeny maps this neighbor to the weak curve."
+  },
+  "cover": {
+    "base_field": "F7",
+    "genus": 4,
+    "equation": "S^2=2*t^1+6*t^2+5*t^3+5*t^7+1*t^8+2*t^9",
+    "rhs": [
+      0,
+      2,
+      6,
+      5,
+      0,
+      0,
+      0,
+      5,
+      1,
+      2
+    ],
+    "squarefree_verified": true,
+    "rational_function_identity_verified": true,
+    "map_to_weak_curve": {
+      "x": "(-t^2+2t+1)/(2t)",
+      "y": "(1-i*t)*S/(8*t^3)"
+    },
+    "ordinary_map_points_checked_over_F49": 40,
+    "exceptional_map_charts_not_evaluated": [
+      "t=0",
+      "t=infinity"
+    ]
+  },
+  "point_counts": {
+    "weak_curve_F49_F2401": [
+      46,
+      2334
+    ],
+    "neighbor_F49_F2401": [
+      46,
+      2334
+    ],
+    "cover_F7_F49_F343_F2401": [
+      8,
+      42,
+      344,
+      2266
+    ]
+  },
+  "frobenius_polynomials_ascending": {
+    "weak_and_neighbor_over_F49": [
+      2401,
+      -196,
+      -26,
+      -4,
+      1
+    ],
+    "cover_over_F7": [
+      2401,
+      0,
+      -196,
+      0,
+      -26,
+      0,
+      -4,
+      0,
+      1
+    ],
+    "cover_equals_source_evaluated_at_T_squared": true
+  },
+  "jacobian_group_order": 2176,
+  "jacobian_group_order_factorization": {
+    "2": 7,
+    "17": 1
+  },
+  "subgroup_note": "The degree-4 Richelot isogeny and its dual preserve the order-17 subgroup. No pointwise Jacobian transport was run."
+}
