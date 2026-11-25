@@ -1,0 +1,1539 @@
+{
+  "elapsed_seconds": 967.5463483210006,
+  "experiment": 3,
+  "input_sha256": {
+    "research/results/quotient-reconstruction.json": "1d1db3d864894f894174cc2f57e0b4ba377ff74cdb367eb1f3fc173301938621",
+    "research/results/toy-cover.json": "b00a38672074ae7cf71c6b54b91f1730cfe7ef56fdfa272650d8f76d1799ee3a"
+  },
+  "practical_speedup_established": false,
+  "random_seed": 20261020,
+  "sage_version": "10.6",
+  "scope": {
+    "actual_Jacobian_lift_signs_checked": true,
+    "all_F49_curve_point_controls_exhausted": true,
+    "explicit_F7_Kummer_coordinate_embedding_computed": false,
+    "global_quotient_map_lift_sign_certificate_constructed": false,
+    "intrinsic_Kummer_descent_certified_by_unordered_class_pair": true,
+    "source_to_opposite_sign_target_map_constructed": false
+  },
+  "source_archive": "research/results/eight-lift-signs-source.py.gz",
+  "source_sha256": "8455895acf32ecbdebc6e121d2e55301bc23ab933f4d9f81c5eebd57fd4ed850",
+  "targets": [
+    {
+      "anti_invariant_order": 315,
+      "chart": [
+        0,
+        0,
+        1
+      ],
+      "checks": [
+        {
+          "P": [
+            0,
+            6,
+            1
+          ],
+          "annihilator": 373,
+          "sign": 1
+        },
+        {
+          "P": [
+            1,
+            1,
+            0
+          ],
+          "annihilator": 373,
+          "sign": 1
+        },
+        {
+          "P": [
+            1,
+            4,
+            1
+          ],
+          "annihilator": 373,
+          "sign": 1
+        },
+        {
+          "P": [
+            2,
+            4,
+            1
+          ],
+          "annihilator": 373,
+          "sign": 1
+        },
+        {
+          "P": [
+            2,
+            5,
+            1
+          ],
+          "annihilator": 373,
+          "sign": 1
+        },
+        {
+          "Frob_P": [
+            2,
+            45,
+            1
+          ],
+          "P": [
+            2,
+            10,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 5, Z + 3)\n + 2*Place (Y + 3*w + 2, Z + 3)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            2,
+            10,
+            1
+          ],
+          "P": [
+            2,
+            45,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 5, Z + 3)\n + 2*Place (Y + 4*w + 2, Z + 3)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "P": [
+            4,
+            0,
+            1
+          ],
+          "annihilator": 373,
+          "sign": 1
+        },
+        {
+          "P": [
+            5,
+            6,
+            1
+          ],
+          "annihilator": 373,
+          "sign": 1
+        },
+        {
+          "P": [
+            6,
+            1,
+            0
+          ],
+          "annihilator": 373,
+          "sign": 1
+        },
+        {
+          "Frob_P": [
+            42,
+            15,
+            1
+          ],
+          "P": [
+            7,
+            36,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3, Z + 3*w + 1)\n + Place (Y + w + 2, Z + w)\n + Place (Y + 2*w + 5, Z + 4*w + 3)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            43,
+            4,
+            1
+          ],
+          "P": [
+            8,
+            4,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3, Z + 4*w + 1)\n + Place (Y + w + 2, Z + w)\n + Place (Y + 2*w + 5, Z + 4*w + 3)",
+          "order": 21,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            44,
+            46,
+            1
+          ],
+          "P": [
+            9,
+            11,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3*w + 4, Z + 4*w + 2)\n + Place (Y + 5*w + 6, Z + 2*w + 6)\n + Place (Y + 6*w + 1, Z + 3*w + 1)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            44,
+            22,
+            1
+          ],
+          "P": [
+            9,
+            29,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3, Z + 3*w + 1)\n + Place (Y + w + 2, Z + w)\n + Place (Y + 5*w + 5, Z + 3*w + 3)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            45,
+            40,
+            1
+          ],
+          "P": [
+            10,
+            19,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + w + 1, Z + 4*w + 1)\n + Place (Y + 2*w + 6, Z + 5*w + 6)\n + Place (Y + 3*w + 4, Z + 4*w + 2)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            45,
+            9,
+            1
+          ],
+          "P": [
+            10,
+            44,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 4*w + 3, Z + 5*w + 6)\n + Place (Y^2 + (6*w + 5)*Y + 4, Z + (2*w + 5)*Y + 2*w + 1)",
+          "order": 21,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            46,
+            37,
+            1
+          ],
+          "P": [
+            11,
+            16,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 1, Z + 3)\n + 2*Place (Y + 5*w + 6, Z + 5*w + 1)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            48,
+            19,
+            1
+          ],
+          "P": [
+            13,
+            40,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 5*w, Z + 4*w + 4)\n + Place (Y^2 + (6*w + 4)*Y + 5, Z + (w + 6)*Y + w + 2)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            48,
+            9,
+            1
+          ],
+          "P": [
+            13,
+            44,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + w + 4, Z + 3*w)\n + Place (Y + 2*w + 3, Z + 4*w + 5)\n + Place (Y + 4*w + 5, Z + 4*w + 4)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            35,
+            12,
+            1
+          ],
+          "P": [
+            14,
+            47,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 2*w + 3, Z + 4*w + 5)\n + Place (Y + 3*w + 5, Z + 3*w + 4)\n + Place (Y + 6*w + 4, Z + 4*w)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            36,
+            32,
+            1
+          ],
+          "P": [
+            15,
+            25,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + w + 5, Z + 6*w + 4)\n + Place (Y^2 + (4*w + 5)*Y + w + 1, Z + (3*w + 6)*Y + 3*w + 2)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            36,
+            7,
+            1
+          ],
+          "P": [
+            15,
+            42,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3*w + 6, Z + 6*w + 4)\n + Place (Y + 5*w + 3, Z + 2*w + 4)\n + Place (Y + 5*w + 5, Z)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            37,
+            1,
+            0
+          ],
+          "P": [
+            16,
+            1,
+            0
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 2*w + 5, Z)\n + Place (Y + 4*w + 6, Z + w + 4)\n + Place (Y + 5*w + 3, Z + 2*w + 4)",
+          "order": 21,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            37,
+            33,
+            1
+          ],
+          "P": [
+            16,
+            26,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3, Z + 4)\n + 2*Place (Y + 4*w + 5, Z + 2*w + 5)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            37,
+            34,
+            1
+          ],
+          "P": [
+            16,
+            27,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 6*w + 3, Z + 2*w + 5)\n + Place (Y^2 + (w + 2)*Y + 4*w + 4, Z + (4*w + 1)*Y + 4*w + 4)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            37,
+            27,
+            1
+          ],
+          "P": [
+            16,
+            34,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 4*w + 1, Z + 2*w + 5)\n + Place (Y^2 + (w + 5)*Y + 3*w + 5, Z + (3*w + 3)*Y + 3*w + 6)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            37,
+            19,
+            1
+          ],
+          "P": [
+            16,
+            40,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 1, Z)\n + 2*Place (Y + 1, Z + 2*w + 5)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            39,
+            6,
+            1
+          ],
+          "P": [
+            18,
+            6,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 2*w + 3, Z + 5*w + 4)\n + Place (Y + 4*w + 6, Z + w + 4)\n + Place (Y + 5*w + 5, Z)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            30,
+            29,
+            1
+          ],
+          "P": [
+            23,
+            22,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 2*w + 6, Z + 5*w + 6)\n + Place (Y + 3*w + 4, Z + 4*w + 2)\n + Place (Y + 6*w + 1, Z + 3*w + 1)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            33,
+            40,
+            1
+          ],
+          "P": [
+            26,
+            19,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 2*w + 3, Z + 4*w + 5)\n + Place (Y + 4*w + 5, Z + 4*w + 4)\n + Place (Y + 6*w + 4, Z + 4*w)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            23,
+            22,
+            1
+          ],
+          "P": [
+            30,
+            29,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + w + 1, Z + 4*w + 1)\n + Place (Y + 4*w + 4, Z + 3*w + 2)\n + Place (Y + 5*w + 6, Z + 2*w + 6)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            26,
+            19,
+            1
+          ],
+          "P": [
+            33,
+            40,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + w + 4, Z + 3*w)\n + Place (Y + 3*w + 5, Z + 3*w + 4)\n + Place (Y + 5*w + 3, Z + 3*w + 5)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            14,
+            47,
+            1
+          ],
+          "P": [
+            35,
+            12,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + w + 4, Z + 3*w)\n + Place (Y + 4*w + 5, Z + 4*w + 4)\n + Place (Y + 5*w + 3, Z + 3*w + 5)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            15,
+            42,
+            1
+          ],
+          "P": [
+            36,
+            7,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 2*w + 3, Z + 5*w + 4)\n + Place (Y + 2*w + 5, Z)\n + Place (Y + 4*w + 6, Z + w + 4)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            15,
+            25,
+            1
+          ],
+          "P": [
+            36,
+            32,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 6*w + 5, Z + w + 4)\n + Place (Y^2 + (3*w + 5)*Y + 6*w + 1, Z + (4*w + 6)*Y + 4*w + 2)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            16,
+            1,
+            0
+          ],
+          "P": [
+            37,
+            1,
+            0
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 2*w + 3, Z + 5*w + 4)\n + Place (Y + 3*w + 6, Z + 6*w + 4)\n + Place (Y + 5*w + 5, Z)",
+          "order": 21,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            16,
+            40,
+            1
+          ],
+          "P": [
+            37,
+            19,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 1, Z)\n + 2*Place (Y + 1, Z + 5*w + 5)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            16,
+            34,
+            1
+          ],
+          "P": [
+            37,
+            27,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3*w + 1, Z + 5*w + 5)\n + Place (Y^2 + (6*w + 5)*Y + 4*w + 5, Z + (4*w + 3)*Y + 4*w + 6)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            16,
+            26,
+            1
+          ],
+          "P": [
+            37,
+            33,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3, Z + 4)\n + 2*Place (Y + 3*w + 5, Z + 5*w + 5)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            16,
+            27,
+            1
+          ],
+          "P": [
+            37,
+            34,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + w + 3, Z + 5*w + 5)\n + Place (Y^2 + (6*w + 2)*Y + 3*w + 4, Z + (3*w + 1)*Y + 3*w + 4)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            18,
+            6,
+            1
+          ],
+          "P": [
+            39,
+            6,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 2*w + 5, Z)\n + Place (Y + 3*w + 6, Z + 6*w + 4)\n + Place (Y + 5*w + 3, Z + 2*w + 4)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            7,
+            36,
+            1
+          ],
+          "P": [
+            42,
+            15,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3, Z + 4*w + 1)\n + Place (Y + 5*w + 5, Z + 3*w + 3)\n + Place (Y + 6*w + 2, Z + 6*w)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            8,
+            4,
+            1
+          ],
+          "P": [
+            43,
+            4,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3, Z + 3*w + 1)\n + Place (Y + 5*w + 5, Z + 3*w + 3)\n + Place (Y + 6*w + 2, Z + 6*w)",
+          "order": 21,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            9,
+            29,
+            1
+          ],
+          "P": [
+            44,
+            22,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3, Z + 4*w + 1)\n + Place (Y + 2*w + 5, Z + 4*w + 3)\n + Place (Y + 6*w + 2, Z + 6*w)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            9,
+            11,
+            1
+          ],
+          "P": [
+            44,
+            46,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + w + 1, Z + 4*w + 1)\n + Place (Y + 2*w + 6, Z + 5*w + 6)\n + Place (Y + 4*w + 4, Z + 3*w + 2)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            10,
+            44,
+            1
+          ],
+          "P": [
+            45,
+            9,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3*w + 3, Z + 2*w + 6)\n + Place (Y^2 + (w + 5)*Y + 4, Z + (5*w + 5)*Y + 5*w + 1)",
+          "order": 21,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            10,
+            19,
+            1
+          ],
+          "P": [
+            45,
+            40,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 4*w + 4, Z + 3*w + 2)\n + Place (Y + 5*w + 6, Z + 2*w + 6)\n + Place (Y + 6*w + 1, Z + 3*w + 1)",
+          "order": 15,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            11,
+            16,
+            1
+          ],
+          "P": [
+            46,
+            37,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 1, Z + 3)\n + 2*Place (Y + 2*w + 6, Z + 2*w + 1)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            13,
+            44,
+            1
+          ],
+          "P": [
+            48,
+            9,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 3*w + 5, Z + 3*w + 4)\n + Place (Y + 5*w + 3, Z + 3*w + 5)\n + Place (Y + 6*w + 4, Z + 4*w)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            13,
+            40,
+            1
+          ],
+          "P": [
+            48,
+            19,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 1)\n + Place (Y + 2*w, Z + 3*w + 4)\n + Place (Y^2 + (w + 4)*Y + 5, Z + (6*w + 6)*Y + 6*w + 2)",
+          "order": 105,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        }
+      ],
+      "curve_points": 50,
+      "invariant_order": 373,
+      "kernel": 153,
+      "rational_points": 8
+    },
+    {
+      "anti_invariant_order": 373,
+      "chart": [
+        0,
+        0,
+        0
+      ],
+      "checks": [
+        {
+          "P": [
+            0,
+            2,
+            1
+          ],
+          "annihilator": 315,
+          "sign": 1
+        },
+        {
+          "P": [
+            0,
+            5,
+            1
+          ],
+          "annihilator": 315,
+          "sign": 1
+        },
+        {
+          "Frob_P": [
+            0,
+            29,
+            1
+          ],
+          "P": [
+            0,
+            22,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (1/Y, 1/Y*Z + 4)\n + 2*Place (1/Y, 1/Y*Z + w + 2)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            0,
+            22,
+            1
+          ],
+          "P": [
+            0,
+            29,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (1/Y, 1/Y*Z + 4)\n + 2*Place (1/Y, 1/Y*Z + 6*w + 2)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "P": [
+            1,
+            6,
+            1
+          ],
+          "annihilator": 315,
+          "sign": 1
+        },
+        {
+          "P": [
+            2,
+            4,
+            1
+          ],
+          "annihilator": 315,
+          "sign": 1
+        },
+        {
+          "P": [
+            4,
+            2,
+            1
+          ],
+          "annihilator": 315,
+          "sign": 1
+        },
+        {
+          "P": [
+            5,
+            1,
+            0
+          ],
+          "annihilator": 315,
+          "sign": 1
+        },
+        {
+          "P": [
+            6,
+            3,
+            1
+          ],
+          "annihilator": 315,
+          "sign": 1
+        },
+        {
+          "P": [
+            6,
+            4,
+            1
+          ],
+          "annihilator": 315,
+          "sign": 1
+        },
+        {
+          "Frob_P": [
+            6,
+            45,
+            1
+          ],
+          "P": [
+            6,
+            10,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + w + 3, Z + 1)\n + Place (Y^2 + (w + 6)*Y + 4*w + 2, Z + 3*Y + 4*w + 3)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            6,
+            10,
+            1
+          ],
+          "P": [
+            6,
+            45,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 6*w + 3, Z + 1)\n + Place (Y^2 + (6*w + 6)*Y + 3*w + 2, Z + 3*Y + 3*w + 3)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            44,
+            29,
+            1
+          ],
+          "P": [
+            9,
+            22,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 4, Z)\n + 2*Place (Y + 6*w + 6, Z + 3*w + 1)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            44,
+            30,
+            1
+          ],
+          "P": [
+            9,
+            23,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 2*w, Z + 3*w + 1)\n + Place (Y^2 + (2*w + 2)*Y + 3*w + 5, Z + 3*Y + 5*w + 1)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            44,
+            14,
+            1
+          ],
+          "P": [
+            9,
+            35,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 2*w, Z + 4*w + 5)\n + Place (Y + 3*w + 3, Z + w + 3)\n + Place (Y + 5*w + 6, Z + 3*w + 1)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            44,
+            12,
+            1
+          ],
+          "P": [
+            9,
+            47,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 1, Z + 3*w + 1)\n + Place (Y^2 + Y + 4*w + 4, Z + 3*Y + 4*w + 4)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            45,
+            29,
+            1
+          ],
+          "P": [
+            10,
+            22,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 2*w + 5, Z + 5*w + 6)\n + Place (Y^2 + (2*w + 4)*Y + 6*w + 4, Z + 3*Y + 3*w)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            48,
+            29,
+            1
+          ],
+          "P": [
+            13,
+            22,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 2*w + 6, Z + 4*w + 4)\n + Place (Y + 3*w + 5, Z + 2*w)\n + Place (Y + 6*w + 5, Z)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            48,
+            32,
+            1
+          ],
+          "P": [
+            13,
+            25,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 4, Z + 4*w + 4)\n + Place (Y^2 + 5*Y + 2*w + 2, Z + 3*Y + 3*w + 2)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            36,
+            48,
+            1
+          ],
+          "P": [
+            15,
+            13,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 1, Z + 6)\n + 2*Place (Y + 5*w + 4, Z + 6*w + 4)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            38,
+            4,
+            1
+          ],
+          "P": [
+            17,
+            4,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 6*w + 5, Z + 5*w + 3)\n + Place (Y^2 + (6*w + 4)*Y + 6*w + 6, Z + 3*Y + 5*w + 4)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            38,
+            15,
+            1
+          ],
+          "P": [
+            17,
+            36,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 6*w + 6, Z + 5*w + 3)\n + Place (Y^2 + (6*w + 3)*Y + 3, Z + 3*Y + 5*w)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            41,
+            34,
+            1
+          ],
+          "P": [
+            20,
+            27,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 3*w, Z + 6*w + 3)\n + Place (Y^2 + (3*w + 2)*Y + 4*w + 1, Z + 3*Y + 6*w + 3)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            41,
+            18,
+            1
+          ],
+          "P": [
+            20,
+            39,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 2*w, Z + 4*w + 5)\n + Place (Y + 2*w + 6, Z + 4*w + 1)\n + Place (Y + 4*w + 3, Z + 6*w + 3)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            28,
+            14,
+            1
+          ],
+          "P": [
+            21,
+            35,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 3, Z + 5*w)\n + Place (Y^2 + 6*Y + 6*w + 5, Z + 3*Y + 2*w + 2)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            28,
+            12,
+            1
+          ],
+          "P": [
+            21,
+            47,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 4*w + 5, Z + 5*w)\n + Place (Y + 5*w + 6, Z + 3*w + 4)\n + Place (Y + 6*w + 5, Z)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            29,
+            42,
+            1
+          ],
+          "P": [
+            22,
+            7,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 4, Z + 1)\n + 2*Place (Y + 2*w + 6, Z + w + 2)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            32,
+            23,
+            1
+          ],
+          "P": [
+            25,
+            30,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + w + 2, Z + 6*w + 6)\n + Place (Y^2 + w*Y + 5*w + 2, Z + 3*Y + 5*w + 5)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            33,
+            28,
+            1
+          ],
+          "P": [
+            26,
+            21,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 5, Z + 3)\n + 2*Place (Y + w + 2, Z + 4*w + 5)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            33,
+            27,
+            1
+          ],
+          "P": [
+            26,
+            34,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 2*w, Z + 4*w + 5)\n + Place (Y + 4*w + 3, Z + 6*w + 3)\n + Place (Y + 5*w + 6, Z + 3*w + 1)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            34,
+            1,
+            0
+          ],
+          "P": [
+            27,
+            1,
+            0
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + w + 5, Z)\n + Place (Y + 3*w + 5, Z + 2*w)\n + Place (Y + 5*w + 6, Z + 3*w + 4)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            21,
+            47,
+            1
+          ],
+          "P": [
+            28,
+            12,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + w + 5, Z)\n + Place (Y + 2*w + 6, Z + 4*w + 4)\n + Place (Y + 3*w + 5, Z + 2*w)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            21,
+            35,
+            1
+          ],
+          "P": [
+            28,
+            14,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 3, Z + 2*w)\n + Place (Y^2 + 6*Y + w + 5, Z + 3*Y + 5*w + 2)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            22,
+            7,
+            1
+          ],
+          "P": [
+            29,
+            42,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 4, Z + 1)\n + 2*Place (Y + 5*w + 6, Z + 6*w + 2)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            25,
+            30,
+            1
+          ],
+          "P": [
+            32,
+            23,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 6*w + 2, Z + w + 6)\n + Place (Y^2 + 6*w*Y + 2*w + 2, Z + 3*Y + 2*w + 5)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            26,
+            34,
+            1
+          ],
+          "P": [
+            33,
+            27,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 2*w + 6, Z + 4*w + 1)\n + Place (Y + 3*w + 3, Z + w + 3)\n + Place (Y + 5*w, Z + 3*w + 5)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            26,
+            21,
+            1
+          ],
+          "P": [
+            33,
+            28,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 5, Z + 3)\n + 2*Place (Y + 6*w + 2, Z + 3*w + 5)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            27,
+            1,
+            0
+          ],
+          "P": [
+            34,
+            1,
+            0
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 2*w + 6, Z + 4*w + 4)\n + Place (Y + 4*w + 5, Z + 5*w)\n + Place (Y + 6*w + 5, Z)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            15,
+            13,
+            1
+          ],
+          "P": [
+            36,
+            48,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 1, Z + 6)\n + 2*Place (Y + 2*w + 4, Z + w + 4)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            17,
+            4,
+            1
+          ],
+          "P": [
+            38,
+            4,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + w + 5, Z + 2*w + 3)\n + Place (Y^2 + (w + 4)*Y + w + 6, Z + 3*Y + 2*w + 4)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            17,
+            36,
+            1
+          ],
+          "P": [
+            38,
+            15,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + w + 6, Z + 2*w + 3)\n + Place (Y^2 + (w + 3)*Y + 3, Z + 3*Y + 2*w)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            20,
+            39,
+            1
+          ],
+          "P": [
+            41,
+            18,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 3*w + 3, Z + w + 3)\n + Place (Y + 5*w, Z + 3*w + 5)\n + Place (Y + 5*w + 6, Z + 3*w + 1)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            20,
+            27,
+            1
+          ],
+          "P": [
+            41,
+            34,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 4*w, Z + w + 3)\n + Place (Y^2 + (4*w + 2)*Y + 3*w + 1, Z + 3*Y + w + 3)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            9,
+            47,
+            1
+          ],
+          "P": [
+            44,
+            12,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 1, Z + 4*w + 1)\n + Place (Y^2 + Y + 3*w + 4, Z + 3*Y + 3*w + 4)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            9,
+            35,
+            1
+          ],
+          "P": [
+            44,
+            14,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 2*w + 6, Z + 4*w + 1)\n + Place (Y + 4*w + 3, Z + 6*w + 3)\n + Place (Y + 5*w, Z + 3*w + 5)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            9,
+            22,
+            1
+          ],
+          "P": [
+            44,
+            29,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 4, Z)\n + 2*Place (Y + w + 6, Z + 4*w + 1)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            9,
+            23,
+            1
+          ],
+          "P": [
+            44,
+            30,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 5*w, Z + 4*w + 1)\n + Place (Y^2 + (5*w + 2)*Y + 4*w + 5, Z + 3*Y + 2*w + 1)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            10,
+            22,
+            1
+          ],
+          "P": [
+            45,
+            29,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 5*w + 5, Z + 2*w + 6)\n + Place (Y^2 + (5*w + 4)*Y + w + 4, Z + 3*Y + 4*w)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            13,
+            22,
+            1
+          ],
+          "P": [
+            48,
+            29,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + w + 5, Z)\n + Place (Y + 4*w + 5, Z + 5*w)\n + Place (Y + 5*w + 6, Z + 3*w + 4)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        },
+        {
+          "Frob_P": [
+            13,
+            25,
+            1
+          ],
+          "P": [
+            48,
+            32,
+            1
+          ],
+          "divisor": "-3*Place (1/Y, 1/Y*Z + 3)\n + Place (Y + 4, Z + 3*w + 4)\n + Place (Y^2 + 5*Y + 5*w + 2, Z + 3*Y + 4*w + 2)",
+          "order": 373,
+          "sign": -1,
+          "unordered_pair_of_classes_Frobenius_stable": true
+        }
+      ],
+      "curve_points": 50,
+      "invariant_order": 315,
+      "kernel": 810,
+      "rational_points": 8
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "construction_seconds": 1.2093360140006553,
+  "controls": [
+    {
+      "all_forward_equations_verified": true,
+      "equations": 99,
+      "independent_Hess_class_evaluation_matches": true,
+      "isolated_process": true,
+      "solver_seconds": 120.17318148099912,
+      "status": "solver_time_budget_exhausted",
+      "support_for_validation_only_working_field_coefficients": [
+        [
+          [
+            1
+          ],
+          []
+        ],
+        [
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        [
+          [
+            6
+          ],
+          [
+            4
+          ]
+        ]
+      ]
+    },
+    {
+      "all_forward_equations_verified": true,
+      "equations": 99,
+      "independent_Hess_class_evaluation_matches": true,
+      "isolated_process": true,
+      "solver_seconds": 120.14490143500007,
+      "status": "solver_time_budget_exhausted",
+      "support_for_validation_only_working_field_coefficients": [
+        [
+          [
+            1
+          ],
+          []
+        ],
+        [
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        [
+          [],
+          [
+            2
+          ]
+        ]
+      ]
+    },
+    {
+      "all_forward_equations_verified": true,
+      "equations": 99,
+      "independent_Hess_class_evaluation_matches": true,
+      "isolated_process": true,
+      "solver_seconds": 120.19695841800058,
+      "status": "solver_time_budget_exhausted",
+      "support_for_validation_only_working_field_coefficients": [
+        [
+          [
+            1
+          ],
+          []
+        ],
+        [
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        [
+          [
+            4
+          ],
+          [
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "all_forward_equations_verified": true,
+      "equations": 99,
+      "independent_Hess_class_evaluation_matches": true,
+      "isolated_process": true,
+      "solver_seconds": 120.13655304399981,
+      "status": "solver_time_budget_exhausted",
+      "support_for_validation_only_working_field_coefficients": [
+        [
+          [
+            1
+          ],
+          []
+        ],
+        [
+          [
+            2
+          ],
+          [
+            4
+          ]
+        ],
+        [
+          [
+            6
+          ],
+          []
+        ]
+      ]
+    }
+  ],
+  "experiment": 4,
+  "input_sha256": "40a052f167c532ba8908cd11025b692d637fb6f699d989804852914efa13c9de",
+  "method": "ordered-support sparse auxiliary-variable system",
+  "sage_version": "10.6",
+  "scalable_inversion_established": false,
+  "setup_seconds": 54.87438815000132,
+  "solver_budget_seconds_per_control": 120,
+  "source_sha256": "bced5c97d751895d0646c26b908adb60a9a60e367e1f72f5dac6518c280eb6f3",
+  "subgroup_enumeration_used": false,
+  "variables": 96
+}

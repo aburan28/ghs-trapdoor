@@ -1,0 +1,20 @@
+{
+  "Prym_dimension": 4,
+  "actual_source_and_image_orders_verified": true,
+  "cofactor": 2,
+  "cover_genus": 9,
+  "elapsed_seconds": 0.9583640729997569,
+  "field": "F3",
+  "image_divisor": "4*Place (x + 1, y + 2)\n - 4*Place (x + 2, y + 1)",
+  "image_in_connected_Prym_reason": "pullback Jac(D) is connected; its norm is identically zero by the two quotient maps",
+  "kind": "prym",
+  "norm_image_divisor": "0 (fiber images cancel literally)",
+  "polarization": "canonical principal Prym polarization; restricted cover polarization is twice principal",
+  "practical_speedup_established": false,
+  "sage_version": "10.6",
+  "source_divisor": "2*Place (1/u, 1/u^5*y + 1)\n + 2*Place (1/u, 1/u^5*y + 2)\n - 4*Place (u + 2, y + 1)",
+  "source_genus": 4,
+  "source_order": 82,
+  "source_sha256": "5bd316efd6f4dfc7351a791953a8bf678d137ee8deb3220e549dedba669dfe95",
+  "subgroup_order": 41
+}

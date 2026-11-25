@@ -14,7 +14,6 @@ from hashlib import sha256
 from pathlib import Path
 
 from flint import fmpz_mod_poly_ctx, fq_default_ctx, fq_default_poly_ctx
-
 from research.small_fields import frobenius_polynomial
 from research.weil_quotient_kernels import (
     coordinates,
@@ -384,7 +383,7 @@ def substitute(f, forms):
     return out
 
 
-def gradient_quartic(gradients, indices=(63, 25, 44, 11, 22, 37, 50)):
+def gradient_quartic(gradients, indices=(63, 25, 44, 11, 22, 37, 50), base_prime=7):
     """Reconstruct directly in a rational basis of Lie(Res E).
 
     The fixed odd characteristics form an Aronhold system. This uses
@@ -404,7 +403,7 @@ def gradient_quartic(gradients, indices=(63, 25, 44, 11, 22, 37, 50)):
     f, al, _xi = riemann(al)
     # Source Weil-restriction Lie basis: (a,a^7,a^49), a=c0+c1*z+c2*z^2.
     base = [
-        [sum(row[i] * z ** (j * 7**i) for i in range(3)) for j in range(3)]
+        [sum(row[i] * z ** (j * base_prime**i) for i in range(3)) for j in range(3)]
         for row in basis
     ]
     out = substitute(f, base)
@@ -608,9 +607,9 @@ def normalize(v):
     return tuple(x / lead for x in v)
 
 
-def rational_bitangents(gradients):
+def rational_bitangents(gradients, base_prime=7):
     return {
-        n: [sum(row[i] * z ** (j * 7**i) for i in range(3)) for j in range(3)]
+        n: [sum(row[i] * z ** (j * base_prime**i) for i in range(3)) for j in range(3)]
         for n, row in gradients.items()
     }
 
@@ -869,7 +868,7 @@ def run(include_subgroup_maps=True):
     }
 
 
-def export_divisor_inputs():
+def export_divisor_inputs(kernel_index=153):
     """Exact inputs for an independent Sage divisor lift on one target per source.
 
     Image vectors come from evaluating the quotient sections, without using
@@ -881,7 +880,7 @@ def export_divisor_inputs():
     for a, b, x1, x2, generator_y in ((248, 42, 19, 65, 176), (3, 76, 36, 47, 119)):
         w = EllipticWeilSet(encode(a), encode(b), encode(x1), encode(x2))
         weils = [w, w.conjugate(1), w.conjugate(2)]
-        rows = lagrangians(3, 1)[153][0]
+        rows = lagrangians(3, 1)[kernel_index][0]
         seed, theta, gradients, _ = choose_seed(weils, rows)
         curve = gradient_quartic(gradients)
         point = None
@@ -904,7 +903,7 @@ def export_divisor_inputs():
                 "source_b": b,
                 "source_generator": [0, generator_y],
                 "source_order": 373,
-                "kernel_enumeration_index": 153,
+                "kernel_enumeration_index": kernel_index,
                 "kernel_basis_rows": rows,
                 "theta_seed": seed,
                 "quartic": [[m, int(c.to_list()[0])] for m, c in sorted(curve.items())],
@@ -941,9 +940,18 @@ def main():
         action="store_true",
         help="Reconstruct all targets without the two exhaustive subgroup evaluations",
     )
+    parser.add_argument(
+        "--kernel-index",
+        type=int,
+        choices=(153, 810),
+        default=153,
+        help="Kernel for --export-divisor-inputs (matching or opposite-sign control)",
+    )
     args = parser.parse_args()
+    if args.kernel_index != 153 and not args.export_divisor_inputs:
+        parser.error("--kernel-index requires --export-divisor-inputs")
     data = (
-        export_divisor_inputs()
+        export_divisor_inputs(args.kernel_index)
         if args.export_divisor_inputs
         else run(not args.skip_subgroup_maps)
     )

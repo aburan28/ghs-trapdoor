@@ -25,7 +25,11 @@ def normalize(values):
     return tuple(x / lead for x in values)
 
 
-def verify_source(data, row, progress=True):
+def verify_source(
+    data, row, progress=True, *, context_only=False, trace_zero_generator=False
+):
+    if trace_zero_generator and not context_only:
+        raise ValueError("The trace-zero driver requires context_only=True")
     Fp = GF(7)
     polynomial_ring = PolynomialRing(Fp, "t")
     K = GF(
@@ -115,7 +119,20 @@ def verify_source(data, row, progress=True):
     delta = origin_effective - O
     J = C.jacobian(model="hess", base_div=origin_effective)
     G = J.group()
-    generator = G.point(Pplace - Oplace)
+    if trace_zero_generator:
+        w = K(-1).sqrt()
+        original_P = (K(0), 1 + 3 * w, K(1))
+        original_Q = tuple(v**7 for v in original_P)
+
+        def change_chart(point):
+            xx, yy, zz = point
+            return C([xx - a * (yy - c * zz) - b * zz, yy - c * zz, zz])
+
+        generator = G.point(
+            change_chart(original_P).place() - change_chart(original_Q).place()
+        )
+    else:
+        generator = G.point(Pplace - Oplace)
     assert generator != G.zero() and 373 * generator == G.zero()
     phi = list((O + 2 * delta).basis_function_space())
     even = [1, 2, 4, 8, 16, 32]
@@ -250,6 +267,26 @@ def verify_source(data, row, progress=True):
                 lift(beta[i]) * determinant**2 * prod(M[j, 21 + i] for j in range(3))
             )
         return normalize(descend(normalize(values), high))
+
+    if context_only:
+        return {
+            "field": K,
+            "curve": C,
+            "base_curve": C0,
+            "function_field": F,
+            "coordinates": coords,
+            "group": G,
+            "generator": generator,
+            "origin_effective": origin_effective,
+            "phi": phi,
+            "psi": psi,
+            "norm_functions": norm_functions,
+            "beta": beta,
+            "jacobian_image": jacobian_image,
+            "chart": [a, b, c],
+            "evaluations": evaluations,
+            "descend": descend,
+        }
 
     source_images = []
     for encoded in row["source_seven_coordinate_images_hex"]:

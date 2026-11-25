@@ -1,0 +1,679 @@
+{
+  "checks": [
+    {
+      "class_inputs_checked": 512,
+      "degree": 4,
+      "genus1_point_counts_verified": 930,
+      "modulus_binary": 19,
+      "multiplication_pairs_verified": 256,
+      "ordered_count_sha256": "54bbd3cfb884c4b63ea7fc8c732a56457a28a66f7b93813b0bdd037393537bed",
+      "selection": "all classes"
+    },
+    {
+      "class_inputs_checked": 42,
+      "degree": 6,
+      "genus1_point_counts_verified": 84,
+      "modulus_binary": 67,
+      "multiplication_pairs_verified": 4096,
+      "ordered_count_sha256": "61fb80341df30957c5103a082d62880adfebb6f5186ab7386eff171392514ed5",
+      "selection": "all reported span-type representatives"
+    }
+  ],
+  "cross_characteristic_controls": {
+    "all_2137_isogeny_additions_independently_verified": true,
+    "all_twelve_targets_three_counts_independently_verified": [
+      {
+        "independent_counts": [
+          14,
+          170,
+          2381
+        ],
+        "kernel": 153
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2381
+        ],
+        "kernel": 156
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2015
+        ],
+        "kernel": 159
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2381
+        ],
+        "kernel": 262
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2015
+        ],
+        "kernel": 292
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2381
+        ],
+        "kernel": 397
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2015
+        ],
+        "kernel": 452
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2381
+        ],
+        "kernel": 512
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2381
+        ],
+        "kernel": 641
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2381
+        ],
+        "kernel": 810
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2381
+        ],
+        "kernel": 819
+      },
+      {
+        "independent_counts": [
+          14,
+          170,
+          2381
+        ],
+        "kernel": 828
+      }
+    ],
+    "input_sha256": "567c34dbce7109831bbc9a6d44528ca3b5b95bd062af9030e9cd1975a37dc2e5"
+  },
+  "dimension_four_controls": {
+    "F625_modulus_ascending": [
+      2,
+      4,
+      4,
+      0,
+      1
+    ],
+    "Schottky_locus_not_inferred_from_kernel_checks": true,
+    "elliptic_module_realizations": {
+      "identity": {
+        "a_coefficients": [
+          4,
+          3,
+          2,
+          2
+        ],
+        "b_coefficients": [
+          4,
+          4,
+          0,
+          2
+        ],
+        "j_coefficients": [
+          1,
+          4,
+          0,
+          3
+        ],
+        "order": 632,
+        "rational_2division_roots": 3
+      },
+      "irreducible_order3": {
+        "a_coefficients": [
+          0,
+          4,
+          2
+        ],
+        "b_coefficients": [
+          0,
+          2,
+          2,
+          3
+        ],
+        "j_coefficients": [
+          0,
+          1
+        ],
+        "order": 609,
+        "rational_2division_roots": 0
+      },
+      "unipotent": {
+        "a_coefficients": [
+          4,
+          2,
+          1
+        ],
+        "b_coefficients": [
+          2,
+          2,
+          0,
+          1
+        ],
+        "j_coefficients": [
+          3,
+          1,
+          4,
+          1
+        ],
+        "order": 644,
+        "rational_2division_roots": 1
+      }
+    },
+    "genus2_all_Sp4_F2_cycle_type_realizations": [
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          1,
+          1,
+          1,
+          3
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            4,
+            4
+          ],
+          [
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          1,
+          1,
+          4
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          1,
+          2,
+          3
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          1,
+          5
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          2,
+          2,
+          2
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          2,
+          4
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            4,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          3,
+          3
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            0,
+            2
+          ],
+          [
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "F25_modulus_ascending": [
+          2,
+          4,
+          1
+        ],
+        "branch_Frobenius_cycle_type_verified_by_factorization": true,
+        "cycle_partition": [
+          6
+        ],
+        "equation": "y^2=f(x)",
+        "genus": 2,
+        "rhs_coefficients_in_polynomial_basis": [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [],
+          [
+            0,
+            4
+          ],
+          [
+            1
+          ]
+        ]
+      }
+    ],
+    "genus2_module_realization": "the five finite roots and infinity of the saved weak F49 model are all rational, hence E[2] action I4",
+    "stored_kernels_independently_verified": 228
+  },
+  "elapsed_seconds": 27.6471465300001,
+  "input_sha256": "5e77152fe2b8a9d78643b5ed12e583fbcacf185627fc42a4c11476bc9dbacd12",
+  "sage_version": "10.6",
+  "source_sha256": "2f54432dae65ad66ba2052de90545783f0387ceaaeae9596e9b41d4fe0c7900d"
+}

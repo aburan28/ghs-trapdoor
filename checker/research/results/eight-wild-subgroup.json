@@ -1,0 +1,38 @@
+{
+  "Jacobian_H_F2_order": 9,
+  "actual_nonzero_source_pullback_and_trace_orders_verified": true,
+  "counts_H_over_F2_F4_F8": [
+    3,
+    5,
+    9
+  ],
+  "cover": "z^4+z=x^3 over F2",
+  "cover_genus": 3,
+  "degree": 2,
+  "elapsed_seconds": 3.1729749650003214,
+  "full_F2_Frobenius_polynomial_H_ascending": [
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "kind": "wild",
+  "norm_conorm_identity": "pi_* pi^*=[2]",
+  "ordinary_elliptic_source": false,
+  "practical_speedup_established": false,
+  "pullback_divisor": "-2*Place (1/x, 1/x*y)\n + Place (x, y)\n + Place (x, y + a + 1)",
+  "quotient_map": "u=x, y=a^2*z^2+a*z",
+  "sage_version": "10.6",
+  "scope": "supersingular toy control; not an ordinary binary-curve speedup",
+  "source": "y^2+y=a*x^3 over F4, a^2+a+1=0",
+  "source_divisor": "- Place (1/u, 1/u^2*y)\n + Place (u, y)",
+  "source_genus": 1,
+  "source_sha256": "5bd316efd6f4dfc7351a791953a8bf678d137ee8deb3220e549dedba669dfe95",
+  "source_subgroup_order": 3,
+  "trace_image_divisor": "-3*Place (1/x, 1/x*y)\n + Place (x, y)\n + 2*Place (x, y + 1)",
+  "trace_image_field": "F2",
+  "trace_map": "D -> pi^*D + Frob2(pi^*D)"
+}

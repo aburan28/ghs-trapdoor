@@ -1,0 +1,85 @@
+{
+  "F16_modulus_ascending": [
+    1,
+    1,
+    0,
+    0,
+    1
+  ],
+  "Frobenius2_action": "a->a^2, y1->y2, y2->y1; a+a^2=1",
+  "a": 6,
+  "counts_H_C1_C2_C3_over_F16_F256_F4096": [
+    [
+      17,
+      21,
+      21,
+      9
+    ],
+    [
+      257,
+      273,
+      273,
+      225
+    ],
+    [
+      3713,
+      3969,
+      3969,
+      3969
+    ]
+  ],
+  "elapsed_seconds": 0.3180768750007701,
+  "equations": [
+    "y1^2+y1=a*x^3",
+    "y2^2+y2=a^2*x^3"
+  ],
+  "experiment": 8,
+  "full_Frobenius_polynomial_H_ascending": [
+    4096,
+    0,
+    0,
+    -128,
+    0,
+    0,
+    1
+  ],
+  "genus": 3,
+  "input_sha256": {
+    "research/results/quotient-reconstruction.json": "1d1db3d864894f894174cc2f57e0b4ba377ff74cdb367eb1f3fc173301938621",
+    "research/results/toy-cover.json": "b00a38672074ae7cf71c6b54b91f1730cfe7ef56fdfa272650d8f76d1799ee3a"
+  },
+  "norm_conorm_identity": "pi_* pi^*=[2] for each degree-two quotient",
+  "practical_speedup_established": false,
+  "quotient_Frobenius_polynomials_ascending": [
+    [
+      16,
+      4,
+      1
+    ],
+    [
+      16,
+      4,
+      1
+    ],
+    [
+      16,
+      -8,
+      1
+    ]
+  ],
+  "quotient_genera": [
+    1,
+    1,
+    1
+  ],
+  "random_seed": 20261020,
+  "sage_version": "10.6",
+  "scope": {
+    "Jacobian_subgroup_norm_conorm_evaluated": false,
+    "all_three_full_quotient_polynomials_verified": true,
+    "explicit_wild_cover_equations": true,
+    "full_genus3_polynomial_independently_counted": true,
+    "ordinary_binary_elliptic_curve_example": false
+  },
+  "source_sha256": "904a2e2833320629fb5961b74809d32965f74642fb4a427b9518c493ca4e9cdf"
+}

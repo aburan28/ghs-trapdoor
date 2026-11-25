@@ -1,0 +1,112 @@
+{
+  "CM_class_polynomial_checks": [
+    {
+      "class_number": 3,
+      "discriminant": -59,
+      "hilbert_class_polynomial_coefficients_ascending": [
+        374643194001883136,
+        -140811576541184,
+        30197678080,
+        1
+      ],
+      "matching_j_vertices": [
+        16,
+        62,
+        325
+      ]
+    },
+    {
+      "class_number": 6,
+      "discriminant": -531,
+      "hilbert_class_polynomial_coefficients_ascending": [
+        253019721297801601360183161111100670441677888450509930496,
+        89695055074984733543572254320373841113802328038703104,
+        -5668347118698040482683727597487173897920299663360,
+        101913303540872546991651789090862425056477184,
+        31476922594694825843813187240301953024,
+        27537270228600020374834178392064,
+        1
+      ],
+      "matching_j_vertices": [
+        89,
+        94,
+        184,
+        269,
+        291,
+        320
+      ]
+    }
+  ],
+  "independent_isogeny_checks": {
+    "directed_edges": 18,
+    "rational_point_images": 6714
+  },
+  "input_sha256": {
+    "research/results/isogeny-descent-routes.json": "9f31435f62d9a7c68f580f808a5c919e6c6f01bfdc22e213d14b1d5ef73cc6b9",
+    "research/results/quotient-reconstruction.json": "1d1db3d864894f894174cc2f57e0b4ba377ff74cdb367eb1f3fc173301938621"
+  },
+  "opposite_sign_target": {
+    "F49_Jacobian_order_from_full_Frobenius_polynomial": 117495,
+    "F49_curve_points": 50,
+    "F49_modulus_ascending": [
+      1,
+      0,
+      1
+    ],
+    "F7_Jacobian_order_from_full_Frobenius_polynomial": 315,
+    "F7_curve_points": 8,
+    "Frobenius_witness_equals_negative_witness": true,
+    "chart_parameters": [
+      0,
+      0,
+      0
+    ],
+    "explicit_source_to_this_target_map_evaluated": false,
+    "nonrational_curve_points_giving_nonzero_trace_zero_divisors": 42,
+    "rational_order_373_subgroup_over_F7": false,
+    "source_kernel_index": 810,
+    "trace_zero_order_from_full_Frobenius_polynomial": 373,
+    "witness_Frobenius_P": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "witness_P": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "witness_class_modulo_sign_is_F7_rational": true,
+    "witness_divisor": "[P-Frobenius_7(P)]",
+    "witness_order": 373,
+    "witness_order_checked_by_Jacobian_scalar_multiplication": true
+  },
+  "scope": {
+    "Sage_version_used": "10.6",
+    "explicit_elliptic_isogeny_transport_checked": true,
+    "novel_vulnerability_established": false,
+    "practical_speedup_established": false,
+    "quotient_map_to_opposite_sign_target_constructed": false,
+    "toy_only": true,
+    "trace_zero_Jacobian_divisor_witness_checked": true,
+    "trace_zero_relation_algorithm_implemented": false
+  }
+}
