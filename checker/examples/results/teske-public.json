@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "construction": "classical characteristic-two GHS",
+    "supported_curves": "ordinary binary y^2+x*y=x^3+a*x^2+b, b != 0",
+    "descent_map_constructed": false,
+    "target_subgroup_image_verified": false,
+    "dlp_solved": false,
+    "security_certification": false,
+    "limitations": [
+      "Does not classify arbitrary covers, generalized GHS, or all Weil-descent reductions.",
+      "A favorable genus is a screening result, not evidence of a practical attack.",
+      "No full Jacobian DLP time/memory estimate or subgroup-preserving descent map is computed."
+    ]
+  },
+  "field": {
+    "characteristic": 2,
+    "degree": 161,
+    "modulus": "x^161+x^18+1",
+    "modulus_hex": "0x20000000000000000000000000000000000040001",
+    "basis": "polynomial",
+    "irreducibility_verified": true
+  },
+  "curve": {
+    "model": "y^2+x*y=x^3+a*x^2+b",
+    "a": "0x0",
+    "b": "0x11bfee006f94121ef3d282453f6852272cdfb659a",
+    "j": "0x113fc90d8ee5b38bdd78b09402b96499ac57a8256",
+    "nonsingular": true
+  },
+  "metadata": {
+    "name": "teske-public",
+    "source": "Edlyn Teske, An Elliptic Curve Trapdoor System, 2003 preprint, Appendix A",
+    "source_url": "https://eprint.iacr.org/2003/058",
+    "cofactor": 4
+  },
+  "claimed_subgroup_order": "730750818665451459101841775429946272920385056109",
+  "subgroup_order_verified": false,
+  "subgroup_order_bits": 159,
+  "all_proper_subfields_checked": true,
+  "descents": [
+    {
+      "subfield_degree": 1,
+      "base_field": "GF(2^1)",
+      "extension_degree": 161,
+      "m": 161,
+      "rank_field": "GF(2)",
+      "one_zero_in_augmented_span": false,
+      "relative_trace_b": "0x1",
+      "regularity_condition_holds": true,
+      "genus": 1461501637330902918203684832716283019655932542976,
+      "genus_formula": "2^(161-1)-0",
+      "jacobian_log2_size_leading_term": 1461501637330902918203684832716283019655932542976,
+      "genus_threshold": 32,
+      "subgroup_capacity": {
+        "status": "not_excluded_by_size",
+        "claimed_subgroup_order": "730750818665451459101841775429946272920385056109",
+        "reason": "A necessary size condition only; the descent map and its kernel remain unchecked",
+        "upper_bound_expression": "6^1461501637330902918203684832716283019655932542976"
+      },
+      "screening": "above_genus_threshold",
+      "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+    },
+    {
+      "subfield_degree": 7,
+      "base_field": "GF(2^7)",
+      "extension_degree": 23,
+      "m": 23,
+      "rank_field": "GF(2)",
+      "one_zero_in_augmented_span": false,
+      "relative_trace_b": "0xa61f9e9b416c4fe80266c2e577ba22d9ac437624",
+      "regularity_condition_holds": true,
+      "genus": 4194304,
+      "genus_formula": "2^(23-1)-0",
+      "jacobian_log2_size_leading_term": 29360128,
+      "genus_threshold": 32,
+      "subgroup_capacity": {
+        "status": "not_excluded_by_size",
+        "claimed_subgroup_order": "730750818665451459101841775429946272920385056109",
+        "reason": "A necessary size condition only; the descent map and its kernel remain unchecked",
+        "upper_bound_expression": "152^4194304"
+      },
+      "screening": "above_genus_threshold",
+      "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+    },
+    {
+      "subfield_degree": 23,
+      "base_field": "GF(2^23)",
+      "extension_degree": 7,
+      "m": 7,
+      "rank_field": "GF(2)",
+      "one_zero_in_augmented_span": false,
+      "relative_trace_b": "0x2863041150c6b2ff34cf4b74734d67fce0f1ca11",
+      "regularity_condition_holds": true,
+      "genus": 64,
+      "genus_formula": "2^(7-1)-0",
+      "jacobian_log2_size_leading_term": 1472,
+      "genus_threshold": 32,
+      "subgroup_capacity": {
+        "status": "not_excluded_by_size",
+        "claimed_subgroup_order": "730750818665451459101841775429946272920385056109",
+        "reason": "A necessary size condition only; the descent map and its kernel remain unchecked",
+        "upper_bound_expression": "8394402^64"
+      },
+      "screening": "above_genus_threshold",
+      "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+    }
+  ],
+  "interpretation": "Results concern the stated classical construction only; no safe/vulnerable verdict is issued"
+}

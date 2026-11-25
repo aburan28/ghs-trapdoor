@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghs-checker"
+version = "0.1.0"
+description = "Classical binary GHS screening and bounded explicit 3-isogeny exploration"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ghs-checker = "ghs_checker.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ghs_checker*"]
+
+[tool.setuptools.package-data]
+ghs_checker = ["data/*.json"]

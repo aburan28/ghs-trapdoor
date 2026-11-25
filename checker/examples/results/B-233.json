@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "construction": "classical characteristic-two GHS",
+    "supported_curves": "ordinary binary y^2+x*y=x^3+a*x^2+b, b != 0",
+    "descent_map_constructed": false,
+    "target_subgroup_image_verified": false,
+    "dlp_solved": false,
+    "security_certification": false,
+    "limitations": [
+      "Does not classify arbitrary covers, generalized GHS, or all Weil-descent reductions.",
+      "A favorable genus is a screening result, not evidence of a practical attack.",
+      "No full Jacobian DLP time/memory estimate or subgroup-preserving descent map is computed."
+    ]
+  },
+  "field": {
+    "characteristic": 2,
+    "degree": 233,
+    "modulus": "x^233+x^74+1",
+    "modulus_hex": "0x20000000000000000000000000000000000000004000000000000000001",
+    "basis": "polynomial",
+    "irreducibility_verified": true
+  },
+  "curve": {
+    "model": "y^2+x*y=x^3+a*x^2+b",
+    "a": "0x1",
+    "b": "0x66647ede6c332c7f8c0923bb58213b333b20e9ce4281fe115f7d8f90ad",
+    "j": "0x9fc7d572facc759be39facf5bb89cbb8c3f2b63f723f4f57460600bf5e",
+    "nonsingular": true
+  },
+  "metadata": {
+    "name": "B-233",
+    "source": "NIST SP 800-186 / FIPS 186-4; polynomial-basis constants cross-checked with OpenSSL",
+    "source_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-186.pdf",
+    "cofactor": 2,
+    "curve_order": "13803492693581127574869511724554051111679625474690027110758767268970926",
+    "base_point_on_curve_verified": true,
+    "base_point_order_verified": false
+  },
+  "claimed_subgroup_order": "6901746346790563787434755862277025555839812737345013555379383634485463",
+  "subgroup_order_verified": false,
+  "subgroup_order_bits": 233,
+  "all_proper_subfields_checked": true,
+  "descents": [
+    {
+      "subfield_degree": 1,
+      "base_field": "GF(2^1)",
+      "extension_degree": 233,
+      "m": 233,
+      "rank_field": "GF(2)",
+      "one_zero_in_augmented_span": false,
+      "relative_trace_b": "0x1",
+      "regularity_condition_holds": true,
+      "genus": 6901746346790563787434755862277025452451108972170386555162524223799296,
+      "genus_formula": "2^(233-1)-0",
+      "jacobian_log2_size_leading_term": 6901746346790563787434755862277025452451108972170386555162524223799296,
+      "genus_threshold": 32,
+      "subgroup_capacity": {
+        "status": "not_excluded_by_size",
+        "claimed_subgroup_order": "6901746346790563787434755862277025555839812737345013555379383634485463",
+        "reason": "A necessary size condition only; the descent map and its kernel remain unchecked",
+        "upper_bound_expression": "6^6901746346790563787434755862277025452451108972170386555162524223799296"
+      },
+      "screening": "above_genus_threshold",
+      "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+    }
+  ],
+  "interpretation": "Results concern the stated classical construction only; no safe/vulnerable verdict is issued"
+}

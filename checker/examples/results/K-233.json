@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "construction": "classical characteristic-two GHS",
+    "supported_curves": "ordinary binary y^2+x*y=x^3+a*x^2+b, b != 0",
+    "descent_map_constructed": false,
+    "target_subgroup_image_verified": false,
+    "dlp_solved": false,
+    "security_certification": false,
+    "limitations": [
+      "Does not classify arbitrary covers, generalized GHS, or all Weil-descent reductions.",
+      "A favorable genus is a screening result, not evidence of a practical attack.",
+      "No full Jacobian DLP time/memory estimate or subgroup-preserving descent map is computed."
+    ]
+  },
+  "field": {
+    "characteristic": 2,
+    "degree": 233,
+    "modulus": "x^233+x^74+1",
+    "modulus_hex": "0x20000000000000000000000000000000000000004000000000000000001",
+    "basis": "polynomial",
+    "irreducibility_verified": true
+  },
+  "curve": {
+    "model": "y^2+x*y=x^3+a*x^2+b",
+    "a": "0x0",
+    "b": "0x1",
+    "j": "0x1",
+    "nonsingular": true
+  },
+  "metadata": {
+    "name": "K-233",
+    "source": "NIST SP 800-186 / FIPS 186-4; polynomial-basis constants cross-checked with OpenSSL",
+    "source_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-186.pdf",
+    "cofactor": 4,
+    "curve_order": "13803492693581127574869511724554051042283763955449008505312348098965372",
+    "base_point_on_curve_verified": true,
+    "base_point_order_verified": false
+  },
+  "claimed_subgroup_order": "3450873173395281893717377931138512760570940988862252126328087024741343",
+  "subgroup_order_verified": false,
+  "subgroup_order_bits": 232,
+  "all_proper_subfields_checked": true,
+  "descents": [
+    {
+      "subfield_degree": 1,
+      "base_field": "GF(2^1)",
+      "extension_degree": 233,
+      "m": 1,
+      "rank_field": "GF(2)",
+      "one_zero_in_augmented_span": false,
+      "relative_trace_b": "0x1",
+      "regularity_condition_holds": true,
+      "genus": 1,
+      "genus_formula": "2^(1-1)-0",
+      "jacobian_log2_size_leading_term": 1,
+      "genus_threshold": 32,
+      "subgroup_capacity": {
+        "status": "cannot_preserve_full_subgroup",
+        "claimed_subgroup_order": "3450873173395281893717377931138512760570940988862252126328087024741343",
+        "reason": "Hasse-Weil size bound excludes the claimed subgroup",
+        "upper_bound_expression": "5^1"
+      },
+      "screening": "subgroup_size_obstruction",
+      "reason": "Classical GHS screen; threshold does not measure practical attack cost"
+    }
+  ],
+  "interpretation": "Results concern the stated classical construction only; no safe/vulnerable verdict is issued"
+}
